@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="@dimen/padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:gravity="center" android:id="@id/draw_leval" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="奖项" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:gravity="center" android:id="@id/draw_stake_cnt" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="中奖注数" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/text_small" android:textColor="@color/red_font" android:gravity="center" android:id="@id/draw_money" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="每注奖金(元)" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="320.0dip" android:layout_height="215.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bg" android:layout_width="320.0dip" android:layout_height="215.0dip" />
+    <Button android:id="@id/voucher1" android:background="@drawable/btnbg_voucher1" android:layout_width="131.0dip" android:layout_height="61.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="55.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <Button android:id="@id/voucher10" android:background="@drawable/btnbg_voucher10" android:layout_width="131.0dip" android:layout_height="61.0dip" android:layout_marginLeft="4.0dip" android:layout_toRightOf="@id/voucher1" android:layout_alignTop="@id/voucher1" />
+    <Button android:id="@id/voucher50" android:background="@drawable/btnbg_voucher50" android:layout_width="131.0dip" android:layout_height="61.0dip" android:layout_marginTop="3.0dip" android:layout_below="@id/voucher1" android:layout_alignLeft="@id/voucher1" />
+    <Button android:id="@id/voucher98" android:background="@drawable/btnbg_voucher98" android:layout_width="131.0dip" android:layout_height="61.0dip" android:layout_alignLeft="@id/voucher10" android:layout_alignTop="@id/voucher50" />
+    <Button android:id="@id/close" android:background="@drawable/btnbg_buyvoucher_close" android:layout_width="24.0dip" android:layout_height="23.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="17.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <ImageView android:id="@id/note" android:layout_width="218.0dip" android:layout_height="20.0dip" android:layout_marginTop="25.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <Button android:id="@id/video" android:background="@drawable/btnbg_vouchervideo" android:visibility="invisible" android:layout_width="267.0dip" android:layout_height="24.0dip" android:layout_marginBottom="17.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/videonote" android:layout_width="242.0dip" android:layout_height="24.0dip" android:layout_alignTop="@id/video" android:layout_alignRight="@id/video" />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/layout_draw_detail_gray_sha" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:text="@string/date" style="@style/monitor_table_item_text_style" />
+            <ImageView android:background="@color/gray_line" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+            <TextView android:text="@string/online_time_in" style="@style/monitor_table_item_text_style" />
+            <ImageView android:background="@color/gray_line" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+            <TextView android:text="@string/online_time_out" style="@style/monitor_table_item_text_style" />
+            <ImageView android:background="@color/gray_line" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+            <TextView android:text="@string/business_time" style="@style/monitor_table_item_text_style" />
+            <ImageView android:background="@color/gray_line" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+            <TextView android:text="@string/target_rate" style="@style/monitor_table_item_text_style" />
+        </LinearLayout>
+        <ImageView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <com.cslc.playlot.view.ScrollListView android:id="@id/table_analyze_lv" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_large" android:text="@string/report_description" />
+</LinearLayout>

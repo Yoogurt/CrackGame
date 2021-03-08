@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBox android:textSize="@dimen/text_big" android:textColor="@color/cb_province_font_sel" android:gravity="center" android:id="@id/playtype_cb" android:background="@drawable/cb_province_sel" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:layout_marginTop="@dimen/top" android:layout_marginRight="@dimen/right" android:checked="false" android:button="@null" android:minWidth="50.0dip" android:text="" app:layout_columnWeight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

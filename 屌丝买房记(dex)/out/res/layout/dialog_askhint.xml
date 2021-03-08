@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="285.0dip" android:layout_height="135.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bg" android:background="@drawable/bg_zjts" android:layout_width="285.0dip" android:layout_height="135.0dip" />
+    <RelativeLayout android:id="@id/r2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="84.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <Button android:id="@id/ok" android:background="@drawable/btnbg_mrjl_qd" android:layout_width="50.0dip" android:layout_height="29.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <Button android:id="@id/cancel" android:background="@drawable/btnbg_ksyx_qx" android:layout_width="50.0dip" android:layout_height="29.0dip" android:layout_marginLeft="62.0dip" android:layout_toRightOf="@id/ok" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/vleft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/note" android:layout_width="244.0dip" android:layout_height="52.0dip" android:layout_marginTop="31.0dip" android:text="    提示模式可以帮助你摸清货物价格的变动区间， 但要消耗1万买房代金券， 确定要开启吗？" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

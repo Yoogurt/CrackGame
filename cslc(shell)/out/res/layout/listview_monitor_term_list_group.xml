@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/gray_bg" android:padding="@dimen/padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_large" android:textColor="@color/dark_font" android:id="@id/term_key_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="可好便利店" />
+            <TextView android:textSize="@dimen/text_large" android:textColor="@color/dark_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:text="(" />
+            <TextView android:textSize="@dimen/text_large" android:textColor="@color/green_online" android:id="@id/term_online_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" />
+            <TextView android:textSize="@dimen/text_large" android:textColor="@color/dark_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/" />
+            <TextView android:textSize="@dimen/text_large" android:textColor="@color/dark_font" android:id="@id/term_sum_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="22" />
+            <TextView android:textSize="@dimen/text_large" android:textColor="@color/dark_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=")" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center|right" android:id="@id/arrow_iv" android:background="@drawable/arrow_down_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/right" />
+    </LinearLayout>
+</LinearLayout>

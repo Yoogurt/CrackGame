@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/prize_ball_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top" android:layout_marginRight="@dimen/right" android:layout_marginBottom="@dimen/bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/ball1" android:background="@drawable/red_ball_checked" style="@style/lt_draw_ball_style" />
+    <TextView android:id="@id/ball2" android:background="@drawable/red_ball_checked" style="@style/lt_draw_ball_style" />
+    <TextView android:id="@id/ball3" android:background="@drawable/red_ball_checked" style="@style/lt_draw_ball_style" />
+    <TextView android:id="@id/ball4" android:background="@drawable/red_ball_checked" style="@style/lt_draw_ball_style" />
+    <TextView android:id="@id/ball5" android:background="@drawable/red_ball_checked" style="@style/lt_draw_ball_style" />
+    <TextView android:id="@id/ball6" android:background="@drawable/red_ball_checked" style="@style/lt_draw_ball_style" />
+    <TextView android:id="@id/ball7" android:background="@drawable/red_ball_checked" style="@style/lt_draw_ball_style" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/head1" android:background="#ff0d686b" android:layout_width="fill_parent" android:layout_height="200.0dip" />
+    <ImageView android:id="@id/tail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitEnd" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="24.0sp" android:textColor="#ffffffff" android:id="@id/ttitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="我的买房记录" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <LinearLayout android:id="@id/lhead" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/ttitle">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="5.0">
+            <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/thousename" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="房型" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="5.0">
+            <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:id="@id/tdate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="首次购买时间" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0">
+            <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:id="@id/tsuccnbr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="成功次数" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <Button android:id="@id/exit" android:background="@drawable/btnbg_lcb_lk" android:layout_width="50.0dip" android:layout_height="29.0dip" android:layout_marginBottom="12.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_above="@id/exit" android:layout_below="@id/lhead">
+        <ListView android:id="@id/recordlist" android:background="#ffffffff" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" android:listSelector="@android:color/transparent" android:scrollingCache="false" android:divider="#ffffffff" android:dividerHeight="0.0dip" android:layout_alignParentTop="true" android:overScrollMode="never" />
+        <ImageView android:id="@id/head2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitStart" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</RelativeLayout>

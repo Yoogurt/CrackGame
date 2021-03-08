@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/inc_nor_title" />
+    <TextView android:textSize="@dimen/text_middle" android:textColor="@color/dark_font" android:gravity="center" android:id="@id/match_cnt_tv" android:background="@color/white" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="#ffbcbcbc" android:visibility="gone" android:layout_height="1.0dip" style="@style/horizonal_line_style" />
+    <TextView android:textSize="@dimen/text_middle" android:textColor="@color/dark_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:layout_marginTop="@dimen/top" android:text="@string/select_session" />
+    <RadioGroup android:orientation="horizontal" android:id="@id/filter_rg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/right">
+        <RadioButton android:textColor="@color/rb_type_font_sel" android:gravity="center" android:id="@id/select_all_rb" android:background="@drawable/rb_type_sel" android:padding="@dimen/padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:button="@null" android:text="@string/select_all" android:layout_weight="1.0" />
+        <RadioButton android:textColor="@color/rb_type_font_sel" android:gravity="center" android:id="@id/inverse_select_rb" android:background="@drawable/rb_type_sel" android:padding="@dimen/padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@null" android:text="@string/inverse_select" android:layout_weight="1.0" />
+        <RadioButton android:textColor="@color/rb_type_font_sel" android:gravity="center" android:id="@id/five_major_league_rb" android:background="@drawable/rb_type_sel" android:padding="@dimen/padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@null" android:text="@string/five_major_league" android:layout_weight="1.0" />
+    </RadioGroup>
+    <android.support.v7.widget.GridLayout android:id="@id/ft_filter_gl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:layout_marginRight="@dimen/right" app:orientation="horizontal" app:rowCount="5" app:columnCount="3" />
+</LinearLayout>

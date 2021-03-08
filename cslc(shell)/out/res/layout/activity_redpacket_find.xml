@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.baidu.mapapi.map.MapView android:id="@id/map_view" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:background="#00ffffff" android:layout_width="fill_parent" android:layout_height="@dimen/title_height">
+        <Button android:textColor="@color/black" android:text="@string/back" android:drawableLeft="@drawable/packet_black_back_btn" android:drawablePadding="5.0dip" style="@style/title_left_style" />
+    </RelativeLayout>
+</FrameLayout>

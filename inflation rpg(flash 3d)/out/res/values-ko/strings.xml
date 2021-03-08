@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="abc_action_bar_home_description">홈 탐색</string>
+    <string name="abc_action_bar_up_description">위로 탐색</string>
+    <string name="abc_action_menu_overflow_description">옵션 더보기</string>
+    <string name="abc_action_mode_done">완료</string>
+    <string name="abc_activity_chooser_view_see_all">전체 보기</string>
+    <string name="abc_activitychooserview_choose_application">앱 선택</string>
+    <string name="abc_capital_off">사용 안함</string>
+    <string name="abc_capital_on">사용</string>
+    <string name="abc_search_hint">검색...</string>
+    <string name="abc_searchview_description_clear">검색어 삭제</string>
+    <string name="abc_searchview_description_query">검색어</string>
+    <string name="abc_searchview_description_search">검색</string>
+    <string name="abc_searchview_description_submit">검색어 보내기</string>
+    <string name="abc_searchview_description_voice">음성 검색</string>
+    <string name="abc_shareactionprovider_share_with">공유 대상</string>
+    <string name="abc_shareactionprovider_share_with_application">%s와(과) 공유</string>
+    <string name="abc_toolbar_collapse_description">접기</string>
+    <string name="search_menu_title">검색</string>
+    <string name="common_google_play_services_unknown_issue">%1$s에서 Google Play 서비스를 사용하는 데 문제가 있습니다. 다시 시도하세요.</string>
+    <string name="common_google_play_services_enable_button">사용 설정</string>
+    <string name="common_google_play_services_enable_text">Google Play 서비스를 사용하도록 설정해야 %1$s이(가) 작동합니다.</string>
+    <string name="common_google_play_services_enable_title">Google Play 서비스 사용</string>
+    <string name="common_google_play_services_install_button">설치</string>
+    <string name="common_google_play_services_install_text">기기에 Google Play 서비스가 설치되어 있어야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_install_title">Google Play 서비스 설치</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play 서비스 사용 가능 여부</string>
+    <string name="common_google_play_services_notification_ticker">Google Play 서비스 오류</string>
+    <string name="common_google_play_services_unsupported_text">%1$s은(는) Google Play 서비스 없이는 실행되지 않으나, 기기에서 Google Play 서비스를 지원하지 않습니다.</string>
+    <string name="common_google_play_services_update_button">업데이트</string>
+    <string name="common_google_play_services_update_text">Google Play 서비스를 업데이트해야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_update_title">Google Play 서비스 업데이트</string>
+    <string name="common_google_play_services_updating_text">현재 업데이트 중인 Google Play 서비스가 있어야 %1$s이(가) 실행됩니다.</string>
+    <string name="common_google_play_services_wear_update_text">새 버전의 Google Play 서비스가 필요합니다. 곧 자동으로 업데이트됩니다.</string>
+    <string name="common_open_on_phone">스마트폰에서 열기</string>
+    <string name="common_signin_button_text">로그인</string>
+    <string name="common_signin_button_text_long">Google 계정으로 로그인</string>
+    <string name="s1">이미지 저장</string>
+    <string name="s2">광고에서 사진 갤러리에 이미지를 저장하도록 허용하시겠습니까?</string>
+    <string name="s3">동의</string>
+    <string name="s4">거부</string>
+    <string name="s5">캘린더 일정 만들기</string>
+    <string name="s6">광고에서 캘린더 일정을 만들도록 허용하시겠습니까?</string>
+    <string name="s7">테스트 광고</string>
+    <string name="application_name">Adobe AIR</string>
+    <string name="flash_browser_plugin">Flash 플러그인</string>
+    <string name="button_cancel">취소</string>
+    <string name="button_continue">계속</string>
+    <string name="button_yes">예</string>
+    <string name="button_no">아니요</string>
+    <string name="app_name">InflationRPG</string>
+    <string name="IDA_APP_WAITING_DEBUGGER_TITLE"><u>Adobe AIR: 연결 대기 중</u></string>
+    <string name="IDA_APP_UNABLE_LISTEN_ERROR"><u>Adobe AIR: 포트에서 수신 대기 중</u></string>
+    <string name="IDA_APP_WAITING_DEBUGGER_WARNING"><u>AIR 응용 프로그램에서 디버거가 연결을 설정하기를 기다리고 있습니다. 연결하는 데 최대 %d초가 소요될 수 있습니다.</u></string>
+    <string name="IDA_APP_DEBUGGER_TIMEOUT_INFO">디버거에 연결할 수 없습니다.</string>
+    <string name="app_version">APP_VERSION</string>
+    <string name="button_install">계속</string>
+    <string name="button_exit">종료</string>
+    <string name="file_save_as">다른 이름으로 저장:</string>
+    <string name="file_download">다운로드</string>
+    <string name="file_upload">업로드</string>
+    <string name="audio_files">오디오 파일</string>
+    <string name="image_files">이미지 파일</string>
+    <string name="video_files">비디오 파일</string>
+    <string name="button_ok">확인</string>
+    <string name="empty_file_list">파일이 없습니다.</string>
+    <string name="title_adobe_air"><b>Adobe AIR</b></string>
+    <string name="text_runtime_required">"이 응용 프로그램을 사용하려면 Adobe AIR가 필요합니다.
+
+"</string>
+    <string name="text_install_runtime">계속하려면 이 장치에 Adobe AIR를 설치해야 합니다.</string>
+    <string name="text_runtime_on_external_storage">계속하려면 이 장치에 Adobe AIR를 설치하거나, 이 응용 프로그램을 종료하고 Adobe AIR가 포함된 SD 카드를 장착한 후 다시 시작하십시오.</string>
+    <string name="text_gamepreview_loading">로드하는 중...</string>
+    <string name="text_gamepreview_loading_error">게임을 로드할 수 없습니다.</string>
+    <string name="text_install_gamepreview_app">지금 설치</string>
+    <string name="text_air_missing_header">Adobe AIR 필요</string>
+    <string name="text_air_missing_text">게임 미리 보기를 사용하려면 Adobe AIR를 설치해야 합니다.</string>
+    <string name="button_install_air_from_playstore">Play Store에서 설치하십시오.</string>
+    <string name="text_dont_show_again">다시 표시하지 않음</string>
+    <string name="IDA_CURL_SSL_SECURITY_WARNING">보안 경고</string>
+    <string name="IDA_CURL_INTERFACE_THISSESS">세션 신뢰</string>
+    <string name="IDA_CURL_INTERFACE_NOSESS">취소</string>
+    <string name="IDA_CURL_INTERFACE_OK">확인</string>
+    <string name="IDA_CURL_INTERFACE_UNVERSER_2">응용 프로그램이 연결되어 있는 서버가 확인되지 않았습니다.</string>
+    <string name="IDA_CURL_INTERFACE_ALLSESS">항상 신뢰</string>
+    <string name="IDA_CURL_INTERFACE_SERVER"><b>서버:</b></string>
+    <string name="IDA_CURL_INTERFACE_TRUSTSER">이 서버를 신뢰할 수 있는 대상으로 확인하고 연결하시겠습니까?</string>
+    <string name="IDA_CURL_INTERFACE_CNAME_MSG">서버 이름(%1$s)이 인증서에 있는 이름(%2$s)과 일치하지 않습니다. 이 서버를 신뢰하고 계속하시겠습니까?</string>
+    <string name="IDA_CURL_INTERFACE_VIEW_CERT"><u>인증서 보기</u></string>
+    <string name="IDA_CURL_INTERFACE_CERTIFICATE_DETAILS_TITLE"><u>인증서 세부 사항</u></string>
+    <string name="IDA_CERTIFICATE_DETAILS"><b>인증서:</b>"
+ 
+ "<u><b>발급 대상:</b></u>"
+ 일반 이름:
+ %1$s
+ 
+ 조직:
+ %2$s
+ 
+ 부서:
+ %3$s
+ 
+ "<u><b>발급 주체:</b></u>"
+ 일반 이름:
+ %4$s
+ 
+ 조직:
+ %5$s
+ 
+ 부서:
+ %6$s
+ 
+ "<u><b>유효성:</b></u>"
+ 발급 날짜:
+ %7$s
+ 
+ 만료 날짜:
+ %8$s "</string>
+</resources>

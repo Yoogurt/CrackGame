@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/inc_nor_title" />
+    <ScrollView android:id="@id/scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/content_view" android:paddingLeft="@dimen/left" android:paddingRight="@dimen/right" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_title" android:textStyle="bold" android:textColor="@color/dark_font" android:id="@id/lottery_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="竞彩足球" />
+            <View android:background="@drawable/dash_line_bit" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:id="@id/type_session" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="过关方式：" />
+                <TextView android:textSize="@dimen/text_big" android:textColor="@color/red_font" android:id="@id/type_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:id="@id/mul_session" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="倍数：" />
+                <TextView android:textSize="@dimen/text_big" android:textColor="@color/red_font" android:id="@id/mul_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <TextView android:textSize="@dimen/text_small" android:textColor="@color/red_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bet_detail_tips_title" />
+                <TextView android:textSize="@dimen/text_small" android:textColor="@color/red_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bet_detail_tips_content" />
+            </LinearLayout>
+            <com.cslc.playlot.view.LinearListView android:orientation="vertical" android:id="@id/detail_lv" android:background="@drawable/bet_border_bg_sha" android:padding="@dimen/border_height" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" android:listSelector="@null" android:divider="@color/border_bg" android:dividerHeight="@dimen/border_height" style="@style/listview_style" />
+            <Button android:textSize="@dimen/text_middle" android:textColor="@color/red_font" android:gravity="left" android:id="@id/bet_btn" android:background="@null" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text=">>查看出票详情" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

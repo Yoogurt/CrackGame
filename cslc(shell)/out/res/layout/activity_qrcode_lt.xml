@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/inc_nor_title" />
+    <RelativeLayout android:background="@color/black_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/top_view" android:layout_width="fill_parent" android:layout_height="@dimen/coupon_height" android:layout_alignParentTop="true" layout="@layout/inc_coupon_top" />
+        <RelativeLayout android:orientation="vertical" android:background="@drawable/white_bg_sha" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/left" android:layout_marginTop="15.0dip" android:layout_marginRight="@dimen/right" android:layout_above="@id/pay_btn" android:layout_below="@id/top_view">
+            <com.cslc.playlot.view.MyListView android:id="@id/ticket_lv" android:paddingLeft="@dimen/left" android:paddingRight="@dimen/right" android:listSelector="@color/transparent" android:divider="@drawable/dash_line_bit" android:dividerHeight="1.0dip" android:layout_alignParentTop="true" android:headerDividersEnabled="false" style="@style/listview_style" />
+        </RelativeLayout>
+        <Button android:id="@id/pay_btn" android:background="@drawable/btn_go_pay" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_above="@id/tips_view" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/text_small" android:textColor="@color/light_font" android:gravity="center" android:id="@id/tips_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/spf_qrcode_tips" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

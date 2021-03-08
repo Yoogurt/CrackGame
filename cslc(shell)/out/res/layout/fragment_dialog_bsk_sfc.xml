@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/dialog_white_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:gravity="center" android:id="@id/team_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="" />
+    <android.support.v7.widget.GridLayout android:id="@id/grid_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:orientation="horizontal" app:columnCount="3">
+        <TextView android:textSize="@dimen/text_middle" android:textColor="@color/white" android:gravity="center" android:background="@color/bsk_sfc_fu_bg" android:layout_width="20.0dip" android:layout_height="wrap_content" android:text="客\n胜" app:layout_rowSpan="3" app:layout_rowWeight="1.0" />
+        <com.cslc.playlot.view.MulTextCheckBox android:id="@id/sfc00_cb" android:tag="客胜1-5" app:layout_columnWeight="1.0" style="@style/cb_bsk_style" />
+        <com.cslc.playlot.view.MulTextCheckBox android:id="@id/sfc01_cb" android:tag="客胜6-10" app:layout_columnWeight="1.0" style="@style/cb_bsk_style" />
+        <com.cslc.playlot.view.MulTextCheckBox android:id="@id/sfc10_cb" android:tag="客胜11-15" app:layout_columnWeight="1.0" style="@style/cb_bsk_style" />
+        <com.cslc.playlot.view.MulTextCheckBox android:id="@id/sfc11_cb" android:tag="客胜16-20" app:layout_columnWeight="1.0" style="@style/cb_bsk_style" />
+        <com.cslc.playlot.view.MulTextCheckBox android:id="@id/sfc20_cb" android:tag="客胜21-25" app:layout_columnWeight="1.0" style="@style/cb_bsk_style" />
+        <com.cslc.playlot.view.MulTextCheckBox android:id="@id/sfc21_cb" android:tag="客胜26+" app:layout_columnWeight="1.0" style="@style/cb_bsk_style" />
+        <TextView android:textSize="@dimen/text_middle" android:textColor="@color/white" android:gravity="center" android:background="@color/bsk_sfc_sheng_bg" android:layout_width="20.0dip" android:layout_height="wrap_content" android:text="主\n胜" app:layout_rowSpan="3" app:layout_rowWeight="1.0" />
+        <com.cslc.playlot.view.MulTextCheckBox android:id="@id/sfc30_cb" android:tag="主胜1-5" app:layout_columnWeight="1.0" style="@style/cb_bsk_style" />
+        <com.cslc.playlot.view.MulTextCheckBox android:id="@id/sfc31_cb" android:tag="主胜6-10" app:layout_columnWeight="1.0" style="@style/cb_bsk_style" />
+        <com.cslc.playlot.view.MulTextCheckBox android:id="@id/sfc40_cb" android:tag="主胜11-15" app:layout_columnWeight="1.0" style="@style/cb_bsk_style" />
+        <com.cslc.playlot.view.MulTextCheckBox android:id="@id/sfc41_cb" android:tag="主胜16-20" app:layout_columnWeight="1.0" style="@style/cb_bsk_style" />
+        <com.cslc.playlot.view.MulTextCheckBox android:id="@id/sfc50_cb" android:tag="主胜21-25" app:layout_columnWeight="1.0" style="@style/cb_bsk_style" />
+        <com.cslc.playlot.view.MulTextCheckBox android:id="@id/sfc51_cb" android:tag="主胜26+" app:layout_columnWeight="1.0" style="@style/cb_bsk_style" />
+    </android.support.v7.widget.GridLayout>
+    <View android:background="#ffbcbcbc" style="@style/horizonal_line_style" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/text_big" android:textColor="@color/dialog_font_cancel_sel" android:id="@id/cancel_btn" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_btn_height" android:text="@string/cancel" android:layout_weight="1.0" />
+        <View android:id="@id/line_view" android:background="#ffbcbcbc" style="@style/vertical_line_style" />
+        <Button android:textSize="@dimen/text_big" android:textColor="@color/dialog_font_sure_sel" android:id="@id/sure_btn" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_btn_height" android:text="@string/sure" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/spf_top_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/inc_spf_top" />
+    <com.handmark.pulltorefresh.library.PullToRefreshListView android:id="@id/match_lv" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:dividerHeight="1.0dip" android:layout_above="@id/spf_bottom_view" android:layout_below="@id/spf_top_view" style="@style/pull_listview_style" />
+    <include android:id="@id/spf_bottom_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/inc_spf_bottom" />
+</RelativeLayout>

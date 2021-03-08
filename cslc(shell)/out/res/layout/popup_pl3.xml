@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/popup_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_view" android:layout_alignParentTop="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/bottom" android:paddingBottom="@dimen/top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="@color/pop_line_bg" android:layout_height="1.0dip" android:layout_toLeftOf="@id/zx_tv" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/horizonal_line_style" />
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/dark_font" android:id="@id/zx_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/title_pl3_zx" android:layout_centerInParent="true" />
+                <View android:background="@color/pop_line_bg" android:layout_height="1.0dip" android:layout_toRightOf="@id/zx_tv" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/horizonal_line_style" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <RadioGroup android:orientation="horizontal" android:id="@id/first_rg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RadioButton android:id="@id/zx_pt_rb" android:checked="true" android:text="@string/title_pl3_pop_zx_pt" style="@style/rb_popup_style" />
+                    <RadioButton android:id="@id/zx_zhfs_rb" android:text="@string/title_pl3_pop_zx_zhfs" style="@style/rb_popup_style" />
+                    <RadioButton android:id="@id/zx_dtfs_rb" android:text="@string/title_pl3_pop_zx_dtfs" style="@style/rb_popup_style" />
+                </RadioGroup>
+                <RadioGroup android:orientation="horizontal" android:id="@id/second_rg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <RadioButton android:id="@id/zx_kdfs_rb" android:text="@string/title_pl3_pop_zx_kdfs" style="@style/rb_popup_style" />
+                    <RadioButton android:id="@id/zx_hzfs_rb" android:text="@string/title_pl3_pop_zx_hzfs" style="@style/rb_popup_style" />
+                    <RadioButton android:visibility="invisible" style="@style/rb_popup_style" />
+                </RadioGroup>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <View android:background="@color/pop_line_bg" android:layout_height="1.0dip" android:layout_toLeftOf="@id/z3_tv" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/horizonal_line_style" />
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/dark_font" android:id="@id/z3_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/title_pl3_z3" android:layout_centerInParent="true" />
+                <View android:background="@color/pop_line_bg" android:layout_height="1.0dip" android:layout_toRightOf="@id/z3_tv" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/horizonal_line_style" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <RadioGroup android:orientation="horizontal" android:id="@id/third_rg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RadioButton android:id="@id/z3_ds_rb" android:text="@string/title_pl3_pop_z3_ds" style="@style/rb_popup_style" />
+                    <RadioButton android:id="@id/z3_zhfs_rb" android:text="@string/title_pl3_pop_z3_zhfs" style="@style/rb_popup_style" />
+                    <RadioButton android:id="@id/z3_dtfs_rb" android:text="@string/title_pl3_pop_z3_dtfs" style="@style/rb_popup_style" />
+                </RadioGroup>
+                <RadioGroup android:orientation="horizontal" android:id="@id/fourth_rg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <RadioButton android:id="@id/z3_kdfs_rb" android:text="@string/title_pl3_pop_z3_kdfs" style="@style/rb_popup_style" />
+                    <RadioButton android:visibility="invisible" style="@style/rb_popup_style" />
+                    <RadioButton android:visibility="invisible" style="@style/rb_popup_style" />
+                </RadioGroup>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <View android:background="@color/pop_line_bg" android:layout_height="1.0dip" android:layout_toLeftOf="@id/z6_tv" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/horizonal_line_style" />
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/dark_font" android:id="@id/z6_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/title_pl3_z6" android:layout_centerInParent="true" />
+                <View android:background="@color/pop_line_bg" android:layout_height="1.0dip" android:layout_toRightOf="@id/z6_tv" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/horizonal_line_style" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <RadioGroup android:orientation="horizontal" android:id="@id/fifth_rg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RadioButton android:id="@id/z6_ds_rb" android:text="@string/title_pl3_pop_z6_ds" style="@style/rb_popup_style" />
+                    <RadioButton android:id="@id/z6_zhfs_rb" android:text="@string/title_pl3_pop_z6_zhfs" style="@style/rb_popup_style" />
+                    <RadioButton android:id="@id/z6_dtfs_rb" android:text="@string/title_pl3_pop_z6_dtfs" style="@style/rb_popup_style" />
+                </RadioGroup>
+                <RadioGroup android:orientation="horizontal" android:id="@id/sixth_rg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <RadioButton android:id="@id/z6_kdfs_rb" android:text="@string/title_pl3_pop_z6_kdfs" style="@style/rb_popup_style" />
+                    <RadioButton android:visibility="invisible" style="@style/rb_popup_style" />
+                    <RadioButton android:visibility="invisible" style="@style/rb_popup_style" />
+                </RadioGroup>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <View android:background="@color/pop_line_bg" android:layout_height="1.0dip" android:layout_toLeftOf="@id/qt_tv" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/horizonal_line_style" />
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/dark_font" android:id="@id/qt_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/title_pl3_qt" android:layout_centerInParent="true" />
+                <View android:background="@color/pop_line_bg" android:layout_height="1.0dip" android:layout_toRightOf="@id/qt_tv" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/horizonal_line_style" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <RadioGroup android:orientation="horizontal" android:id="@id/seventh_rg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <RadioButton android:id="@id/qt_zxhzfs_rb" android:text="@string/title_pl3_pop_qt_zxhzfs" style="@style/rb_popup_style" />
+                    <RadioButton android:visibility="invisible" style="@style/rb_popup_style" />
+                    <RadioButton android:visibility="invisible" style="@style/rb_popup_style" />
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <View android:id="@id/bottom_view" android:layout_alignParentBottom="true" style="@style/playtype_line_style" />
+</RelativeLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView android:id="@id/item_lv" style="@style/listview_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

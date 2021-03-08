@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bg_view" android:background="@color/bet_header_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/line_view" style="@style/bet_hor_line_style" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_middle" android:textColor="@color/dark_font" android:gravity="center" android:id="@id/index_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/index_tv" android:layout_weight="1.0" />
+        <View style="@style/bet_ver_line_style" />
+        <TextView android:textSize="@dimen/text_middle" android:textColor="@color/dark_font" android:gravity="center" android:id="@id/match_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/match_tv" android:layout_weight="1.0" />
+        <View style="@style/bet_ver_line_style" />
+        <TextView android:textSize="@dimen/text_middle" android:textColor="@color/dark_font" android:gravity="center" android:id="@id/playtype_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/playtype_tv" android:layout_weight="1.0" />
+        <View style="@style/bet_ver_line_style" />
+        <TextView android:textSize="@dimen/text_middle" android:textColor="@color/dark_font" android:gravity="center" android:id="@id/result_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/result_tv" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

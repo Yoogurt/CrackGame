@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/inc_nor_title" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/left" android:paddingTop="@dimen/top" android:paddingRight="@dimen/right" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_small" android:textColor="@color/light_font" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_message" />
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                <EditText android:id="@id/mobile_et" android:layout_marginRight="10.0dip" android:hint="@string/phone_hint" android:layout_toLeftOf="@id/code_btn" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:inputType="phone" style="@style/et_mobile_style" />
+                <Button android:enabled="false" android:id="@id/code_btn" android:layout_width="65.0dip" android:layout_height="40.0dip" android:text="@string/verification_btn_text" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/btn_red_wrap_bg_style" />
+            </RelativeLayout>
+            <EditText android:id="@id/code_et" android:layout_marginTop="@dimen/top" android:hint="@string/verification_hint" style="@style/et_code_style" />
+            <EditText android:id="@id/invitation_et" android:layout_marginTop="@dimen/top" android:hint="@string/invitation_hint" style="@style/et_invitation_style" />
+            <Button android:enabled="false" android:id="@id/login_btn" android:layout_marginTop="@dimen/top" android:text="@string/begin_btn_text" style="@style/btn_common_style" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_tiny" android:textColor="@color/light_font" android:paddingTop="@dimen/top" android:paddingBottom="@dimen/bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/declaration" />
+                <TextView android:textSize="@dimen/text_tiny" android:textColor="@color/red" android:id="@id/agree_tv" android:paddingTop="@dimen/top" android:paddingBottom="@dimen/bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/agree" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

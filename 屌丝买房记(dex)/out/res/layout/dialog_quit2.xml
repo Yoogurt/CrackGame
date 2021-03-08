@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="285.0dip" android:layout_height="135.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bg" android:background="@drawable/bg_tcyx2" android:layout_width="285.0dip" android:layout_height="135.0dip" />
+    <Button android:id="@id/cancel" android:background="@drawable/btnbg_jsyx2_zj" android:layout_width="50.0dip" android:layout_height="29.0dip" android:layout_marginRight="88.0dip" android:layout_marginBottom="23.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

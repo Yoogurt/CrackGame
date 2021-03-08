@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bg_head" android:background="#ff00a99d" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_alignParentTop="true" />
+    <LinearLayout android:id="@id/lhead" android:background="#ff00a99d" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="15.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <TextView android:textSize="24.0sp" android:textColor="#ffffffff" android:id="@id/thouseprice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="房价：" android:layout_weight="1.0" />
+        <TextView android:textSize="24.0sp" android:textColor="#ffffffff" android:id="@id/houseprice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1000万" android:layout_weight="3.0" />
+        <TextView android:textSize="24.0sp" android:textColor="#ffffffff" android:id="@id/tdate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="时间：" android:layout_weight="1.0" />
+        <TextView android:textSize="24.0sp" android:textColor="#ffffffff" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3/52周" android:layout_weight="2.0" />
+    </LinearLayout>
+    <ImageView android:id="@id/bg_mandw" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitStart" android:layout_below="@id/lhead" />
+    <LinearLayout android:id="@id/lmarketwarehouse" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_below="@id/lhead" android:layout_alignParentLeft="true">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="6.0">
+            <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/tmarket" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="市场" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/tmgoods" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="货物" android:layout_below="@id/tmarket" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/tmprice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="33.0dip" android:text="价格" android:layout_toRightOf="@id/tmgoods" android:layout_alignTop="@id/tmgoods" />
+            <Button android:id="@id/bmslot1" android:layout_width="75.0dip" android:layout_height="30.0dip" android:layout_marginLeft="0.0dip" android:layout_below="@id/tmgoods" android:layout_alignParentLeft="true" />
+            <Button android:id="@id/bmslot2" android:layout_width="75.0dip" android:layout_height="30.0dip" android:layout_below="@id/bmslot1" android:layout_alignLeft="@id/bmslot1" />
+            <Button android:id="@id/bmslot3" android:layout_width="75.0dip" android:layout_height="30.0dip" android:layout_below="@id/bmslot2" android:layout_alignLeft="@id/bmslot1" />
+            <Button android:id="@id/bmslot4" android:layout_width="75.0dip" android:layout_height="30.0dip" android:layout_below="@id/bmslot3" android:layout_alignLeft="@id/bmslot1" />
+            <Button android:id="@id/bmslot5" android:layout_width="75.0dip" android:layout_height="30.0dip" android:layout_below="@id/bmslot4" android:layout_alignLeft="@id/bmslot1" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/tmslotprice1" android:layout_width="52.0dip" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="6.0dip" android:text="456" android:layout_toRightOf="@id/bmslot1" android:layout_alignTop="@id/bmslot1" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/tmslotprice2" android:layout_width="52.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="14578" android:layout_alignLeft="@id/tmslotprice1" android:layout_alignTop="@id/bmslot2" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/tmslotprice3" android:layout_width="52.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="2051" android:layout_alignLeft="@id/tmslotprice1" android:layout_alignTop="@id/bmslot3" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/tmslotprice4" android:layout_width="52.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="719" android:layout_alignLeft="@id/tmslotprice1" android:layout_alignTop="@id/bmslot4" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/tmslotprice5" android:layout_width="52.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="56" android:layout_alignLeft="@id/tmslotprice1" android:layout_alignTop="@id/bmslot5" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="8.0">
+            <LinearLayout android:id="@id/lwarehouse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+                <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/twarehouse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="出租屋" />
+                <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/twarehouseinfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/twgoods" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="货物" android:layout_below="@id/lwarehouse" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/twprice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="买入价" android:layout_toRightOf="@id/twgoods" android:layout_alignTop="@id/twgoods" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/twnumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="数量" android:layout_toRightOf="@id/twprice" android:layout_alignTop="@id/twgoods" />
+            <Button android:id="@id/bwslot1" android:layout_width="75.0dip" android:layout_height="30.0dip" android:layout_marginLeft="0.0dip" android:layout_below="@id/twgoods" android:layout_alignParentLeft="true" />
+            <Button android:id="@id/bwslot2" android:layout_width="75.0dip" android:layout_height="30.0dip" android:layout_below="@id/bwslot1" android:layout_alignLeft="@id/bwslot1" />
+            <Button android:id="@id/bwslot3" android:layout_width="75.0dip" android:layout_height="30.0dip" android:layout_below="@id/bwslot2" android:layout_alignLeft="@id/bwslot1" />
+            <Button android:id="@id/bwslot4" android:layout_width="75.0dip" android:layout_height="30.0dip" android:layout_below="@id/bwslot3" android:layout_alignLeft="@id/bwslot1" />
+            <Button android:id="@id/bwslot5" android:layout_width="75.0dip" android:layout_height="30.0dip" android:layout_below="@id/bwslot4" android:layout_alignLeft="@id/bwslot1" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/twslotprice1" android:layout_width="52.0dip" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="6.0dip" android:text="456" android:layout_toRightOf="@id/bwslot1" android:layout_alignTop="@id/bwslot1" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/twslotprice2" android:layout_width="52.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="14578" android:layout_alignLeft="@id/twslotprice1" android:layout_alignTop="@id/bwslot2" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/twslotprice3" android:layout_width="52.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="2051" android:layout_alignLeft="@id/twslotprice1" android:layout_alignTop="@id/bwslot3" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/twslotprice4" android:layout_width="52.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="719" android:layout_alignLeft="@id/twslotprice1" android:layout_alignTop="@id/bwslot4" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/twslotprice5" android:layout_width="52.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="56" android:layout_alignLeft="@id/twslotprice1" android:layout_alignTop="@id/bwslot5" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/twslotnbr1" android:layout_width="52.0dip" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:text="9999" android:layout_toRightOf="@id/twslotprice1" android:layout_alignTop="@id/twslotprice1" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/twslotnbr2" android:layout_width="52.0dip" android:layout_height="wrap_content" android:text="9999" android:layout_alignLeft="@id/twslotnbr1" android:layout_alignTop="@id/twslotprice2" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/twslotnbr3" android:layout_width="52.0dip" android:layout_height="wrap_content" android:text="9999" android:layout_alignLeft="@id/twslotnbr1" android:layout_alignTop="@id/twslotprice3" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/twslotnbr4" android:layout_width="52.0dip" android:layout_height="wrap_content" android:text="9999" android:layout_alignLeft="@id/twslotnbr1" android:layout_alignTop="@id/twslotprice4" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/twslotnbr5" android:layout_width="52.0dip" android:layout_height="wrap_content" android:text="9999" android:layout_alignLeft="@id/twslotnbr1" android:layout_alignTop="@id/twslotprice5" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/bg_status1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="3.0dip" android:scaleType="fitStart" android:layout_below="@id/lmarketwarehouse" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/lstatus1" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="3.0dip" android:layout_below="@id/lmarketwarehouse" android:layout_alignParentLeft="true">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="4.0">
+            <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/tcash" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="现金：" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/cash" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="\ 9999999999" android:layout_toRightOf="@id/tcash" android:layout_alignTop="@id/tcash" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0">
+            <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/thealth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="健康：" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/health" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="100" android:layout_toRightOf="@id/thealth" android:layout_alignTop="@id/thealth" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/bg_status2" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitStart" android:layout_below="@id/lstatus1" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/lstatus2" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="4.0dip" android:layout_below="@id/lstatus1" android:layout_alignParentLeft="true">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="4.0">
+            <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/tdeposit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="存款：" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/deposit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="\ 9999999999" android:layout_toRightOf="@id/tdeposit" android:layout_alignTop="@id/tdeposit" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0">
+            <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/treputation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="名声：" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/reputation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="100" android:layout_toRightOf="@id/treputation" android:layout_alignTop="@id/treputation" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/lbtnline1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="45.0dip" android:layout_weight="1.0">
+            <Button android:id="@id/help" android:background="@drawable/btnbg_bz" android:layout_width="100.0dip" android:layout_height="45.0dip" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="45.0dip" android:layout_weight="1.0">
+            <Button android:id="@id/start" android:background="@drawable/btnbg_ksyx" android:layout_width="100.0dip" android:layout_height="45.0dip" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="45.0dip" android:layout_weight="1.0">
+            <Button android:id="@id/record" android:background="@drawable/btnbg_lcb" android:layout_width="100.0dip" android:layout_height="45.0dip" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/lbtnline2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-5.0dip" android:layout_above="@id/lbtnline1" android:layout_alignParentLeft="true">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="45.0dip" android:layout_weight="1.0">
+            <Button android:id="@id/bank" android:background="@drawable/btnbg_yh" android:layout_width="75.0dip" android:layout_height="45.0dip" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="45.0dip" android:layout_weight="1.0">
+            <Button android:id="@id/hospital" android:background="@drawable/btnbg_yy" android:layout_width="75.0dip" android:layout_height="45.0dip" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="45.0dip" android:layout_weight="1.0">
+            <Button android:id="@id/houseseller" android:background="@drawable/btnbg_slb" android:layout_width="75.0dip" android:layout_height="45.0dip" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="45.0dip" android:layout_weight="1.0">
+            <Button android:id="@id/agent" android:background="@drawable/btnbg_zj" android:layout_width="75.0dip" android:layout_height="45.0dip" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/lbtnline3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-5.0dip" android:layout_above="@id/lbtnline2" android:layout_alignParentLeft="true">
+        <RelativeLayout android:layout_width="100.0dip" android:layout_height="45.0dip" android:layout_weight="1.0">
+            <Button android:id="@id/market1" android:background="@drawable/btnbg_essc" android:layout_width="100.0dip" android:layout_height="45.0dip" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="100.0dip" android:layout_height="45.0dip" android:layout_weight="1.0">
+            <Button android:id="@id/market2" android:background="@drawable/btnbg_nmsc" android:layout_width="100.0dip" android:layout_height="45.0dip" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="100.0dip" android:layout_height="45.0dip" android:layout_weight="1.0">
+            <Button android:id="@id/market3" android:background="@drawable/btnbg_pfsc" android:layout_width="100.0dip" android:layout_height="45.0dip" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rgameover" android:visibility="invisible" android:layout_width="170.0dip" android:layout_height="225.0dip" android:layout_alignTop="@id/lmarketwarehouse" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/bg" android:layout_width="170.0dip" android:layout_height="225.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/gameovernote" android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginTop="54.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <Button android:id="@id/moregame" android:background="@drawable/btnbg_gdyx" android:layout_width="100.0dip" android:layout_height="45.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rstartpage" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/start2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/start1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitStart" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/start3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitEnd" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

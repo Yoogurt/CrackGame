@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/trend_item_line_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/issue_no_tv" android:layout_width="@dimen/trend_issue_width" android:text="" android:layout_weight="0.0" style="@style/trend_item_number_tv_style" />
+    <ImageView style="@style/trend_ver_line_style" />
+    <com.cslc.playlot.view.TrendHorizontalNumberView android:layout_gravity="center_vertical" android:id="@id/number_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

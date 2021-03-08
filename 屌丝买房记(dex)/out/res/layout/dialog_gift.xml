@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="265.0dip" android:layout_height="290.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bg" android:layout_width="265.0dip" android:layout_height="290.0dip" />
+    <ImageView android:id="@id/day1" android:layout_width="41.0dip" android:layout_height="16.0dip" android:layout_marginLeft="19.0dip" android:layout_marginTop="55.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/day2" android:layout_width="41.0dip" android:layout_height="16.0dip" android:layout_marginTop="73.0dip" android:layout_alignLeft="@id/day1" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/day3" android:layout_width="41.0dip" android:layout_height="16.0dip" android:layout_marginTop="91.0dip" android:layout_alignLeft="@id/day1" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/day4" android:layout_width="41.0dip" android:layout_height="16.0dip" android:layout_marginTop="109.0dip" android:layout_alignLeft="@id/day1" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/day5" android:layout_width="41.0dip" android:layout_height="16.0dip" android:layout_marginTop="127.0dip" android:layout_alignLeft="@id/day1" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/day6" android:layout_width="41.0dip" android:layout_height="16.0dip" android:layout_marginTop="145.0dip" android:layout_alignLeft="@id/day1" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/day7" android:layout_width="41.0dip" android:layout_height="16.0dip" android:layout_marginTop="163.0dip" android:layout_alignLeft="@id/day1" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/day8" android:layout_width="41.0dip" android:layout_height="16.0dip" android:layout_marginTop="181.0dip" android:layout_alignLeft="@id/day1" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/day9" android:layout_width="41.0dip" android:layout_height="16.0dip" android:layout_marginTop="199.0dip" android:layout_alignLeft="@id/day1" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/day10" android:layout_width="41.0dip" android:layout_height="16.0dip" android:layout_marginTop="217.0dip" android:layout_alignLeft="@id/day1" android:layout_alignParentTop="true" />
+    <Button android:id="@id/cancel" android:background="@drawable/btnbg_mrjl_qd" android:layout_width="50.0dip" android:layout_height="29.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

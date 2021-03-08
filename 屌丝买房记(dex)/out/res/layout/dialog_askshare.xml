@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="285.0dip" android:layout_height="135.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bg" android:layout_width="285.0dip" android:layout_height="135.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="#ffd9402f" android:id="@id/ttitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginTop="16.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/tnote" android:layout_width="243.0dip" android:layout_height="59.0dip" android:layout_marginTop="34.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/r2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <Button android:id="@id/tofriend" android:background="@drawable/btnbg_sharefriend" android:layout_width="98.0dip" android:layout_height="27.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <Button android:id="@id/totimeline" android:background="@drawable/btnbg_sharetimeline" android:layout_width="98.0dip" android:layout_height="27.0dip" android:layout_marginLeft="20.0dip" android:layout_toRightOf="@id/tofriend" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <Button android:id="@id/close" android:background="@drawable/btnbg_buyvoucher_close" android:layout_width="24.0dip" android:layout_height="23.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="12.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

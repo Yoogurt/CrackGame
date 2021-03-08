@@ -1,0 +1,37 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+	<id>com.distriqt.playservices.Games</id>
+	<versionNumber>15.0.1</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.playservices.games.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.playservices.games.GamesExtension</initializer>
+				<finalizer>com.distriqt.extension.playservices.games.GamesExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.playservices.games.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.playservices.games.GamesExtension</initializer>
+				<finalizer>com.distriqt.extension.playservices.games.GamesExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libPlayServicesGames.a</nativeLibrary>
+				<initializer>PlayServicesGamesExtInitializer</initializer>
+				<finalizer>PlayServicesGamesExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-x86">
+			<applicationDeployment>
+				<nativeLibrary>libPlayServicesGames.a</nativeLibrary>
+				<initializer>PlayServicesGamesExtInitializer</initializer>
+				<finalizer>PlayServicesGamesExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="default"> 
+			<applicationDeployment /> 
+		</platform>
+	</platforms>
+</extension>

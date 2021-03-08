@@ -1,0 +1,10 @@
+<platform xmlns="http://ns.adobe.com/air/extension/24.0">
+	<packagedDependencies>
+	</packagedDependencies>
+	<packagedResources>
+	    <packagedResource>
+			<packageName>com.distriqt.extension.applicationrater</packageName> 
+			<folderName>distriqt-extension-applicationrater-res</folderName> 
+		</packagedResource>
+	</packagedResources>
+</platform>

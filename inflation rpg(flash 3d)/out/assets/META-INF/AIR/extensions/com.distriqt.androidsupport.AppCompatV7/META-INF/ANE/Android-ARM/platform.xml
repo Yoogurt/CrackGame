@@ -1,0 +1,17 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+	<packagedDependencies>
+<packagedDependency>animated-vector-drawable-27.0.2.jar</packagedDependency>
+<packagedDependency>appcompat-v7-27.0.2.jar</packagedDependency>
+<packagedDependency>support-vector-drawable-27.0.2.jar</packagedDependency>
+	</packagedDependencies>
+	<packagedResources>
+		<packagedResource>
+			<packageName>com.distriqt.extension.androidsupport.appcompatv7</packageName> 
+			<folderName>distriqt-extension-androidsupport-appcompatv7-res</folderName> 
+		</packagedResource>
+		<packagedResource>
+			<packageName>android.support.v7.appcompat</packageName>
+			<folderName>appcompat-v7-27.0.2-res</folderName>
+		</packagedResource>
+	</packagedResources>
+</platform>

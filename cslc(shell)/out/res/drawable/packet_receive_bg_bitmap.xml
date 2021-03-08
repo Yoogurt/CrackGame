@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:gravity="top" android:id="@id/packet_receive_bg_bitmap" android:src="@drawable/packet_receive_bg" android:tileMode="disabled"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

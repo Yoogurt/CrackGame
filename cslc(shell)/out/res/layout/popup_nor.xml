@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/popup_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <RadioButton android:id="@id/pt_btn" android:checked="true" android:text="@string/title_pop_pt" style="@style/rb_popup_style" />
+        <RadioButton android:id="@id/dt_btn" android:text="@string/title_pop_dt" style="@style/rb_popup_style" />
+    </RadioGroup>
+    <View android:layout_marginTop="10.0dip" style="@style/playtype_line_style" />
+</LinearLayout>

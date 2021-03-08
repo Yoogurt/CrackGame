@@ -1,0 +1,44 @@
+<extension xmlns="http://ns.adobe.com/air/extension/24.0">
+	<id>com.distriqt.GameServices</id>
+	<versionNumber>4.1.183</versionNumber>
+	<platforms>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libGameServices.a</nativeLibrary>
+				<initializer>GameServicesExtInitializer</initializer>
+				<finalizer>GameServicesExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-x86">
+			<applicationDeployment>
+				<nativeLibrary>libGameServices.a</nativeLibrary>
+				<initializer>GameServicesExtInitializer</initializer>
+				<finalizer>GameServicesExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="appleTV-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libGameServices.a</nativeLibrary>
+				<initializer>GameServicesExtInitializer</initializer>
+				<finalizer>GameServicesExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.gameservices.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.gameservices.GameServicesExtension</initializer>
+				<finalizer>com.distriqt.extension.gameservices.GameServicesExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.gameservices.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.gameservices.GameServicesExtension</initializer>
+				<finalizer>com.distriqt.extension.gameservices.GameServicesExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="default"> 
+			<applicationDeployment /> 
+		</platform>
+	</platforms>
+</extension>

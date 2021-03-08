@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/top_view" layout="@layout/inc_nor_title" />
+    <RadioGroup android:id="@id/type_rg" style="@style/rg_lottery_style">
+        <RadioButton android:id="@id/gg_rb" android:checked="true" android:text="@string/jc_gg" style="@style/rb_lottery_style" />
+        <View android:background="#ffbdbbcc" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+        <RadioButton android:id="@id/dg_rb" android:text="@string/jc_dg" style="@style/rb_lottery_style" />
+    </RadioGroup>
+    <LinearLayout android:orientation="vertical" android:id="@id/fragment_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

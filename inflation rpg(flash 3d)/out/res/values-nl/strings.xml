@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="abc_action_bar_home_description">Navigeren naar startpositie</string>
+    <string name="abc_action_bar_up_description">Omhoog navigeren</string>
+    <string name="abc_action_menu_overflow_description">Meer opties</string>
+    <string name="abc_action_mode_done">Gereed</string>
+    <string name="abc_activity_chooser_view_see_all">Alles weergeven</string>
+    <string name="abc_activitychooserview_choose_application">Een app selecteren</string>
+    <string name="abc_capital_off">UIT</string>
+    <string name="abc_capital_on">AAN</string>
+    <string name="abc_search_hint">Zoeken…</string>
+    <string name="abc_searchview_description_clear">Zoekopdracht wissen</string>
+    <string name="abc_searchview_description_query">Zoekopdracht</string>
+    <string name="abc_searchview_description_search">Zoeken</string>
+    <string name="abc_searchview_description_submit">Zoekopdracht verzenden</string>
+    <string name="abc_searchview_description_voice">Gesproken zoekopdracht</string>
+    <string name="abc_shareactionprovider_share_with">Delen met</string>
+    <string name="abc_shareactionprovider_share_with_application">Delen met %s</string>
+    <string name="abc_toolbar_collapse_description">Samenvouwen</string>
+    <string name="search_menu_title">Zoeken</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ondervindt problemen met Google Play-services. Probeer het opnieuw.</string>
+    <string name="common_google_play_services_enable_button">Inschakelen</string>
+    <string name="common_google_play_services_enable_text">%1$s werkt niet, tenzij je Google Play-services inschakelt.</string>
+    <string name="common_google_play_services_enable_title">Google Play-services inschakelen</string>
+    <string name="common_google_play_services_install_button">Installeren</string>
+    <string name="common_google_play_services_install_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die je nog niet op je apparaat hebt.</string>
+    <string name="common_google_play_services_install_title">Google Play-services ophalen</string>
+    <string name="common_google_play_services_notification_channel_name">Beschikbaarheid van Google Play-services</string>
+    <string name="common_google_play_services_notification_ticker">Fout met Google Play-services</string>
+    <string name="common_google_play_services_unsupported_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die niet worden ondersteund op je apparaat.</string>
+    <string name="common_google_play_services_update_button">Updaten</string>
+    <string name="common_google_play_services_update_text">%1$s kan niet worden uitgevoerd, tenzij je Google Play-services updatet.</string>
+    <string name="common_google_play_services_update_title">Google Play-services updaten</string>
+    <string name="common_google_play_services_updating_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die momenteel worden geüpdatet.</string>
+    <string name="common_google_play_services_wear_update_text">Er is een nieuwe versie van Google Play-services vereist. De update wordt binnenkort automatisch uitgevoerd.</string>
+    <string name="common_open_on_phone">Openen op telefoon</string>
+    <string name="common_signin_button_text">Inloggen</string>
+    <string name="common_signin_button_text_long">Inloggen met Google</string>
+    <string name="s1">Afbeelding opslaan</string>
+    <string name="s2">Advertentie toestaan om afbeelding op te slaan in fotogalerij?</string>
+    <string name="s3">Accepteren</string>
+    <string name="s4">Weigeren</string>
+    <string name="s5">Agenda-afspraak maken</string>
+    <string name="s6">Advertentie toestaan om een agenda-afspraak te maken?</string>
+    <string name="s7">Testadvertentie</string>
+    <string name="application_name">Adobe AIR</string>
+    <string name="flash_browser_plugin">Flash-plug-in</string>
+    <string name="button_cancel">Annuleren</string>
+    <string name="button_continue">Doorgaan</string>
+    <string name="button_yes">Ja</string>
+    <string name="button_no">Nee</string>
+    <string name="app_name">InflationRPG</string>
+    <string name="IDA_APP_WAITING_DEBUGGER_TITLE"><u>Adobe AIR: wachten op verbinding</u></string>
+    <string name="IDA_APP_UNABLE_LISTEN_ERROR"><u>Adobe AIR: luisteren naar poort</u></string>
+    <string name="IDA_APP_WAITING_DEBUGGER_WARNING"><u>De AIR-toepassing wacht op een verbinding van de debugger. Dit kan %d seconden duren.</u></string>
+    <string name="IDA_APP_DEBUGGER_TIMEOUT_INFO">Kan geen verbinding maken met de debugger.</string>
+    <string name="app_version">APP_VERSION</string>
+    <string name="button_install">Doorgaan</string>
+    <string name="button_exit">Afsluiten</string>
+    <string name="file_save_as">Opslaan als:</string>
+    <string name="file_download">Downloaden</string>
+    <string name="file_upload">Uploaden</string>
+    <string name="audio_files">Audiobestanden</string>
+    <string name="image_files">Afbeeldingsbestanden</string>
+    <string name="video_files">Videobestanden</string>
+    <string name="button_ok">OK</string>
+    <string name="empty_file_list">Er zijn geen bestanden gevonden.</string>
+    <string name="title_adobe_air"><b>Adobe AIR</b></string>
+    <string name="text_runtime_required">"Voor deze toepassing is Adobe AIR vereist.
+
+"</string>
+    <string name="text_install_runtime">Installeer Adobe AIR op dit apparaat om door te gaan.</string>
+    <string name="text_runtime_on_external_storage">Om door te gaan moet u ofwel Adobe AIR op dit apparaat installeren, of deze toepassing afsluiten en de SD-kaart met Adobe AIR plaatsen voordat u de toepassing opnieuw start.</string>
+    <string name="text_gamepreview_loading">Bezig met laden...</string>
+    <string name="text_gamepreview_loading_error">Kan de game niet laden.</string>
+    <string name="text_install_gamepreview_app">Nu installeren</string>
+    <string name="text_air_missing_header">Adobe AIR vereist</string>
+    <string name="text_air_missing_text">U moet Adobe AIR installeren om de voorvertoning van de game te kunnen bekijken.</string>
+    <string name="button_install_air_from_playstore">Installeer vanaf de Play Store.</string>
+    <string name="text_dont_show_again">Dit bericht niet nogmaals weergeven.</string>
+    <string name="IDA_CURL_SSL_SECURITY_WARNING">Beveiligingswaarschuwing</string>
+    <string name="IDA_CURL_INTERFACE_THISSESS">Vertrouwen voor sessie</string>
+    <string name="IDA_CURL_INTERFACE_NOSESS">Annuleren</string>
+    <string name="IDA_CURL_INTERFACE_OK">OK</string>
+    <string name="IDA_CURL_INTERFACE_UNVERSER_2">De server waarmee de toepassing een verbinding probeert te maken, is niet geverifieerd.</string>
+    <string name="IDA_CURL_INTERFACE_ALLSESS">Altijd vertrouwen</string>
+    <string name="IDA_CURL_INTERFACE_SERVER"><b>Server:</b></string>
+    <string name="IDA_CURL_INTERFACE_TRUSTSER">Deze server vertrouwen en verbinding maken?</string>
+    <string name="IDA_CURL_INTERFACE_CNAME_MSG">De naam van de server (%1$s) komt niet overeen met de naam op het certificaat (%2$s). Vertrouwt u deze server en wilt u doorgaan?</string>
+    <string name="IDA_CURL_INTERFACE_VIEW_CERT"><u>Certificaat weergeven</u></string>
+    <string name="IDA_CURL_INTERFACE_CERTIFICATE_DETAILS_TITLE"><u>Certificaatdetails</u></string>
+    <string name="IDA_CERTIFICATE_DETAILS"><b>Certificaat:</b>"
+ 
+ "<u><b>Verleend aan:</b></u>"
+ Algemene naam:
+ %1$s
+ 
+ Organisatie:
+ %2$s
+ 
+ Organisatie-eenheid:
+ %3$s
+ 
+ "<u><b>Verleend door:</b></u>"
+ Algemene naam:
+ %4$s
+ 
+ Organisatie:
+ %5$s
+ 
+ Organisatie-eenheid:
+ %6$s
+ 
+ "<u><b>Geldigheid:</b></u>"
+ Verleend op:
+ %7$s
+ 
+ Vervalt op:
+ %8$s "</string>
+</resources>

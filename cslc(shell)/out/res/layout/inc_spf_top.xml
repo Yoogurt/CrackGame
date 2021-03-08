@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/white" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="35.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/draw_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+            <TextView android:textSize="@dimen/text_middle" android:textColor="@color/dark_font" android:id="@id/draw_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/spf_draw_default" />
+            <ImageView android:id="@id/arrow_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/arrow_down_grey" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <TextView android:textSize="@dimen/text_middle" android:textColor="@color/dark_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/spf_time" />
+            <TextView android:textSize="@dimen/text_middle" android:textColor="@color/red_font" android:id="@id/time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/spf_time_default" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/line_view" style="@style/horizonal_line_style" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="35.0dip">
+        <TextView android:gravity="center" android:id="@id/index_tv" android:layout_width="@dimen/match_width" android:layout_height="fill_parent" android:text="@string/spf_match" />
+        <LinearLayout android:orientation="horizontal" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/text_middle" android:textColor="@color/dark_font" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/team_tv" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/spf_6bqc_ban" />
+            <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/spf_sheng" android:layout_weight="1.0" />
+            <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/spf_ping" android:layout_weight="1.0" />
+            <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/spf_fu" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <View style="@style/horizonal_line_style" />
+</LinearLayout>

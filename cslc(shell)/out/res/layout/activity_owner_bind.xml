@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/top_view" layout="@layout/inc_nor_title" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_title" android:textColor="@color/dark_font" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/bind_fillin" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/dark_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bind_identify" />
+                <RadioGroup android:id="@id/identify_rg" android:layout_marginLeft="@dimen/left" style="@style/rg_style">
+                    <RadioButton android:id="@id/owner_rb" android:text="@string/bind_identify_owner" style="@style/rb_style" />
+                    <RadioButton android:id="@id/seller_rb" android:layout_marginLeft="20.0dip" android:text="@string/bind_identify_seller" style="@style/rb_style" />
+                </RadioGroup>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/dark_font" android:id="@id/terminal_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bind_terminal" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <EditText android:id="@id/terminal_et" android:layout_marginLeft="@dimen/left" android:maxLength="13" android:digits="\ 0123456789" android:layout_toRightOf="@id/terminal_tv" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:inputType="number" style="@style/et_wrap_style" />
+                <ImageButton android:id="@id/qrcode_ib" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bind_qrcode" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <LinearLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <TextView android:textSize="@dimen/text_middle" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bind_terminal" />
+                <TextView android:textSize="@dimen/text_tiny" android:textColor="@color/bind_question" android:gravity="center" android:id="@id/fillin_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:text="如何填写" android:drawableLeft="@drawable/bind_question" android:drawablePadding="5.0dip" />
+            </LinearLayout>
+            <Button android:id="@id/bind_btn" android:layout_marginTop="30.0dip" android:text="@string/bind_btn" style="@style/btn_common_style" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

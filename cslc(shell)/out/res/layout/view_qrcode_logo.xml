@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/qrcode_coupon_logo" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center|top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="24.0dip" android:textColor="@color/red_font" android:id="@id/money_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10" />
+        <TextView android:textSize="20.0dip" android:textColor="@color/red_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="元" />
+    </LinearLayout>
+</FrameLayout>

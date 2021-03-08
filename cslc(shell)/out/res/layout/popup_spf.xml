@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/popup_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:id="@id/spf_gv" android:background="@color/white" android:padding="10.0dip" android:layout_height="wrap_content" android:listSelector="@color/transparent" android:horizontalSpacing="10.0dip" android:verticalSpacing="10.0dip" android:numColumns="3" style="@style/gridview_style" />
+    <View android:id="@id/bottom_view" style="@style/playtype_line_style" />
+</LinearLayout>

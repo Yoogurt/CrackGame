@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="320.0dip" android:layout_height="215.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bg" android:layout_width="320.0dip" android:layout_height="215.0dip" />
+    <Button android:id="@id/sound" android:background="@drawable/btnbg_soundon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="15.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <Button android:id="@id/hint" android:background="@drawable/btnbg_hinton" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:layout_marginBottom="15.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <Button android:id="@id/crazy" android:background="@drawable/btnbg_crazyon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="15.0dip" android:layout_above="@id/sound" android:layout_alignParentRight="true" />
+    <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/voucher" android:layout_width="104.0dip" android:layout_height="wrap_content" android:layout_marginLeft="138.0dip" android:layout_marginTop="27.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <Button android:id="@id/addvoucher" android:background="@drawable/btnbg_add" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="0.0dip" android:layout_marginTop="17.0dip" android:layout_toRightOf="@id/voucher" android:layout_alignParentTop="true" />
+    <Button android:id="@id/deccash" android:background="@drawable/btnbg_dec" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="69.0dip" android:layout_marginTop="77.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/startcash" android:layout_width="73.0dip" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginTop="85.0dip" android:singleLine="true" android:layout_toRightOf="@id/deccash" android:layout_alignParentTop="true" />
+    <Button android:id="@id/inccash" android:background="@drawable/btnbg_add" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="17.0dip" android:layout_marginTop="77.0dip" android:layout_toRightOf="@id/startcash" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/r2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <Button android:id="@id/ok" android:background="@drawable/btnbg_ksyx_ks" android:layout_width="50.0dip" android:layout_height="29.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <Button android:id="@id/cancel" android:background="@drawable/btnbg_ksyx_qx" android:layout_width="50.0dip" android:layout_height="29.0dip" android:layout_marginLeft="62.0dip" android:layout_toRightOf="@id/ok" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</RelativeLayout>

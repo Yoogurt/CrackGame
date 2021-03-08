@@ -1,0 +1,28 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+	<packagedDependencies>
+<packagedDependency>play-services-ads-identifier-15.0.1.jar</packagedDependency>
+<packagedDependency>play-services-base-15.0.1.jar</packagedDependency>
+<packagedDependency>play-services-basement-15.0.1.jar</packagedDependency>
+<packagedDependency>play-services-clearcut-15.0.1.jar</packagedDependency>
+<packagedDependency>play-services-flags-15.0.1.jar</packagedDependency>
+<packagedDependency>play-services-iid-15.0.1.jar</packagedDependency>
+<packagedDependency>play-services-measurement-base-15.0.4.jar</packagedDependency>
+<packagedDependency>play-services-phenotype-15.0.1.jar</packagedDependency>
+<packagedDependency>play-services-stats-15.0.1.jar</packagedDependency>
+<packagedDependency>play-services-tasks-15.0.1.jar</packagedDependency>
+	</packagedDependencies>
+	<packagedResources>
+		<packagedResource>
+			<packageName>com.google.android.gms.common</packageName> 
+			<folderName>play-services-base-15.0.1-res</folderName> 
+		</packagedResource>
+		<packagedResource>
+			<packageName>com.google.android.gms</packageName> 
+			<folderName>play-services-basement-15.0.1-res</folderName> 
+		</packagedResource>
+		<packagedResource>
+			<packageName>com.distriqt.extension.playservices.base</packageName> 
+			<folderName>distriqt-extension-playservices-base-res</folderName> 
+		</packagedResource>
+	</packagedResources>
+</platform>

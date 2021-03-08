@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="320.0dip" android:layout_height="95.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bg" android:layout_width="320.0dip" android:layout_height="95.0dip" />
+    <ImageView android:id="@id/iname" android:layout_width="75.0dip" android:layout_height="30.0dip" android:layout_marginLeft="32.0dip" android:layout_marginTop="27.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <EditText android:textSize="16.0sp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/enbr" android:background="@drawable/bg_maimai_edit" android:layout_width="80.0dip" android:layout_height="30.0dip" android:layout_marginLeft="5.0dip" android:singleLine="true" android:maxLength="9" android:layout_toRightOf="@id/iname" android:layout_alignTop="@id/iname" android:inputType="number" />
+    <TextView android:textColor="#ff000000" android:id="@id/tnote" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <Button android:id="@id/ok" android:layout_width="50.0dip" android:layout_height="29.0dip" android:layout_marginLeft="28.0dip" android:layout_toRightOf="@id/enbr" android:layout_alignTop="@id/iname" />
+    <Button android:textSize="16.0sp" android:id="@id/cancel" android:background="@drawable/btnbg_maimai_gb" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="13.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

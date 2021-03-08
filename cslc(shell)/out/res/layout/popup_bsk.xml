@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/popup_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="horizontal" android:id="@id/first_rg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <RadioButton android:id="@id/sf_btn" android:checked="false" android:text="@string/bsk_sf" style="@style/rb_popup_style" />
+        <RadioButton android:id="@id/rfsf_btn" android:text="@string/bsk_rfsf" style="@style/rb_popup_style" />
+        <RadioButton android:id="@id/sfc_btn" android:visibility="visible" android:text="@string/bsk_sfc" style="@style/rb_popup_style" />
+    </RadioGroup>
+    <RadioGroup android:orientation="horizontal" android:id="@id/second_rg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+        <RadioButton android:id="@id/dxf_btn" android:text="@string/bsk_dxf" style="@style/rb_popup_style" />
+        <RadioButton android:id="@id/hhgg_btn" android:text="@string/bsk_hhgg" style="@style/rb_popup_style" />
+        <RadioButton android:visibility="invisible" style="@style/rb_popup_style" />
+    </RadioGroup>
+    <View android:layout_marginTop="10.0dip" style="@style/playtype_line_style" />
+</LinearLayout>

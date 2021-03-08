@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.handmark.pulltorefresh.library.PullToRefreshPinnedExpandableListView android:id="@id/match_elv" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/football_bottom_view" android:layout_alignParentTop="true" style="@style/pull_expandable_list_style" />
+    <include android:id="@id/football_bottom_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/inc_jc_bottom" />
+</RelativeLayout>

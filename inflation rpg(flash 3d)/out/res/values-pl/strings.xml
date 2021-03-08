@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="abc_action_bar_home_description">Przejdź do strony głównej</string>
+    <string name="abc_action_bar_up_description">Przejdź wyżej</string>
+    <string name="abc_action_menu_overflow_description">Więcej opcji</string>
+    <string name="abc_action_mode_done">Gotowe</string>
+    <string name="abc_activity_chooser_view_see_all">Zobacz wszystkie</string>
+    <string name="abc_activitychooserview_choose_application">Wybierz aplikację</string>
+    <string name="abc_capital_off">WYŁ.</string>
+    <string name="abc_capital_on">WŁ.</string>
+    <string name="abc_search_hint">Szukaj…</string>
+    <string name="abc_searchview_description_clear">Wyczyść zapytanie</string>
+    <string name="abc_searchview_description_query">Wyszukiwane hasło</string>
+    <string name="abc_searchview_description_search">Szukaj</string>
+    <string name="abc_searchview_description_submit">Wyślij zapytanie</string>
+    <string name="abc_searchview_description_voice">Wyszukiwanie głosowe</string>
+    <string name="abc_shareactionprovider_share_with">Udostępnij dla</string>
+    <string name="abc_shareactionprovider_share_with_application">Udostępnij przez: %s</string>
+    <string name="abc_toolbar_collapse_description">Zwiń</string>
+    <string name="search_menu_title">Szukaj</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ma problem z dostępem do Usług Google Play. Spróbuj jeszcze raz.</string>
+    <string name="common_google_play_services_enable_button">Włącz</string>
+    <string name="common_google_play_services_enable_text">Aplikacja %1$s nie będzie działać, jeśli nie włączysz Usług Google Play.</string>
+    <string name="common_google_play_services_enable_title">Włącz Usługi Google Play</string>
+    <string name="common_google_play_services_install_button">Zainstaluj</string>
+    <string name="common_google_play_services_install_text">%1$s nie będzie działać, jeśli nie zainstalujesz na urządzeniu Usług Google Play.</string>
+    <string name="common_google_play_services_install_title">Pobierz Usługi Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Dostępność Usług Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Błąd Usług Google Play</string>
+    <string name="common_google_play_services_unsupported_text">%1$s nie będzie działać bez Usług Google Play, które nie są obecnie obsługiwane przez urządzenie.</string>
+    <string name="common_google_play_services_update_button">Aktualizuj</string>
+    <string name="common_google_play_services_update_text">Aplikacja %1$s nie będzie działać, jeśli nie zaktualizujesz Usług Google Play.</string>
+    <string name="common_google_play_services_update_title">Zaktualizuj Usługi Google Play</string>
+    <string name="common_google_play_services_updating_text">Aplikacja %1$s nie będzie działać bez Usług Google Play, które są obecnie aktualizowane.</string>
+    <string name="common_google_play_services_wear_update_text">Wymagana jest nowa wersja Usług Google Play. Wkrótce nastąpi automatyczna aktualizacja.</string>
+    <string name="common_open_on_phone">Otwórz na telefonie</string>
+    <string name="common_signin_button_text">Zaloguj się</string>
+    <string name="common_signin_button_text_long">Zaloguj się przez Google</string>
+    <string name="s1">Zapisz obraz</string>
+    <string name="s2">Zezwolić reklamie na zapisanie obrazu w galerii zdjęć?</string>
+    <string name="s3">Zaakceptuj</string>
+    <string name="s4">Odrzuć</string>
+    <string name="s5">Utwórz wydarzenie w kalendarzu</string>
+    <string name="s6">Zezwolić reklamie na utworzenie wydarzenia w kalendarzu?</string>
+    <string name="s7">Reklama testowa</string>
+    <string name="application_name">Adobe AIR</string>
+    <string name="flash_browser_plugin">Wtyczka Flash</string>
+    <string name="button_cancel">Anuluj</string>
+    <string name="button_continue">Kontynuuj</string>
+    <string name="button_yes">Tak</string>
+    <string name="button_no">Nie</string>
+    <string name="app_name">InflationRPG</string>
+    <string name="IDA_APP_WAITING_DEBUGGER_TITLE"><u>Adobe AIR: oczekiwanie na połączenie</u></string>
+    <string name="IDA_APP_UNABLE_LISTEN_ERROR"><u>Adobe AIR: nasłuch na porcie</u></string>
+    <string name="IDA_APP_WAITING_DEBUGGER_WARNING"><u>Aplikacja AIR oczekuje na ustanowienie połączenia przez debugger. Może to potrwać do %d s.</u></string>
+    <string name="IDA_APP_DEBUGGER_TIMEOUT_INFO">Nie można nawiązać połączenia z debuggerem.</string>
+    <string name="app_version">APP_VERSION</string>
+    <string name="button_install">Kontynuuj</string>
+    <string name="button_exit">Zakończ</string>
+    <string name="file_save_as">Zapisz jako:</string>
+    <string name="file_download">Pobieranie</string>
+    <string name="file_upload">Wysyłanie</string>
+    <string name="audio_files">Pliki audio</string>
+    <string name="image_files">Pliki obrazów</string>
+    <string name="video_files">Pliki wideo</string>
+    <string name="button_ok">OK</string>
+    <string name="empty_file_list">Nie znaleziono żadnych plików.</string>
+    <string name="title_adobe_air"><b>Adobe AIR</b></string>
+    <string name="text_runtime_required">"Ta aplikacja wymaga środowiska Adobe AIR.
+
+"</string>
+    <string name="text_install_runtime">Aby kontynuować, zainstaluj środowisko AIR na tym urządzeniu.</string>
+    <string name="text_runtime_on_external_storage">Aby kontynuować, albo zainstaluj środowisko Adobe AIR na tym urządzeniu, albo zamknij tę aplikację i przed ponownym uruchomieniem podłącz kartę SD zawierającą środowisko Adobe AIR.</string>
+    <string name="text_gamepreview_loading">Wczytywanie...</string>
+    <string name="text_gamepreview_loading_error">Nie można wczytać gry.</string>
+    <string name="text_install_gamepreview_app">Zainstaluj teraz</string>
+    <string name="text_air_missing_header">Wymagana aplikacja Adobe AIR</string>
+    <string name="text_air_missing_text">Do korzystania z podglądu gry wymagane jest zainstalowanie aplikacji Adobe AIR.</string>
+    <string name="button_install_air_from_playstore">Zainstaluj z Play Store.</string>
+    <string name="text_dont_show_again">Nie pokazuj ponownie tego komunikatu.</string>
+    <string name="IDA_CURL_SSL_SECURITY_WARNING">Ostrzeżenie dotyczące bezpieczeństwa</string>
+    <string name="IDA_CURL_INTERFACE_THISSESS">Zaufaj sesji</string>
+    <string name="IDA_CURL_INTERFACE_NOSESS">Anuluj</string>
+    <string name="IDA_CURL_INTERFACE_OK">OK</string>
+    <string name="IDA_CURL_INTERFACE_UNVERSER_2">Serwer, z którym aplikacja nawiązuje połączenie, jest niezweryfikowany.</string>
+    <string name="IDA_CURL_INTERFACE_ALLSESS">Ufaj zawsze</string>
+    <string name="IDA_CURL_INTERFACE_SERVER"><b>Serwer:</b></string>
+    <string name="IDA_CURL_INTERFACE_TRUSTSER">Czy chcesz ufać temu serwerowi i nawiązać połączenie?</string>
+    <string name="IDA_CURL_INTERFACE_CNAME_MSG">Nazwa serwera (%1$s) jest inna niż nazwa podana w certyfikacje (%2$s). Czy zaufać temu serwerowi i kontynuować?</string>
+    <string name="IDA_CURL_INTERFACE_VIEW_CERT"><u>Wyświetl certyfikat</u></string>
+    <string name="IDA_CURL_INTERFACE_CERTIFICATE_DETAILS_TITLE"><u>Szczegóły certyfikatu</u></string>
+    <string name="IDA_CERTIFICATE_DETAILS"><b>Certyfikat:</b>"
+ 
+ "<u><b>Wystawiony dla:</b></u>"
+ Nazwa ogólna:
+ %1$s
+ 
+ Organizacja:
+ %2$s
+ 
+ Jednostka organizacyjna:
+ %3$s
+ 
+ "<u><b>Wystawiony przez:</b></u>"
+ Nazwa ogólna:
+ %4$s
+ 
+ Organizacja:
+ %5$s
+ 
+ Jednostka organizacyjna:
+ %6$s
+ 
+ "<u><b>Ważność:</b></u>"
+ Data wystawienia:
+ %7$s
+ 
+ Termin ważności:
+ %8$s "</string>
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="abc_action_bar_home_description">转到主屏幕</string>
+    <string name="abc_action_bar_up_description">转到上一层级</string>
+    <string name="abc_action_menu_overflow_description">更多选项</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">选择应用</string>
+    <string name="abc_capital_off">关闭</string>
+    <string name="abc_capital_on">开启</string>
+    <string name="abc_search_hint">搜索…</string>
+    <string name="abc_searchview_description_clear">清除查询</string>
+    <string name="abc_searchview_description_query">搜索查询</string>
+    <string name="abc_searchview_description_search">搜索</string>
+    <string name="abc_searchview_description_submit">提交查询</string>
+    <string name="abc_searchview_description_voice">语音搜索</string>
+    <string name="abc_shareactionprovider_share_with">分享方式</string>
+    <string name="abc_shareactionprovider_share_with_application">使用%s分享</string>
+    <string name="abc_toolbar_collapse_description">收起</string>
+    <string name="search_menu_title">搜索</string>
+    <string name="common_google_play_services_unknown_issue">%1$s无法访问 Google Play 服务，请重试。</string>
+    <string name="common_google_play_services_enable_button">启用</string>
+    <string name="common_google_play_services_enable_text">您必须先启用 Google Play 服务，然后才能运行%1$s。</string>
+    <string name="common_google_play_services_enable_title">启用 Google Play 服务</string>
+    <string name="common_google_play_services_install_button">安装</string>
+    <string name="common_google_play_services_install_text">您的设备没有安装 Google Play 服务，因此无法运行%1$s。</string>
+    <string name="common_google_play_services_install_title">获取 Google Play 服务</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play 服务的适用范围</string>
+    <string name="common_google_play_services_notification_ticker">Google Play服务出错</string>
+    <string name="common_google_play_services_unsupported_text">您的设备不支持 Google Play 服务，因此无法运行%1$s。</string>
+    <string name="common_google_play_services_update_button">更新</string>
+    <string name="common_google_play_services_update_text">您必须先更新 Google Play 服务，然后才能运行%1$s。</string>
+    <string name="common_google_play_services_update_title">更新 Google Play 服务</string>
+    <string name="common_google_play_services_updating_text">Google Play 服务当前正在更新，因此您无法运行%1$s。</string>
+    <string name="common_google_play_services_wear_update_text">必须使用新版 Google Play 服务。该服务很快就会自行更新。</string>
+    <string name="common_open_on_phone">在手机上打开</string>
+    <string name="common_signin_button_text">登录</string>
+    <string name="common_signin_button_text_long">使用 Google 帐号登录</string>
+    <string name="s1">保存图片</string>
+    <string name="s2">允许广告将图片存储在图库中吗？</string>
+    <string name="s3">接受</string>
+    <string name="s4">拒绝</string>
+    <string name="s5">创建日历活动</string>
+    <string name="s6">允许广告创建日历活动吗？</string>
+    <string name="s7">测试广告</string>
+    <string name="application_name">Adobe AIR</string>
+    <string name="flash_browser_plugin">Flash 插件</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_continue">继续</string>
+    <string name="button_yes">是</string>
+    <string name="button_no">否</string>
+    <string name="app_name">InflationRPG</string>
+    <string name="IDA_APP_WAITING_DEBUGGER_TITLE"><u>Adobe AIR: 正在等待连接</u></string>
+    <string name="IDA_APP_UNABLE_LISTEN_ERROR"><u>Adobe AIR: 正在侦听端口</u></string>
+    <string name="IDA_APP_WAITING_DEBUGGER_WARNING"><u>AIR 应用程序正在等待调试器建立连接。最多可能需要 %d 秒钟。</u></string>
+    <string name="IDA_APP_DEBUGGER_TIMEOUT_INFO">无法连接到调试器。</string>
+    <string name="app_version">APP_VERSION</string>
+    <string name="button_install">继续</string>
+    <string name="button_exit">退出</string>
+    <string name="file_save_as">另存为:</string>
+    <string name="file_download">下载</string>
+    <string name="file_upload">上载</string>
+    <string name="audio_files">音频文件</string>
+    <string name="image_files">图像文件</string>
+    <string name="video_files">视频文件</string>
+    <string name="button_ok">确定</string>
+    <string name="empty_file_list">未找到任何文件。</string>
+    <string name="title_adobe_air"><b>Adobe AIR</b></string>
+    <string name="text_runtime_required">"此应用程序需要 Adobe AIR。
+
+"</string>
+    <string name="text_install_runtime">若要继续，请在此设备上安装 Adobe AIR。</string>
+    <string name="text_runtime_on_external_storage">若要继续，请在此设备上安装 Adobe AIR，或退出此应用程序并装入存有 Adobe AIR 的 SD 卡，然后重新启动。</string>
+    <string name="text_gamepreview_loading">正在载入...</string>
+    <string name="text_gamepreview_loading_error">无法加载游戏。</string>
+    <string name="text_install_gamepreview_app">立刻安装</string>
+    <string name="text_air_missing_header">要求 Adobe AIR</string>
+    <string name="text_air_missing_text">您需要安装 Adobe AIR，才能预览游戏。</string>
+    <string name="button_install_air_from_playstore">从 Play Store 安装。</string>
+    <string name="text_dont_show_again">不再显示此消息。</string>
+    <string name="IDA_CURL_SSL_SECURITY_WARNING">安全警告</string>
+    <string name="IDA_CURL_INTERFACE_THISSESS">信任会话</string>
+    <string name="IDA_CURL_INTERFACE_NOSESS">取消</string>
+    <string name="IDA_CURL_INTERFACE_OK">确定</string>
+    <string name="IDA_CURL_INTERFACE_UNVERSER_2">应用程序要连接的服务器未经过验证。</string>
+    <string name="IDA_CURL_INTERFACE_ALLSESS">始终信任</string>
+    <string name="IDA_CURL_INTERFACE_SERVER"><b>服务器:</b></string>
+    <string name="IDA_CURL_INTERFACE_TRUSTSER">是否信任此服务器并进行连接？</string>
+    <string name="IDA_CURL_INTERFACE_CNAME_MSG">服务器的名称 (%1$s) 与证书上的名称 (%2$s) 不符。是否信任此服务器并继续?</string>
+    <string name="IDA_CURL_INTERFACE_VIEW_CERT"><u>查看证书</u></string>
+    <string name="IDA_CURL_INTERFACE_CERTIFICATE_DETAILS_TITLE"><u>证书详细信息</u></string>
+    <string name="IDA_CERTIFICATE_DETAILS"><b>证书:</b>"
+ 
+ "<u><b>颁发给:</b></u>"
+ 常用名:
+ %1$s
+ 
+ 组织:
+ %2$s
+ 
+ 组织单位:
+ %3$s
+ 
+ "<u><b>颁发者:</b></u>"
+ 常用名:
+ %4$s
+ 
+ 组织:
+ %5$s
+ 
+ 组织单位:
+ %6$s
+ 
+ "<u><b>有效性:</b></u>"
+ 颁发日期:
+ %7$s
+ 
+ 到期日:
+ %8$s "</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_large" android:layout_marginBottom="@dimen/bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/textView" android:text="@string/client_about_info" style="@style/monitor_detail_text_style" />
+    <TextView android:id="@id/online_time_analyze_tv" android:layout_marginTop="@dimen/margin_large" android:text="@string/online_time_analyze" style="@style/monitor_detail_blue_text_style" />
+    <TextView android:id="@id/on_and_off_analyze_tv" android:layout_marginTop="@dimen/top_small" android:text="@string/on_and_off_analyze" style="@style/monitor_detail_blue_text_style" />
+</LinearLayout>

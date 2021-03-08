@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:background="@color/title_klpk3_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View style="@style/horizonal_line_style" />
+    <RelativeLayout android:orientation="horizontal" android:background="@color/bg" android:layout_width="fill_parent" android:layout_height="@dimen/lottery_height">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/append_view" android:layout_alignParentLeft="true">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/mul_left" />
+                <EditText android:enabled="true" android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:gravity="center" android:id="@id/mul_et" android:background="@drawable/et_order_sha" android:layout_width="90.0dip" android:layout_height="30.0dip" android:text="1" android:hint="1" android:selectAllOnFocus="true" android:maxLength="3" android:digits="\ 0123456789" android:inputType="number" />
+                <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/mul_right" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/num_left" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <EditText android:enabled="true" android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:gravity="center" android:id="@id/flow_et" android:background="@drawable/et_order_sha" android:layout_width="50.0dip" android:layout_height="30.0dip" android:text="1" android:hint="1" android:selectAllOnFocus="true" android:maxLength="3" android:digits="\ 0123456789" android:inputType="number" />
+                <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/num_right" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/append_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <View style="@style/vertical_line_style" />
+            <CheckBox android:id="@id/append_cb" android:visibility="gone" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:checked="false" android:text="追加投注" style="@style/cb_common_style" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View style="@style/horizonal_line_style" />
+    <RelativeLayout android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/lottery_height">
+        <Button android:id="@id/reset_btn" android:visibility="gone" android:text="@string/reset_btn" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/btn_red_wrap_bg_style" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="@dimen/text_middle" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/total_stake" />
+            <TextView android:textSize="@dimen/text_middle" android:textColor="@color/white" android:id="@id/num_tv" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/num_default" />
+            <TextView android:textSize="@dimen/text_middle" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stake_num" />
+            <TextView android:textSize="@dimen/text_middle" android:textColor="@color/yellow_font" android:id="@id/money_tv" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/money_default" />
+            <TextView android:textSize="@dimen/text_middle" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stake_money" />
+        </LinearLayout>
+        <Button android:id="@id/pay_btn" android:text="@string/pay_btn" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/btn_klpk3_stake_style" />
+    </RelativeLayout>
+</LinearLayout>

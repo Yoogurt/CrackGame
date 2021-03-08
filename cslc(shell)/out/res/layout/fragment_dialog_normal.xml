@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/dialog_white_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_big" android:textStyle="bold" android:textColor="@color/dark_font" android:gravity="center" android:id="@id/title_tv" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+    <TextView android:textSize="@dimen/text_middle" android:textColor="@color/dark_font" android:gravity="center" android:id="@id/content_tv" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="20.0dip" android:minHeight="30.0dip" />
+    <View android:background="#ffbcbcbc" style="@style/horizonal_line_style" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/text_big" android:textColor="@color/dialog_font_cancel_sel" android:id="@id/cancel_btn" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_btn_height" android:text="@string/cancel" android:layout_weight="1.0" />
+        <View android:id="@id/line_view" android:background="#ffbcbcbc" style="@style/vertical_line_style" />
+        <Button android:textSize="@dimen/text_big" android:textColor="@color/dialog_font_sure_sel" android:id="@id/sure_btn" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_btn_height" android:text="@string/sure" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

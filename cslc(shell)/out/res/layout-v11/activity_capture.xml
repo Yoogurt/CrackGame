@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:layout_gravity="center" android:id="@id/sv_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/scan_rl" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.cslc.playlot.third.zxing.view.CaptureView android:id="@id/cv_capture" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <Button android:id="@id/switch_input_btn" android:visibility="gone" android:text="@string/switch_input_way" android:layout_centerInParent="true" android:alpha="0.6" style="@style/btn_scan_bg" />
+    </RelativeLayout>
+    <include layout="@layout/inc_nor_title" />
+    <LinearLayout android:orientation="vertical" android:id="@id/input_layout" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:background="@drawable/qrcode_input_frame" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="200.0dip" android:layout_marginRight="30.0dip">
+            <EditText android:textSize="@dimen/text_middle" android:id="@id/lottery_sn_et" android:background="@color/white" android:paddingLeft="5.0dip" android:paddingTop="3.0dip" android:paddingRight="5.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:hint="@string/hint_intput_lottery_sn" android:singleLine="true" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip">
+            <LinearLayout android:orientation="horizontal" android:id="@id/switch_scan_ll" android:alpha="0.6" style="@style/btn_scan_bg">
+                <ImageView android:background="@drawable/qrcode_scan_icon" android:layout_width="24.0dip" android:layout_height="22.0dip" />
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/switch_scan_way" />
+            </LinearLayout>
+            <Button android:id="@id/ok_btn" android:minWidth="110.0dip" android:text="@string/sure" android:layout_alignParentRight="true" android:alpha="0.6" style="@style/btn_scan_bg" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

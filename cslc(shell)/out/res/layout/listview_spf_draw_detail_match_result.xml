@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="@dimen/padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/round_times_tv" android:text="@string/round_times" style="@style/spf_history_detail_match_result_content" />
+    <TextView android:id="@id/home_team_tv" android:text="@string/home_team" style="@style/spf_history_detail_match_result_content" />
+    <TextView android:id="@id/lottery_result_tv" android:text="@string/lottery_result" style="@style/spf_history_detail_match_result_content" />
+    <TextView android:id="@id/away_team_tv" android:text="@string/away_team" style="@style/spf_history_detail_match_result_content" />
+</LinearLayout>

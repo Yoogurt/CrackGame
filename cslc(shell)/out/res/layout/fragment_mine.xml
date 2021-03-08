@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/inc_nor_title" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:background="@drawable/mine_bg" android:layout_width="fill_parent" android:layout_height="150.0dip">
+                <ImageView android:id="@id/logo_iv" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginLeft="30.0dip" android:src="@drawable/mine_logo" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:layout_toRightOf="@id/logo_iv" android:layout_centerVertical="true">
+                    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                        <TextView android:textSize="@dimen/text_middle" android:textColor="@color/dark_font" android:gravity="center" android:id="@id/mine_phone_tv" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textSize="@dimen/text_tiny" android:textStyle="bold|italic" android:textColor="@color/leval_font" android:id="@id/level_tv" android:background="@drawable/leval_bg" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin" android:singleLine="true" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                        <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="@color/red_font" android:id="@id/score_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textSize="30.0sp" android:id="@id/session_score_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <View android:layout_marginTop="@dimen/top" style="@style/horizonal_line_style" />
+            <LinearLayout android:gravity="center" android:background="@color/white" android:paddingTop="@dimen/padding" android:paddingBottom="@dimen/padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:layout_gravity="center" android:id="@id/my_pocket_btn" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/my_pocket" android:drawableTop="@drawable/my_pocket" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+                <View android:paddingTop="5.0dip" android:paddingBottom="5.0dip" style="@style/vertical_line_style" />
+                <Button android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:id="@id/scan_btn" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/scan" android:drawableTop="@drawable/scan" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+                <View android:paddingTop="5.0dip" android:paddingBottom="5.0dip" style="@style/vertical_line_style" />
+                <FrameLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/unsign_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/unsign_iv" android:layout_width="80.0dip" android:layout_height="wrap_content" android:src="@drawable/unsign" />
+                        <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:layout_gravity="bottom|center" android:id="@id/sign_rules_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/sign_rules" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/signed_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/sign_days" />
+                        <TextView android:textSize="@dimen/text_middle" android:textColor="#ffe95e10" android:id="@id/sign_in_days_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="200" />
+                        <ImageView android:id="@id/signed_iv" android:layout_width="80.0dip" android:layout_height="wrap_content" android:src="@drawable/signed" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <View style="@style/horizonal_line_style" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                <RelativeLayout android:id="@id/mine_monitor_view" android:background="@drawable/btn_bg_sel" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/item_height">
+                    <ImageView android:id="@id/mine_easypos_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:src="@drawable/mine_monitor_runtime" android:layout_centerVertical="true" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:layout_toRightOf="@id/mine_easypos_iv" android:layout_centerVertical="true">
+                        <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/runtime_monitor" />
+                        <ImageView android:id="@id/mine_easypos_red_iv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:src="@drawable/ic_red_dot" />
+                        <TextView android:textSize="@dimen/text_small" android:textColor="@color/red_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/runtime_monitor_desc" />
+                    </LinearLayout>
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin" android:src="@drawable/arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View style="@style/horizonal_line_style" />
+                <RelativeLayout android:id="@id/mine_buy_view" android:background="@drawable/btn_bg_sel" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/item_height">
+                    <ImageView android:id="@id/mine_buy_history" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:src="@drawable/mine_buy_history" android:layout_centerVertical="true" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:layout_toRightOf="@id/mine_buy_history" android:layout_centerVertical="true">
+                        <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_buy_history" />
+                        <ImageView android:id="@id/mine_buy_iv" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:src="@drawable/ic_red_dot" />
+                    </LinearLayout>
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin" android:src="@drawable/arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View android:visibility="gone" style="@style/horizonal_line_style" />
+                <RelativeLayout android:id="@id/mine_select_view" android:background="@drawable/btn_bg_sel" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/item_height">
+                    <ImageView android:id="@id/mine_select_history" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:src="@drawable/mine_select_history" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:text="@string/mine_select_history" android:layout_toRightOf="@id/mine_select_history" android:layout_centerVertical="true" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin" android:src="@drawable/arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/mine_owner_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                <RelativeLayout android:id="@id/mine_report_view" android:background="@drawable/btn_bg_sel" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/item_height">
+                    <ImageView android:id="@id/report_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:src="@drawable/mine_report" android:layout_centerVertical="true" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:layout_toRightOf="@id/report_iv" android:layout_centerVertical="true">
+                        <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_report" />
+                        <TextView android:textSize="@dimen/text_small" android:textColor="@color/red_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_report_desc" />
+                    </LinearLayout>
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin" android:src="@drawable/arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View android:id="@id/report_line_view" style="@style/horizonal_line_style" />
+                <RelativeLayout android:id="@id/mine_terminal_view" android:background="@drawable/btn_bg_sel" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/item_height">
+                    <ImageView android:id="@id/terminal_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:src="@drawable/mine_terminal" android:layout_centerVertical="true" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:layout_toRightOf="@id/terminal_iv" android:layout_centerVertical="true">
+                        <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_terminal" />
+                        <TextView android:textSize="@dimen/text_small" android:textColor="@color/red_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_terminal_desc" />
+                    </LinearLayout>
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin" android:src="@drawable/arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View android:id="@id/terminal_line_view" style="@style/horizonal_line_style" />
+                <RelativeLayout android:id="@id/survey_view" android:background="@drawable/btn_bg_sel" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/item_height">
+                    <ImageView android:id="@id/survey_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:src="@drawable/mine_survey" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:text="@string/survey" android:layout_toRightOf="@id/survey_iv" android:layout_centerVertical="true" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin" android:src="@drawable/arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View android:id="@id/survey_line_view" style="@style/horizonal_line_style" />
+                <RelativeLayout android:id="@id/train_view" android:background="@drawable/btn_bg_sel" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/item_height">
+                    <ImageView android:id="@id/train_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:src="@drawable/mine_train" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:text="@string/train" android:layout_toRightOf="@id/train_iv" android:layout_centerVertical="true" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin" android:src="@drawable/arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                <RelativeLayout android:id="@id/feedback_view" android:background="@drawable/btn_bg_sel" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/item_height">
+                    <ImageView android:id="@id/feedback_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:src="@drawable/mine_feedback" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:text="@string/feedback" android:layout_toRightOf="@id/feedback_iv" android:layout_centerVertical="true" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin" android:src="@drawable/arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View style="@style/horizonal_line_style" />
+                <RelativeLayout android:id="@id/mine_app_view" android:background="@drawable/btn_bg_sel" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/item_height">
+                    <ImageView android:id="@id/mine_recommend_app" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:src="@drawable/mine_recommend_app" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:text="@string/mine_recommend_app" android:layout_toRightOf="@id/mine_recommend_app" android:layout_centerVertical="true" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin" android:src="@drawable/arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View style="@style/horizonal_line_style" />
+                <RelativeLayout android:id="@id/mine_msg_view" android:background="@drawable/btn_bg_sel" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/item_height">
+                    <ImageView android:id="@id/mine_msg_app" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:src="@drawable/mine_msg_center" android:layout_centerVertical="true" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:layout_toRightOf="@id/mine_msg_app" android:layout_centerVertical="true">
+                        <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_msg_app" />
+                        <ImageView android:id="@id/mine_msg_iv" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:src="@drawable/ic_red_dot" />
+                    </LinearLayout>
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin" android:src="@drawable/arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View style="@style/horizonal_line_style" />
+                <RelativeLayout android:id="@id/mine_setting_view" android:background="@drawable/btn_bg_sel" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/item_height">
+                    <ImageView android:id="@id/mine_setting_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:src="@drawable/mine_setting" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:layout_gravity="center_vertical" android:id="@id/mine_setting_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:text="@string/mine_setting" android:layout_toRightOf="@id/mine_setting_iv" android:layout_centerVertical="true" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin" android:src="@drawable/arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View style="@style/horizonal_line_style" />
+            <RelativeLayout android:id="@id/mine_version_view" android:background="@drawable/btn_bg_sel" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/item_height" android:layout_marginTop="@dimen/top">
+                <ImageView android:id="@id/mine_app_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:src="@drawable/mine_app_versions" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:layout_gravity="center_vertical" android:id="@id/mine_version_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:text="@string/mine_app_version" android:layout_toRightOf="@id/mine_app_version" android:layout_centerVertical="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin" android:src="@drawable/arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <Button android:textSize="@dimen/text_big" android:textColor="@color/red" android:id="@id/mine_logout_btn" android:background="@drawable/btn_bg_sel" android:layout_width="fill_parent" android:layout_height="@dimen/item_height" android:layout_marginTop="@dimen/top" android:text="@string/mine_logout" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

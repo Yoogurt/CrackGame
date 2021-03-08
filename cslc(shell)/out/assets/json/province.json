@@ -1,0 +1,129 @@
+{
+  "content": [
+    {
+      "provName": "北京",
+      "provId": "11"
+    },
+    {
+      "provName": "天津",
+      "provId": "12"
+    },
+    {
+      "provName": "河北",
+      "provId": "13"
+    },
+    {
+      "provName": "山西",
+      "provId": "14"
+    },
+    {
+      "provName": "内蒙古",
+      "provId": "15"
+    },
+    {
+      "provName": "辽宁",
+      "provId": "21"
+    },
+    {
+      "provName": "吉林",
+      "provId": "22"
+    },
+    {
+      "provName": "黑龙江",
+      "provId": "23"
+    },
+    {
+      "provName": "上海",
+      "provId": "31"
+    },
+    {
+      "provName": "江苏",
+      "provId": "32"
+    },
+    {
+      "provName": "浙江",
+      "provId": "33"
+    },
+    {
+      "provName": "安徽",
+      "provId": "34"
+    },
+    {
+      "provName": "福建",
+      "provId": "35"
+    },
+    {
+      "provName": "江西",
+      "provId": "36"
+    },
+    {
+      "provName": "山东",
+      "provId": "37"
+    },
+    {
+      "provName": "河南",
+      "provId": "41"
+    },
+    {
+      "provName": "湖北",
+      "provId": "42"
+    },
+    {
+      "provName": "湖南",
+      "provId": "43"
+    },
+    {
+      "provName": "广东",
+      "provId": "44"
+    },
+    {
+      "provName": "广西",
+      "provId": "45"
+    },
+    {
+      "provName": "海南",
+      "provId": "46"
+    },
+    {
+      "provName": "重庆",
+      "provId": "50"
+    },
+    {
+      "provName": "四川",
+      "provId": "51"
+    },
+    {
+      "provName": "贵州",
+      "provId": "52"
+    },
+    {
+      "provName": "云南",
+      "provId": "53"
+    },
+    {
+      "provName": "西藏",
+      "provId": "54"
+    },
+    {
+      "provName": "陕西",
+      "provId": "61"
+    },
+    {
+      "provName": "甘肃",
+      "provId": "62"
+    },
+    {
+      "provName": "青海",
+      "provId": "63"
+    },
+    {
+      "provName": "宁夏",
+      "provId": "64"
+    },
+    {
+      "provName": "新疆",
+      "provId": "65"
+    }
+  ],
+  "status": "200"
+}

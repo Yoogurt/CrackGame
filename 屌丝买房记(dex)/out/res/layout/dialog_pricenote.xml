@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#00ffffff" android:layout_width="173.0dip" android:layout_height="225.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bg" android:layout_width="173.0dip" android:layout_height="225.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/tnote" android:layout_width="140.0dip" android:layout_height="wrap_content" android:layout_marginTop="45.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

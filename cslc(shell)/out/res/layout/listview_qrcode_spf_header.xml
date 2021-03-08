@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+        <TextView android:textSize="@dimen/text_big" android:textColor="@color/red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/session_total" />
+        <TextView android:textSize="28.0sp" android:textColor="@color/red" android:id="@id/money_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+        <TextView android:textSize="@dimen/text_big" android:textColor="@color/red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/session_yuan" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_middle" android:textColor="@color/light_font" android:layout_gravity="center_horizontal" android:id="@id/count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/ticket_number_tv" />
+    <TextView android:textSize="@dimen/text_middle" android:textColor="@color/light_font" android:layout_gravity="center_horizontal" android:id="@id/mobile_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="" />
+    <TextView android:textSize="@dimen/text_middle" android:textColor="@color/red" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/to_lottery_shop_tips" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <com.cslc.playlot.view.GestureImageView android:layout_gravity="center_horizontal" android:id="@id/qrcode_iv" android:background="@drawable/qrcode_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="matrix" android:layout_centerInParent="true" app:imageWidth="@dimen/qrcode_min_wh" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/text_big" android:layout_gravity="center_horizontal" android:id="@id/method_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="" />
+    <com.cslc.playlot.view.SPFHeaderView android:id="@id/spf_header_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="10.0dip" />
+</LinearLayout>

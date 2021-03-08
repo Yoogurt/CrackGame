@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/inc_scan_result_top" />
+        <include layout="@layout/inc_scan_result_lt" />
+        <include layout="@layout/inc_scan_result_bottom" />
+    </LinearLayout>
+</ScrollView>

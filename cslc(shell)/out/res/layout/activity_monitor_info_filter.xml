@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/header_view" layout="@layout/inc_nor_title" />
+    <RelativeLayout android:id="@id/bottom_view" android:background="@color/black_bg" android:padding="@dimen/et_padding" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/text_title" android:textColor="@color/white" android:id="@id/save_btn" android:background="@drawable/btn_monitor_blue_nor_sha" android:paddingLeft="@dimen/padding_large" android:paddingRight="@dimen/padding_large" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/sure" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_view" android:layout_below="@id/header_view" android:layout_alignParentLeft="true">
+        <LinearLayout android:orientation="vertical" android:background="@color/popup_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:gravity="center_vertical" android:background="@color/gray_bg" android:paddingLeft="@dimen/left" android:layout_width="fill_parent" android:layout_height="@dimen/item_title_height" android:text="@string/quick_filter" />
+            <LinearLayout android:orientation="vertical" android:padding="@dimen/padding" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/exception_status" style="@style/monitor_item_middle_title_style" />
+                <RadioGroup android:orientation="horizontal" android:id="@id/ex_rg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                    <RadioButton android:id="@id/ex_read_rb" android:checked="true" android:text="@string/only_unread" style="@style/monitor_filter_rb_style" />
+                    <RadioButton android:id="@id/ex_fix_rb" android:text="@string/only_unfix" style="@style/monitor_filter_rb_style" />
+                    <RadioButton android:id="@id/ex_star_rb" android:text="@string/only_star" style="@style/monitor_filter_rb_style" />
+                    <RadioButton android:id="@id/ex_all_rb" android:text="@string/all" style="@style/monitor_filter_rb_style" />
+                </RadioGroup>
+                <TextView android:layout_marginTop="@dimen/top" android:text="@string/focus_status" style="@style/monitor_item_middle_title_style" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+                    <RadioGroup android:orientation="horizontal" android:id="@id/focus_rg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top" android:layout_weight="1.0">
+                        <RadioButton android:id="@id/focus_my_rb" android:checked="true" android:text="@string/my_focus" style="@style/monitor_filter_rb_style" />
+                        <RadioButton android:id="@id/focus_all_rb" android:text="@string/all" style="@style/monitor_filter_rb_style" />
+                    </RadioGroup>
+                </LinearLayout>
+                <TextView android:layout_marginTop="@dimen/top" android:text="@string/date_range" style="@style/monitor_item_middle_title_style" />
+                <RadioGroup android:orientation="horizontal" android:id="@id/date_rg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                    <RadioButton android:id="@id/date_today_rb" android:checked="true" android:text="@string/today" style="@style/monitor_filter_rb_style" />
+                    <RadioButton android:id="@id/date_week_rb" android:text="@string/this_week" style="@style/monitor_filter_rb_style" />
+                    <RadioButton android:id="@id/date_month_rb" android:text="@string/this_month" style="@style/monitor_filter_rb_style" />
+                    <RadioButton android:id="@id/date_all_rb" android:text="@string/all" style="@style/monitor_filter_rb_style" />
+                </RadioGroup>
+            </LinearLayout>
+            <RelativeLayout android:id="@id/custom_rl" android:background="@color/gray_bg" android:padding="@dimen/padding" android:layout_width="fill_parent" android:layout_height="@dimen/item_title_height" android:layout_marginTop="@dimen/top">
+                <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/custom_filter" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/arrow_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_down_grey" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/bottom_custom_ll" android:padding="@dimen/padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_marginTop="@dimen/top" android:text="@string/start_date" style="@style/monitor_item_custom_title_style" />
+                    <TextView android:id="@id/start_date_tv" android:clickable="true" android:text="" style="@style/monitor_filter_et_style" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                    <TextView android:layout_marginTop="@dimen/top" android:text="@string/end_date" style="@style/monitor_item_custom_title_style" />
+                    <TextView android:id="@id/end_date_tv" android:clickable="true" style="@style/monitor_filter_et_style" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                    <TextView android:layout_marginTop="@dimen/top" android:text="@string/client_no" style="@style/monitor_item_custom_title_style" />
+                    <EditText android:id="@id/client_no_et" android:clickable="true" style="@style/monitor_filter_et_style" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                    <TextView android:layout_marginTop="@dimen/top" android:text="@string/client_manager" style="@style/monitor_item_custom_title_style" />
+                    <EditText android:id="@id/client_manager_et" android:clickable="true" style="@style/monitor_filter_et_style" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

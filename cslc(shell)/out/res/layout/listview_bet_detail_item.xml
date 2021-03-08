@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/bet_item_bg" android:paddingBottom="@dimen/bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:id="@id/prize_ib" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/icon_prize" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <RelativeLayout android:id="@id/top_view" android:paddingLeft="8.0dip" android:paddingTop="5.0dip" android:paddingRight="8.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/page_bg_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/page_bg" />
+        <TextView android:textSize="@dimen/text_big" android:textStyle="bold|italic" android:textColor="@color/white" android:gravity="center" android:id="@id/page_num_tv" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/page_bg_iv" android:layout_alignTop="@id/page_bg_iv" android:layout_alignRight="@id/page_bg_iv" android:layout_alignBottom="@id/page_bg_iv" />
+        <TextView android:textSize="@dimen/text_middle" android:textColor="@color/dark_font" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/bet_title_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bet_item_title_tv" android:layout_toRightOf="@id/page_bg_iv" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <android.support.v7.widget.GridLayout android:id="@id/grid_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/top_view" app:orientation="vertical" app:rowCount="6" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/bottom_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:background="#ffd3d2d6" android:layout_height="2.0dip" style="@style/horizonal_line_style" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:layout_marginTop="@dimen/top" android:layout_marginRight="@dimen/right">
+            <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bet_drawid_title_tv" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:id="@id/bet_drawid_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bet_drawid_tv" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/bet_prize_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:layout_marginTop="5.0dip" android:layout_marginRight="@dimen/right">
+            <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bet_prize_title_tv" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:id="@id/bet_prize_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:layout_marginTop="5.0dip" android:layout_marginRight="@dimen/right">
+            <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:id="@id/station_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bet_station_title_tv" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:id="@id/bet_station_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="" android:layout_toRightOf="@id/station_title_tv" />
+            <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:id="@id/bet_sell_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:layout_marginTop="5.0dip" android:layout_marginRight="@dimen/right">
+            <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bet_total_title_tv" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:id="@id/bet_number_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bet_money_tv" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

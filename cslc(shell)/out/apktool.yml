@@ -1,0 +1,25 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: base.apk
+compressionType: false
+doNotCompress:
+- arsc
+- jar
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '9'
+  targetSdkVersion: '19'
+sharedLibrary: false
+unknownFiles:
+  com/sina/weibo/sdk/net/cacert_cn.cer: '8'
+  com/sina/weibo/sdk/net/cacert_com.cer: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: null
+versionInfo:
+  versionCode: '36'
+  versionName: 1.9.0

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/layout_draw_detail_gray_sha" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/padding" android:paddingBottom="@dimen/padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/pool_balance14_ll" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/spf14_draw_sales_title_tv" android:text="@string/spf14_draw_sales" style="@style/spf_history_detail_title" />
+                <TextView android:text="@string/dlt_draw_jackpot" style="@style/spf_history_detail_title" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                <TextView android:textColor="@color/red_font" android:id="@id/spf14_total_sale_tv" android:text="- -" style="@style/spf_history_detail_title" />
+                <TextView android:textColor="@color/red_font" android:id="@id/spf14_pool_balance_tv" android:text="- -" style="@style/spf_history_detail_title" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/pool_balance9_ll" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                <TextView android:id="@id/spf9_draw_sales_title_tv" android:text="@string/spf9_draw_sales" style="@style/spf_history_detail_title" />
+                <TextView android:text="@string/dlt_draw_jackpot" style="@style/spf_history_detail_title" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                <TextView android:textColor="@color/red_font" android:id="@id/spf9_total_sale_tv" android:text="- -" style="@style/spf_history_detail_title" />
+                <TextView android:textColor="@color/red_font" android:id="@id/spf9_pool_balance_tv" android:text="- -" style="@style/spf_history_detail_title" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/white" android:padding="@dimen/padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/history_title_left_width" />
+        <TextView android:textSize="@dimen/text_small" android:text="@string/spf_draw_level" style="@style/spf_history_detail_title" />
+        <TextView android:textSize="@dimen/text_small" android:text="@string/dlt_draw_stake_cnt" style="@style/spf_history_detail_title" />
+        <TextView android:textSize="@dimen/text_small" android:text="@string/dlt_draw_money" style="@style/spf_history_detail_title" />
+    </LinearLayout>
+    <View android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/spf14_result_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="center" android:id="@id/spf14_result_title_tv" android:minWidth="@dimen/history_title_left_width" android:text="@string/spf14_title_vertical" style="@style/spf_history_detail_content" />
+        <ImageView android:background="@color/gray_line" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <com.cslc.playlot.view.ScrollListView android:layout_gravity="center_vertical" android:id="@id/spf14_level_lv" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/spf9_result_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="center" android:minWidth="@dimen/history_title_left_width" android:text="@string/spf9_title_vertical" style="@style/spf_history_detail_content" />
+        <ImageView android:background="@color/gray_line" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <com.cslc.playlot.view.ScrollListView android:layout_gravity="center_vertical" android:id="@id/spf9_level_lv" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

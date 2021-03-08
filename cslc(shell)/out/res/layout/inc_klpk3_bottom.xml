@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:background="@color/title_klpk3_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:visibility="gone" style="@style/horizonal_line_style" />
+    <RelativeLayout android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/lottery_height">
+        <Button android:id="@id/reset_btn" android:text="@string/reset_btn" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/btn_klpk3_reset_style" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="@dimen/text_middle" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/total_stake" />
+            <TextView android:textSize="@dimen/text_middle" android:textColor="@color/white" android:id="@id/num_tv" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/num_default" />
+            <TextView android:textSize="@dimen/text_middle" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stake_num" />
+            <TextView android:textSize="@dimen/text_middle" android:textColor="@color/klpk3_yellow" android:id="@id/money_tv" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/money_default" />
+            <TextView android:textSize="@dimen/text_middle" android:textColor="@color/klpk3_yellow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stake_money" />
+        </LinearLayout>
+        <Button android:id="@id/stake_btn" android:text="@string/stake_btn" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/btn_klpk3_stake_style" />
+    </RelativeLayout>
+</LinearLayout>

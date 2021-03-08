@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/klpk3_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:id="@id/random_btn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/random_klpk3" android:layout_alignParentRight="true" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bottom_view" android:layout_below="@id/random_btn">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/left" android:paddingRight="@dimen/right" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView style="@style/tv_klpk3_prompt_style" />
+            <TextView android:id="@id/prompt1_tv" style="@style/tv_klpk3_prompt_style" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/dm_a_view" android:tag="01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="0" />
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/dm_2_view" android:tag="02" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="1" />
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/dm_3_view" android:tag="03" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="2" />
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/dm_4_view" android:tag="04" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="3" />
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/dm_5_view" android:tag="05" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="4" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/dm_6_view" android:tag="06" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="5" />
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/dm_7_view" android:tag="07" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="6" />
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/dm_8_view" android:tag="08" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="7" />
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/dm_9_view" android:tag="09" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="8" />
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/dm_10_view" android:tag="10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="9" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/dm_j_view" android:tag="11" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="10" />
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/dm_q_view" android:tag="12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="11" />
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/dm_k_view" android:tag="13" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="12" />
+                <com.cslc.playlot.view.KLPK3StakeView android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="12" />
+                <com.cslc.playlot.view.KLPK3StakeView android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="12" />
+            </LinearLayout>
+            <TextView android:id="@id/prompt2_tv" style="@style/tv_klpk3_prompt_style" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/tm_a_view" android:tag="01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="0" />
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/tm_2_view" android:tag="02" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="1" />
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/tm_3_view" android:tag="03" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="2" />
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/tm_4_view" android:tag="04" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="3" />
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/tm_5_view" android:tag="05" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="4" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/tm_6_view" android:tag="06" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="5" />
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/tm_7_view" android:tag="07" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="6" />
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/tm_8_view" android:tag="08" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="7" />
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/tm_9_view" android:tag="09" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="8" />
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/tm_10_view" android:tag="10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="9" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/tm_j_view" android:tag="11" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="10" />
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/tm_q_view" android:tag="12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="11" />
+                <com.cslc.playlot.view.KLPK3StakeView android:id="@id/tm_k_view" android:tag="13" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="12" />
+                <com.cslc.playlot.view.KLPK3StakeView android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="12" />
+                <com.cslc.playlot.view.KLPK3StakeView android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:type="12" app:num="12" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include android:id="@id/bottom_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/inc_klpk3_bottom" />
+</RelativeLayout>

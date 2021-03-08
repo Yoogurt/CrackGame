@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingLeft="@dimen/left" android:paddingTop="@dimen/top" android:paddingRight="@dimen/right" android:paddingBottom="@dimen/bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/draw_cb" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:id="@id/lottery_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="超级大乐透" />
+        <TextView android:textSize="@dimen/text_middle" android:textColor="@color/light_font" android:id="@id/desc_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="每周一、三、六开奖" />
+    </LinearLayout>
+    <CheckBox android:id="@id/draw_cb" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/cb_switch_style" />
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+	<id>com.distriqt.playservices.Drive</id>
+	<versionNumber>15.0.1</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.playservices.drive.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.playservices.drive.DriveExtension</initializer>
+				<finalizer>com.distriqt.extension.playservices.drive.DriveExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.playservices.drive.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.playservices.drive.DriveExtension</initializer>
+				<finalizer>com.distriqt.extension.playservices.drive.DriveExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libPlayServicesDrive.a</nativeLibrary>
+				<initializer>PlayServicesDriveExtInitializer</initializer>
+				<finalizer>PlayServicesDriveExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-x86">
+			<applicationDeployment>
+				<nativeLibrary>libPlayServicesDrive.a</nativeLibrary>
+				<initializer>PlayServicesDriveExtInitializer</initializer>
+				<finalizer>PlayServicesDriveExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="default"> 
+			<applicationDeployment /> 
+		</platform>
+	</platforms>
+</extension>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="#ff115d7f" android:paddingTop="@dimen/bottom" android:paddingBottom="@dimen/top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <RadioGroup android:orientation="horizontal" android:id="@id/first_rg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.cslc.playlot.view.MulTextRadioButton android:id="@id/bx_rb" android:checked="true" app:text="@string/title_klpk3_pop_bx" app:index="3" style="@style/rb_popup_klpk3_style" />
+            <com.cslc.playlot.view.MulTextRadioButton android:id="@id/cdz_rb" app:text="@string/title_klpk3_pop_cdz" app:index="3" style="@style/rb_popup_klpk3_style" />
+            <com.cslc.playlot.view.MulTextRadioButton android:id="@id/cbz_rb" app:text="@string/title_klpk3_pop_cbz" app:index="3" style="@style/rb_popup_klpk3_style" />
+        </RadioGroup>
+        <RadioGroup android:orientation="horizontal" android:id="@id/second_rg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <com.cslc.playlot.view.MulTextRadioButton android:id="@id/cth_rb" app:text="@string/title_klpk3_pop_cth" app:index="3" style="@style/rb_popup_klpk3_style" />
+            <com.cslc.playlot.view.MulTextRadioButton android:id="@id/csz_rb" app:text="@string/title_klpk3_pop_csz" app:index="3" style="@style/rb_popup_klpk3_style" />
+            <com.cslc.playlot.view.MulTextRadioButton android:id="@id/cths_rb" app:text="@string/title_klpk3_pop_cths" app:index="3" style="@style/rb_popup_klpk3_style" />
+        </RadioGroup>
+        <RadioGroup android:orientation="horizontal" android:id="@id/third_rg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <com.cslc.playlot.view.MulTextRadioButton android:enabled="true" android:id="@id/rx1_rb" app:text="@string/title_klpk3_pop_rx1" app:index="2" style="@style/rb_popup_klpk3_style" />
+            <com.cslc.playlot.view.MulTextRadioButton android:enabled="true" android:id="@id/rx2_rb" app:text="@string/title_klpk3_pop_rx2" app:index="2" style="@style/rb_popup_klpk3_style" />
+            <com.cslc.playlot.view.MulTextRadioButton android:enabled="true" android:id="@id/rx3_rb" app:text="@string/title_klpk3_pop_rx3" app:index="2" style="@style/rb_popup_klpk3_style" />
+        </RadioGroup>
+        <RadioGroup android:orientation="horizontal" android:id="@id/fourth_rg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <com.cslc.playlot.view.MulTextRadioButton android:enabled="true" android:id="@id/rx4_rb" app:text="@string/title_klpk3_pop_rx4" app:index="2" style="@style/rb_popup_klpk3_style" />
+            <com.cslc.playlot.view.MulTextRadioButton android:enabled="true" android:id="@id/rx5_rb" app:text="@string/title_klpk3_pop_rx5" app:index="2" style="@style/rb_popup_klpk3_style" />
+            <com.cslc.playlot.view.MulTextRadioButton android:enabled="true" android:id="@id/rx6_rb" app:text="@string/title_klpk3_pop_rx6" app:index="2" style="@style/rb_popup_klpk3_style" />
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/top_view" layout="@layout/inc_nor_title" />
+    <com.cslc.playlot.view.DragTopLayout android:id="@id/drag_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:dtlOverDrag="false" app:dtlOpen="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.cslc.playlot.view.LinearListView android:orientation="vertical" android:id="@id/linear_lv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:background="#ffd2d1cc" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/drag_btn" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_draw_down" />
+            <LinearLayout android:orientation="vertical" android:id="@id/fragment_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </com.cslc.playlot.view.DragTopLayout>
+</LinearLayout>

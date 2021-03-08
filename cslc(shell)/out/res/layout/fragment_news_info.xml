@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/inc_nor_title" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.cslc.playlot.view.PagerSlidingTabStrip android:id="@id/tab_strip" android:background="@color/tips_head_bg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_toLeftOf="@id/arrow_iv" android:layout_alignParentLeft="true" app:pstsTextSize="16.0sp" app:pstsTextColor="#ffba9f4b" app:pstsCurrentTextColor="#ffc02c35" app:pstsIndicatorColor="#ffc02c35" app:pstsUnderlineColor="#ff999999" app:pstsIndicatorHeight="2.0dip" app:pstsUnderlineHeight="0.0dip" app:pstsTabPaddingLeftRight="10.0dip" />
+            <View android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+            <android.support.v4.view.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_middle" android:textColor="@color/light_font" android:gravity="center" android:layout_gravity="center" android:id="@id/no_data_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_query_datas" android:lineSpacingMultiplier="1.2" />
+    </FrameLayout>
+</LinearLayout>

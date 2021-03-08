@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rbgbig" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bgbig" android:background="@drawable/blank" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/rbg" android:layout_width="265.0dip" android:layout_height="193.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/bg" android:layout_width="265.0dip" android:layout_height="193.0dip" />
+        <Button android:id="@id/ok" android:background="@drawable/btnbg_zjsj" android:layout_width="175.0dip" android:layout_height="44.0dip" android:layout_marginTop="69.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <Button android:id="@id/close" android:background="@drawable/btnbg_zjsj_gb" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="7.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/note" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginBottom="17.0dip" android:text="买房代金券余额：59282754" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        <Button android:id="@id/addvoucher" android:background="@drawable/btnbg_add" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="40.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/timeleft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="17.0dip" android:text="剩余可加时次数： 5次" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/note2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="49.0dip" android:text="就差一点点咯， 再赚把大的" android:singleLine="true" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:id="@id/note3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="111.0dip" android:layout_marginTop="114.0dip" android:text="消耗买房代金券5万" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="285.0dip" android:layout_height="135.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bg" android:layout_width="285.0dip" android:layout_height="135.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="#ffd9402f" android:id="@id/ttitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginTop="14.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/tnote" android:layout_width="243.0dip" android:layout_height="wrap_content" android:layout_marginTop="34.0dip" android:text="    你觉得屌丝买房记怎么样？ 适合上厕所时来一下吗？ 去给我们一个评价吧！" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <Button android:id="@id/ok" android:background="@drawable/btnbg_xwpj_ok" android:layout_width="70.0dip" android:layout_height="35.0dip" android:layout_marginLeft="54.0dip" android:layout_marginTop="87.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <Button android:id="@id/no" android:background="@drawable/btnbg_xwpj_no" android:layout_width="70.0dip" android:layout_height="35.0dip" android:layout_marginRight="54.0dip" android:layout_alignTop="@id/ok" android:layout_alignParentRight="true" />
+</RelativeLayout>

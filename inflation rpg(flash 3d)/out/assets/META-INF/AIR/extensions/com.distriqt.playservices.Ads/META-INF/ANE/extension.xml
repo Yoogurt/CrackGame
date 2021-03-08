@@ -1,0 +1,37 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+	<id>com.distriqt.playservices.Ads</id>
+	<versionNumber>15.0.1</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.playservices.ads.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.playservices.ads.AdsExtension</initializer>
+				<finalizer>com.distriqt.extension.playservices.ads.AdsExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.playservices.ads.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.playservices.ads.AdsExtension</initializer>
+				<finalizer>com.distriqt.extension.playservices.ads.AdsExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libPlayServicesAds.a</nativeLibrary>
+				<initializer>PlayServicesAdsExtInitializer</initializer>
+				<finalizer>PlayServicesAdsExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-x86">
+			<applicationDeployment>
+				<nativeLibrary>libPlayServicesAds.a</nativeLibrary>
+				<initializer>PlayServicesAdsExtInitializer</initializer>
+				<finalizer>PlayServicesAdsExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="default"> 
+			<applicationDeployment /> 
+		</platform>
+	</platforms>
+</extension>

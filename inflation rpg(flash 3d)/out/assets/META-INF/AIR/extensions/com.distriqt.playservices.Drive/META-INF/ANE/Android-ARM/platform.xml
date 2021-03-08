@@ -1,0 +1,11 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+	<packagedDependencies>
+<packagedDependency>play-services-drive-15.0.1.jar</packagedDependency>
+	</packagedDependencies>
+	<packagedResources>
+	     <packagedResource>
+		    <packageName>com.distriqt.extension.playservices.drive</packageName> 
+		    <folderName>distriqt-extension-playservices-drive-res</folderName> 
+		</packagedResource>
+	</packagedResources>
+</platform>

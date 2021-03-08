@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView style="@style/trend_hor_line_style" />
+    <include layout="@layout/inc_trend_page_header" />
+    <ImageView style="@style/trend_hor_line_style" />
+    <ListView android:id="@id/result_lv" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <include layout="@layout/inc_trend_statistics_bottom" />
+</LinearLayout>

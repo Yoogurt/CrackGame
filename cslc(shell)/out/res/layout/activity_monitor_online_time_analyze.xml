@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/inc_nor_title" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="horizontal" android:background="@color/gray_bg" android:paddingLeft="@dimen/padding" android:paddingTop="@dimen/padding_large" android:paddingRight="@dimen/padding" android:paddingBottom="@dimen/padding_large" android:layout_width="fill_parent" android:layout_height="@dimen/analyze_header_height">
+            <Button android:textSize="@dimen/text_title" android:textColor="@color/white" android:id="@id/query_btn" android:background="@drawable/btn_monitor_blue_nor_sha" android:layout_width="@dimen/query_btn_width" android:layout_height="fill_parent" android:text="@string/query" android:layout_alignParentRight="true" />
+            <LinearLayout android:orientation="vertical" android:paddingRight="@dimen/padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_toLeftOf="@id/query_btn">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <EditText android:id="@id/client_no_et" android:clickable="true" android:layout_width="@dimen/query_input_width" android:layout_alignParentRight="true" style="@style/monitor_filter_et_style" />
+                    <TextView android:gravity="right" android:layout_width="wrap_content" android:text="@string/client_no" android:layout_toLeftOf="@id/client_no_et" android:layout_centerVertical="true" style="@style/monitor_item_custom_title_style" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                    <TextView android:id="@id/query_date_tv" android:clickable="true" android:layout_width="@dimen/query_input_width" android:layout_alignParentRight="true" style="@style/monitor_filter_et_style" />
+                    <TextView android:gravity="right" android:layout_width="wrap_content" android:layout_marginTop="@dimen/top" android:text="@string/query_date" android:layout_toLeftOf="@id/query_date_tv" android:layout_centerVertical="true" style="@style/monitor_item_custom_title_style" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/shop_name_tv" android:layout_marginTop="@dimen/top" android:text="xxx" style="@style/monitor_item_middle_title_style" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                <Button android:id="@id/table_btn" android:text="@string/table" style="@style/monitor_filter_rb_style" />
+                <Button android:id="@id/chart_btn" android:text="@string/chart" style="@style/monitor_filter_rb_style" />
+            </LinearLayout>
+            <include layout="@layout/inc_monitor_online_time_analyze_table_bottom" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

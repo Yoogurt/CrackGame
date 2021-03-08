@@ -1,0 +1,552 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <compiler name="ActionScript Compiler" version="2.0.0" build="354207"/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="com/distriqt/extension/gameservices/GameServices" mod="1528335130000">
+                <def id="com.distriqt.extension.gameservices:GameServices"/>
+                <dep id="Array" type="e"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="e"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices:Player" type="e"/>
+                <dep id="com.distriqt.extension.gameservices:Service" type="s"/>
+                <dep id="com.distriqt.extension.gameservices:Version" type="e"/>
+                <dep id="com.distriqt.extension.gameservices:_AchievementsImpl" type="e"/>
+                <dep id="com.distriqt.extension.gameservices:_AuthUtilImpl" type="e"/>
+                <dep id="com.distriqt.extension.gameservices:_LeaderboardsImpl" type="e"/>
+                <dep id="com.distriqt.extension.gameservices:_PlayersImpl" type="e"/>
+                <dep id="com.distriqt.extension.gameservices:_QuestsImpl" type="e"/>
+                <dep id="com.distriqt.extension.gameservices:_SavedGamesImpl" type="e"/>
+                <dep id="com.distriqt.extension.gameservices:_ScreenRecordingImpl" type="e"/>
+                <dep id="com.distriqt.extension.gameservices:_TurnBasedMultiplayerImpl" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.achievements:Achievements" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.auth:AuthUtil" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.events:GameServicesEvent" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.events:MultiplayerEvent" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.events:PlayerIconEvent" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.leaderboards:Leaderboards" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.multiplayer:Invitation" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.players:Players" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.quests:Quests" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.recording:ScreenRecording" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.savedgames:SavedGames" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.turnbasedmultiplayer:TurnBasedMultiplayer" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.utils:Base64" type="e"/>
+                <dep id="flash.desktop:NativeApplication" type="e"/>
+                <dep id="flash.display:BitmapData" type="e"/>
+                <dep id="flash.events:ErrorEvent" type="e"/>
+                <dep id="flash.events:Event" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="flash.geom:Rectangle" type="e"/>
+                <dep id="flash.utils:ByteArray" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/Player" mod="1519348043000">
+                <def id="com.distriqt.extension.gameservices:Player"/>
+                <dep id="Number" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/Service" mod="1518861508000">
+                <def id="com.distriqt.extension.gameservices:Service"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices:ServiceEnvironment" type="e"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/ServiceEnvironment" mod="1518861478000">
+                <def id="com.distriqt.extension.gameservices:ServiceEnvironment"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/Version" mod="1536884322000">
+                <def id="com.distriqt.extension.gameservices:Version"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/_AchievementsImpl" mod="1520509917000">
+                <def id="com.distriqt.extension.gameservices:_AchievementsImpl"/>
+                <dep id="Array" type="e"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="e"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.achievements:Achievement" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.achievements:Achievements" type="i"/>
+                <dep id="com.distriqt.extension.gameservices.events:AchievementEvent" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/_AuthUtilImpl" mod="1519346103000">
+                <def id="com.distriqt.extension.gameservices:_AuthUtilImpl"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="e"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.auth:AuthUtil" type="i"/>
+                <dep id="com.distriqt.extension.gameservices.events:AuthUtilEvent" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/_LeaderboardsImpl" mod="1518860743000">
+                <def id="com.distriqt.extension.gameservices:_LeaderboardsImpl"/>
+                <dep id="Array" type="e"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="e"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.events:LeaderboardEvent" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.leaderboards:Leaderboard" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.leaderboards:LeaderboardScore" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.leaderboards:Leaderboards" type="i"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/_PlayersImpl" mod="1518860863000">
+                <def id="com.distriqt.extension.gameservices:_PlayersImpl"/>
+                <dep id="Array" type="e"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="e"/>
+                <dep id="com.distriqt.extension.gameservices:Player" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.events:PlayersEvent" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.players:Players" type="i"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/_QuestsImpl" mod="1518860706000">
+                <def id="com.distriqt.extension.gameservices:_QuestsImpl"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="e"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.events:PlayerEventEvent" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.events:QuestEvent" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.quests:PlayerEvent" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.quests:Quest" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.quests:Quests" type="i"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="int" type="s"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/_SavedGamesImpl" mod="1518860715000">
+                <def id="com.distriqt.extension.gameservices:_SavedGamesImpl"/>
+                <dep id="Array" type="e"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.events:SavedGamesEvent" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.savedgames:SavedGame" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.savedgames:SavedGames" type="i"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/_ScreenRecordingImpl" mod="1522287687000">
+                <def id="com.distriqt.extension.gameservices:_ScreenRecordingImpl"/>
+                <dep id="Array" type="s"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Class" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="e"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.events:ScreenRecordingEvent" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.recording:ScreenRecording" type="i"/>
+                <dep id="com.distriqt.extension.gameservices.recording:ScreenRecordingOptions" type="s"/>
+                <dep id="flash.display:Bitmap" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="flash.filesystem:File" type="e"/>
+                <dep id="stop_recording_button_png$90d74ac431f78120c11f3fa0c66bf63b1350089600" type="e"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/_TurnBasedMatchImpl" mod="1518860851000">
+                <def id="com.distriqt.extension.gameservices:_TurnBasedMatchImpl"/>
+                <dep id="Array" type="s"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.events:TurnBasedMatchEvent" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.multiplayer:Participant" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.turnbasedmultiplayer:TurnBasedMatch" type="i"/>
+                <dep id="com.distriqt.extension.gameservices.utils:Base64" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="flash.utils:ByteArray" type="s"/>
+                <dep id="int" type="s"/>
+                <dep id="uint" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/_TurnBasedMultiplayerImpl" mod="1518860856000">
+                <def id="com.distriqt.extension.gameservices:_TurnBasedMultiplayerImpl"/>
+                <dep id="Array" type="s"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="e"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices:_TurnBasedMatchImpl" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.events:TurnBasedMatchEvent" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.events:TurnBasedMultiplayerEvent" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.multiplayer:Invitation" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.multiplayer:PlayerSelectionOptions" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.turnbasedmultiplayer:TurnBasedMatch" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.turnbasedmultiplayer:TurnBasedMatchConfig" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.turnbasedmultiplayer:TurnBasedMatchStatus" type="e"/>
+                <dep id="com.distriqt.extension.gameservices.turnbasedmultiplayer:TurnBasedMultiplayer" type="i"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/achievements/Achievement" mod="1518862310000">
+                <def id="com.distriqt.extension.gameservices.achievements:Achievement"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/achievements/AchievementState" mod="1518862332000">
+                <def id="com.distriqt.extension.gameservices.achievements:AchievementState"/>
+                <dep id="Object" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/achievements/AchievementType" mod="1518862341000">
+                <def id="com.distriqt.extension.gameservices.achievements:AchievementType"/>
+                <dep id="Object" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/achievements/Achievements" mod="1520510031000">
+                <def id="com.distriqt.extension.gameservices.achievements:Achievements"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:IEventDispatcher" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/auth/AuthUtil" mod="1518862346000">
+                <def id="com.distriqt.extension.gameservices.auth:AuthUtil"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:IEventDispatcher" type="i"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/events/AchievementEvent" mod="1520502184000">
+                <def id="com.distriqt.extension.gameservices.events:AchievementEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.achievements:Achievement" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/events/AuthUtilEvent" mod="1519349623000">
+                <def id="com.distriqt.extension.gameservices.events:AuthUtilEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/events/GameServicesEvent" mod="1518862631000">
+                <def id="com.distriqt.extension.gameservices.events:GameServicesEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/events/LeaderboardEvent" mod="1518862726000">
+                <def id="com.distriqt.extension.gameservices.events:LeaderboardEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.leaderboards:Leaderboard" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/events/MultiplayerEvent" mod="1518926622000">
+                <def id="com.distriqt.extension.gameservices.events:MultiplayerEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/events/PlayerEventEvent" mod="1518863055000">
+                <def id="com.distriqt.extension.gameservices.events:PlayerEventEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.quests:PlayerEvent" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/events/PlayerIconEvent" mod="1518863055000">
+                <def id="com.distriqt.extension.gameservices.events:PlayerIconEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices:Player" type="s"/>
+                <dep id="flash.display:BitmapData" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/events/PlayersEvent" mod="1518926698000">
+                <def id="com.distriqt.extension.gameservices.events:PlayersEvent"/>
+                <dep id="Array" type="s"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/events/QuestEvent" mod="1518863039000">
+                <def id="com.distriqt.extension.gameservices.events:QuestEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.quests:Quest" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/events/SavedGamesEvent" mod="1518927143000">
+                <def id="com.distriqt.extension.gameservices.events:SavedGamesEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/events/ScreenRecordingEvent" mod="1522189360000">
+                <def id="com.distriqt.extension.gameservices.events:ScreenRecordingEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/events/TurnBasedMatchEvent" mod="1519030682000">
+                <def id="com.distriqt.extension.gameservices.events:TurnBasedMatchEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.turnbasedmultiplayer:TurnBasedMatch" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/events/TurnBasedMultiplayerEvent" mod="1519030264000">
+                <def id="com.distriqt.extension.gameservices.events:TurnBasedMultiplayerEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/leaderboards/Leaderboard" mod="1507263612000">
+                <def id="com.distriqt.extension.gameservices.leaderboards:Leaderboard"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="XML" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/leaderboards/LeaderboardScore" mod="1414897395000">
+                <def id="com.distriqt.extension.gameservices.leaderboards:LeaderboardScore"/>
+                <dep id="Number" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices:Player" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/leaderboards/Leaderboards" mod="1518862955000">
+                <def id="com.distriqt.extension.gameservices.leaderboards:Leaderboards"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.leaderboards:Leaderboard" type="e"/>
+                <dep id="flash.events:IEventDispatcher" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/multiplayer/Invitation" mod="1497944826000">
+                <def id="com.distriqt.extension.gameservices.multiplayer:Invitation"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.multiplayer:Participant" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/multiplayer/Participant" mod="1446154759000">
+                <def id="com.distriqt.extension.gameservices.multiplayer:Participant"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices:Player" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/multiplayer/ParticipantResult" mod="1414982224000">
+                <def id="com.distriqt.extension.gameservices.multiplayer:ParticipantResult"/>
+                <dep id="Object" type="i"/>
+                <dep id="com.distriqt.extension.gameservices.multiplayer:Participant" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/multiplayer/PlayerSelectionOptions" mod="1497862307000">
+                <def id="com.distriqt.extension.gameservices.multiplayer:PlayerSelectionOptions"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/players/Players" mod="1519030225000">
+                <def id="com.distriqt.extension.gameservices.players:Players"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="flash.events:IEventDispatcher" type="i"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/quests/Milestone" mod="1457254426000">
+                <def id="com.distriqt.extension.gameservices.quests:Milestone"/>
+                <dep id="Number" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.utils:Base64" type="e"/>
+                <dep id="flash.utils:ByteArray" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/quests/PlayerEvent" mod="1456229020000">
+                <def id="com.distriqt.extension.gameservices.quests:PlayerEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Number" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/quests/Quest" mod="1457247001000">
+                <def id="com.distriqt.extension.gameservices.quests:Quest"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Number" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.quests:Milestone" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/quests/Quests" mod="1456230618000">
+                <def id="com.distriqt.extension.gameservices.quests:Quests"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:IEventDispatcher" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/recording/ScreenRecording" mod="1524220131000">
+                <def id="com.distriqt.extension.gameservices.recording:ScreenRecording"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.recording:ScreenRecordingOptions" type="s"/>
+                <dep id="flash.events:IEventDispatcher" type="i"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/recording/ScreenRecordingOptions" mod="1524020122000">
+                <def id="com.distriqt.extension.gameservices.recording:ScreenRecordingOptions"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Date" type="e"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.display:BitmapData" type="s"/>
+                <dep id="flash.filesystem:File" type="e"/>
+                <dep id="flash.globalization:DateTimeFormatter" type="e"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/savedgames/SavedGame" mod="1507259328000">
+                <def id="com.distriqt.extension.gameservices.savedgames:SavedGame"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices:Player" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.utils:Base64" type="e"/>
+                <dep id="flash.utils:ByteArray" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/savedgames/SavedGames" mod="1518927204000">
+                <def id="com.distriqt.extension.gameservices.savedgames:SavedGames"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.savedgames:SavedGame" type="s"/>
+                <dep id="flash.events:IEventDispatcher" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/turnbasedmultiplayer/TurnBasedMatch" mod="1519030828000">
+                <def id="com.distriqt.extension.gameservices.turnbasedmultiplayer:TurnBasedMatch"/>
+                <dep id="Array" type="s"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.multiplayer:Participant" type="s"/>
+                <dep id="flash.events:IEventDispatcher" type="i"/>
+                <dep id="flash.utils:ByteArray" type="s"/>
+                <dep id="int" type="s"/>
+                <dep id="uint" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/turnbasedmultiplayer/TurnBasedMatchConfig" mod="1507259312000">
+                <def id="com.distriqt.extension.gameservices.turnbasedmultiplayer:TurnBasedMatchConfig"/>
+                <dep id="Array" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="e"/>
+                <dep id="XML" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/turnbasedmultiplayer/TurnBasedMatchStatus" mod="1497861490000">
+                <def id="com.distriqt.extension.gameservices.turnbasedmultiplayer:TurnBasedMatchStatus"/>
+                <dep id="Array" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/turnbasedmultiplayer/TurnBasedMultiplayer" mod="1519030577000">
+                <def id="com.distriqt.extension.gameservices.turnbasedmultiplayer:TurnBasedMultiplayer"/>
+                <dep id="Array" type="s"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.multiplayer:Invitation" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.multiplayer:PlayerSelectionOptions" type="s"/>
+                <dep id="com.distriqt.extension.gameservices.turnbasedmultiplayer:TurnBasedMatchConfig" type="s"/>
+                <dep id="flash.events:IEventDispatcher" type="i"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/utils/Base64" mod="1518861536000">
+                <def id="com.distriqt.extension.gameservices.utils:Base64"/>
+                <dep id="Array" type="e"/>
+                <dep id="Error" type="e"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.utils:ByteArray" type="s"/>
+                <dep id="uint" type="e"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/utils/Base64New" mod="1518861549000">
+                <def id="com.distriqt.extension.gameservices.utils:Base64New"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="flash.utils:ByteArray" type="s"/>
+                <dep id="int" type="s"/>
+                <dep id="uint" type="e"/>
+            </script>
+            <script name="com/distriqt/extension/gameservices/utils/Hex" mod="1518861555000">
+                <def id="com.distriqt.extension.gameservices.utils:Hex"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.utils:ByteArray" type="s"/>
+                <dep id="parseInt" type="e"/>
+                <dep id="uint" type="e"/>
+            </script>
+            <script name="stop_recording_button_png$90d74ac431f78120c11f3fa0c66bf63b1350089600" mod="1522112434000">
+                <def id="stop_recording_button_png$90d74ac431f78120c11f3fa0c66bf63b1350089600"/>
+                <dep id="flash.display:Bitmap" type="i"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="4bd4f57d22f0961abe5b6833a3242af11fe0bc562710c6e74e7ac6ab5830b75d"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>

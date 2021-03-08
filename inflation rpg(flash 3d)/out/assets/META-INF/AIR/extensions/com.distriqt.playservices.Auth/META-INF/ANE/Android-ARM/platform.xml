@@ -1,0 +1,17 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+	<packagedDependencies>
+<packagedDependency>play-services-auth-15.0.1.jar</packagedDependency>
+<packagedDependency>play-services-auth-api-phone-15.0.1.jar</packagedDependency>
+<packagedDependency>play-services-auth-base-15.0.1.jar</packagedDependency>
+	</packagedDependencies>
+	<packagedResources>
+	     <packagedResource>
+		    <packageName>com.distriqt.extension.playservices.auth</packageName> 
+		    <folderName>distriqt-extension-playservices-auth-res</folderName> 
+		</packagedResource>
+	     <packagedResource>
+		    <packageName>com.google.android.gms.auth</packageName> 
+		    <folderName>play-services-auth-15.0.1-res</folderName> 
+		</packagedResource>
+	</packagedResources>
+</platform>

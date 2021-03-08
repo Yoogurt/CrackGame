@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/inc_nor_title" />
+    <android.support.v4.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/margin" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:layout_marginRight="15.0dip" android:layout_toLeftOf="@id/game_enter" android:layout_centerVertical="true">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:id="@id/game_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="14场胜负/任选9场" />
+                    <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:id="@id/draw_no" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/league_left" />
+                    <TextView android:textSize="@dimen/text_small" android:textColor="@color/light_font" android:id="@id/draw_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/league_left" />
+                </LinearLayout>
+                <com.cslc.playlot.view.SPFDrawView android:id="@id/spf_draw_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin" android:layout_marginTop="@dimen/top" android:layout_marginRight="@dimen/right" android:layout_marginBottom="@dimen/bottom" app:textColor="@color/white" app:textBackground="@drawable/spf_text_bg" />
+                <include layout="@layout/inc_spf_history_detail_middle" />
+                <include layout="@layout/inc_spf_history_detail_bottom" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

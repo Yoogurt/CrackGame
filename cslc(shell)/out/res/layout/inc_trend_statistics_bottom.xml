@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/statistics_bottom_ll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/trend_item_line_height">
+        <TextView android:textColor="@color/dark_oranger" android:layout_width="@dimen/trend_issue_width" android:text="@string/max_occour" android:layout_weight="0.0" style="@style/trend_item_number_tv_style" />
+        <ImageView style="@style/trend_ver_line_style" />
+        <com.cslc.playlot.view.TrendHorizontalNumberView android:layout_gravity="center_vertical" android:id="@id/max_occour_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@color/trend_gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/trend_item_line_height">
+        <TextView android:textColor="@color/dark_blue" android:layout_width="@dimen/trend_issue_width" android:text="@string/occour_times" android:layout_weight="0.0" style="@style/trend_item_number_tv_style" />
+        <ImageView style="@style/trend_ver_line_style" />
+        <com.cslc.playlot.view.TrendHorizontalNumberView android:layout_gravity="center_vertical" android:id="@id/occour_times_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/trend_item_line_height">
+        <TextView android:textColor="@color/dark_purple" android:layout_width="@dimen/trend_issue_width" android:text="@string/ave_omit" android:layout_weight="0.0" style="@style/trend_item_number_tv_style" />
+        <ImageView style="@style/trend_ver_line_style" />
+        <com.cslc.playlot.view.TrendHorizontalNumberView android:layout_gravity="center_vertical" android:id="@id/ave_omit_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@color/trend_gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/trend_item_line_height">
+        <TextView android:textColor="@color/dark_green" android:layout_width="@dimen/trend_issue_width" android:text="@string/max_omit" android:layout_weight="0.0" style="@style/trend_item_number_tv_style" />
+        <ImageView style="@style/trend_ver_line_style" />
+        <com.cslc.playlot.view.TrendHorizontalNumberView android:layout_gravity="center_vertical" android:id="@id/max_omit_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/trend_item_line_height">
+        <TextView android:textColor="@color/dark_oranger" android:layout_width="@dimen/trend_issue_width" android:text="@string/cur_omit" android:layout_weight="0.0" style="@style/trend_item_number_tv_style" />
+        <ImageView style="@style/trend_ver_line_style" />
+        <com.cslc.playlot.view.TrendHorizontalNumberView android:layout_gravity="center_vertical" android:id="@id/cur_omit_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <ImageView style="@style/trend_hor_line_style" />
+</LinearLayout>

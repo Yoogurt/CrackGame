@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup style="@style/rg_switch_style">
+        <RadioButton android:id="@id/pt_rb" android:background="@drawable/rb_switch_sel" android:text="@string/klpk3_pt" style="@style/rb_switch_style" />
+        <View android:background="#ff063b62" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+        <RadioButton android:id="@id/dt_rb" android:background="@drawable/rb_switch_sel" android:text="@string/klpk3_dt" style="@style/rb_switch_style" />
+    </RadioGroup>
+    <LinearLayout android:orientation="vertical" android:id="@id/klpk3_fragment_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

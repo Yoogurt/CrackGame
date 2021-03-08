@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/analyze_table_height">
+        <TextView android:id="@id/date_tv" android:text="@string/date" style="@style/monitor_table_item_text_style" />
+        <ImageView android:background="@color/gray_line" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+        <TextView android:id="@id/online_time_in_tv" android:text="@string/online_time_in" style="@style/monitor_table_item_text_style" />
+        <ImageView android:background="@color/gray_line" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+        <TextView android:id="@id/online_time_out_tv" android:text="@string/online_time_out" style="@style/monitor_table_item_text_style" />
+        <ImageView android:background="@color/gray_line" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+        <TextView android:id="@id/business_time_tv" android:text="@string/business_time" style="@style/monitor_table_item_text_style" />
+        <ImageView android:background="@color/gray_line" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+        <TextView android:id="@id/target_rate_tv" android:text="@string/target_rate" style="@style/monitor_table_item_text_style" />
+    </LinearLayout>
+    <ImageView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+</LinearLayout>

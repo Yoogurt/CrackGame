@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="abc_action_bar_home_description">Ana ekrana git</string>
+    <string name="abc_action_bar_up_description">Yukarı git</string>
+    <string name="abc_action_menu_overflow_description">Diğer seçenekler</string>
+    <string name="abc_action_mode_done">Bitti</string>
+    <string name="abc_activity_chooser_view_see_all">Tümünü göster</string>
+    <string name="abc_activitychooserview_choose_application">Bir uygulama seçin</string>
+    <string name="abc_capital_off">KAPAT</string>
+    <string name="abc_capital_on">AÇ</string>
+    <string name="abc_search_hint">Ara…</string>
+    <string name="abc_searchview_description_clear">Sorguyu temizle</string>
+    <string name="abc_searchview_description_query">Arama sorgusu</string>
+    <string name="abc_searchview_description_search">Ara</string>
+    <string name="abc_searchview_description_submit">Sorguyu gönder</string>
+    <string name="abc_searchview_description_voice">Sesli arama</string>
+    <string name="abc_shareactionprovider_share_with">Şununla paylaş</string>
+    <string name="abc_shareactionprovider_share_with_application">%s ile paylaş</string>
+    <string name="abc_toolbar_collapse_description">Daralt</string>
+    <string name="search_menu_title">Ara</string>
+    <string name="common_google_play_services_unknown_issue">%1$s, Google Play hizmetleriyle ilgili sorun yaşıyor. Lütfen tekrar deneyin.</string>
+    <string name="common_google_play_services_enable_button">Etkinleştir</string>
+    <string name="common_google_play_services_enable_text">Google Play hizmetlerini etkinleştirmezseniz %1$s çalışmaz.</string>
+    <string name="common_google_play_services_enable_title">Google Play hizmetlerini etkinleştirin</string>
+    <string name="common_google_play_services_install_button">Yükle</string>
+    <string name="common_google_play_services_install_text">%1$s, şu anda cihazınızda bulunmayan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string name="common_google_play_services_install_title">Google Play hizmetlerini edinin</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play hizmetlerinin kullanılabilirliği</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Hizmetleri hatası</string>
+    <string name="common_google_play_services_unsupported_text">%1$s, Google Play hizmetleri olmadan çalışmaz ve bu hizmetler cihazınız tarafından desteklenmiyor.</string>
+    <string name="common_google_play_services_update_button">Güncelle</string>
+    <string name="common_google_play_services_update_text">Google Play hizmetlerini güncellemezseniz %1$s çalışmayacak.</string>
+    <string name="common_google_play_services_update_title">Google Play hizmetlerini güncelleyin</string>
+    <string name="common_google_play_services_updating_text">%1$s, şu anda güncellenmekte olan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play hizmetlerinin yeni sürümü gerekiyor. Kendisini kısa süre içinde güncelleyecektir.</string>
+    <string name="common_open_on_phone">Telefonda aç</string>
+    <string name="common_signin_button_text">Oturum aç</string>
+    <string name="common_signin_button_text_long">"Google'da oturum aç"</string>
+    <string name="s1">Resmi kaydet</string>
+    <string name="s2">Reklamın, Resim galerisine resim kaydetmesine izin verilsin mi?</string>
+    <string name="s3">Kabul et</string>
+    <string name="s4">Reddet</string>
+    <string name="s5">Takvim etkinliği oluştur</string>
+    <string name="s6">Reklamın, takvim etkinliği oluşturmasına izin verilsin mi?</string>
+    <string name="s7">Test Reklamı</string>
+    <string name="application_name">Adobe AIR</string>
+    <string name="flash_browser_plugin">Flash Eklentisi</string>
+    <string name="button_cancel">İptal</string>
+    <string name="button_continue">Devam Et</string>
+    <string name="button_yes">Evet</string>
+    <string name="button_no">Hayır</string>
+    <string name="app_name">InflationRPG</string>
+    <string name="IDA_APP_WAITING_DEBUGGER_TITLE"><u>Adobe AIR: Bağlantı Bekleniyor</u></string>
+    <string name="IDA_APP_UNABLE_LISTEN_ERROR"><u>Adobe AIR: Bağlantı Noktası Dinleniyor</u></string>
+    <string name="IDA_APP_WAITING_DEBUGGER_WARNING"><u>AIR uygulaması hata ayıklayıcının bir bağlantı kurmasını bekliyor. Bu %d saniye kadar sürebilir.</u></string>
+    <string name="IDA_APP_DEBUGGER_TIMEOUT_INFO">Hata ayıklayıcıya bağlanılamıyor.</string>
+    <string name="app_version">APP_VERSION</string>
+    <string name="button_install">Devam Et</string>
+    <string name="button_exit">Çıkış</string>
+    <string name="file_save_as">Farklı Kaydet:</string>
+    <string name="file_download">İndir</string>
+    <string name="file_upload">Yükle</string>
+    <string name="audio_files">Ses Dosyaları</string>
+    <string name="image_files">Görüntü Dosyaları</string>
+    <string name="video_files">Video Dosyaları</string>
+    <string name="button_ok">Tamam</string>
+    <string name="empty_file_list">Hiçbir dosya bulunmadı.</string>
+    <string name="title_adobe_air"><b>Adobe AIR</b></string>
+    <string name="text_runtime_required">"Bu uygulama Adobe AIR gerektiriyor.
+
+"</string>
+    <string name="text_install_runtime">Devam etmek için bu aygıta Adobe AIR uygulamasını yükleyin.</string>
+    <string name="text_runtime_on_external_storage">"Devam etmek için bu aygıta Adobe AIR yükleyin veya yeniden başlatmadan önce bu uygulamadan çıkın ve Adobe AIR'yi içeren SD kartını takın."</string>
+    <string name="text_gamepreview_loading">Yükleniyor...</string>
+    <string name="text_gamepreview_loading_error">Oyun yüklenemedi.</string>
+    <string name="text_install_gamepreview_app">Şimdi Yükle</string>
+    <string name="text_air_missing_header">Adobe AIR gerekli</string>
+    <string name="text_air_missing_text">Oyun önizlemesinin çalışması için Adobe AIR yüklemeniz gerekir.</string>
+    <string name="button_install_air_from_playstore">"Play Store'dan yükleyin."</string>
+    <string name="text_dont_show_again">Bunu tekrar gösterme.</string>
+    <string name="IDA_CURL_SSL_SECURITY_WARNING">Güvenlik Uyarısı</string>
+    <string name="IDA_CURL_INTERFACE_THISSESS">Oturum için Güven</string>
+    <string name="IDA_CURL_INTERFACE_NOSESS">İptal</string>
+    <string name="IDA_CURL_INTERFACE_OK">Tamam</string>
+    <string name="IDA_CURL_INTERFACE_UNVERSER_2">Uygulamanın bağlandığı sunucu doğrulanmamış.</string>
+    <string name="IDA_CURL_INTERFACE_ALLSESS">Her Zaman Güven</string>
+    <string name="IDA_CURL_INTERFACE_SERVER"><b>Sunucu:</b></string>
+    <string name="IDA_CURL_INTERFACE_TRUSTSER">Bu sunucuya güvenmek ve bağlantı kurmak istiyor musunuz?</string>
+    <string name="IDA_CURL_INTERFACE_CNAME_MSG">Sunucunun adı (%1$s) sertifikanın üzerindeki adla (%2$s) eşleşmiyor. Bu sunucuya güvenilip devam edilsin mi?</string>
+    <string name="IDA_CURL_INTERFACE_VIEW_CERT"><u>Sertifikayı Görüntüle</u></string>
+    <string name="IDA_CURL_INTERFACE_CERTIFICATE_DETAILS_TITLE"><u>Sertifika Ayrıntıları</u></string>
+    <string name="IDA_CERTIFICATE_DETAILS"><b>Sertifika:</b>"
+ 
+ "<u><b>Alan:</b></u>"
+ Yaygın Ad:
+ %1$s
+ 
+ Kuruluş:
+ %2$s
+ 
+ Kuruluş Birimi:
+ %3$s
+ 
+ "<u><b>Veren:</b></u>"
+ Yaygın Ad:
+ %4$s
+ 
+ Kuruluş:
+ %5$s
+ 
+ Kuruluş Birimi:
+ %6$s
+ 
+ "<u><b>Geçerlilik:</b></u>"
+ Verilme Tarihi:
+ %7$s
+ 
+ Sona Erme Tarihi:
+ %8$s "</string>
+</resources>

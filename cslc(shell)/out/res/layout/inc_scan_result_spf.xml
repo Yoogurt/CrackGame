@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:paddingTop="10.0dip" android:text="@string/home_team_vertical" style="@style/spf_result_left_red_title" />
+        <com.cslc.playlot.view.SPFHeaderView android:id="@id/home_team_spfhv" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:minHeight="50.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView style="@style/spf_result_left_red_title" />
+        <TextView android:background="@color/white" android:layout_width="fill_parent" android:text="@string/vs" style="@style/spf_result_left_red_title" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:paddingBottom="5.0dip" android:text="@string/away_team_vertical" style="@style/spf_result_left_red_title" />
+        <com.cslc.playlot.view.SPFHeaderView android:id="@id/away_team_spfhv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:minHeight="50.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:paddingTop="1.0dip" android:paddingBottom="6.0dip" android:minHeight="35.0dip" android:text="@string/lottery_result_vertical" style="@style/spf_result_left_red_title" />
+        <com.cslc.playlot.view.SPFHeaderView android:gravity="center_vertical" android:id="@id/result_spfhv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:minHeight="60.0dip" />
+    </LinearLayout>
+</LinearLayout>

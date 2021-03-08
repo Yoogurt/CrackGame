@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="-2.0dip" android:weightSum="4.0">
+        <TextView android:gravity="center" android:id="@id/win_level_tv" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/win_level" android:layout_weight="1.0" style="@style/text_win_info_content" />
+        <TextView android:gravity="center" android:id="@id/win_cnt_tv" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/win_cnt" android:layout_weight="1.0" style="@style/text_win_info_content" />
+        <TextView android:gravity="center" android:id="@id/single_win_amount_tv" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/single_win_amount" android:layout_weight="1.0" style="@style/text_win_info_content" />
+        <TextView android:gravity="center" android:id="@id/win_amount_tv" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/win_amount" android:layout_weight="1.0" style="@style/text_win_info_content" />
+    </LinearLayout>
+</LinearLayout>

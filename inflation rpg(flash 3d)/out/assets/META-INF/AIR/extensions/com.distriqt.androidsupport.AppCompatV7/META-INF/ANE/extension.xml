@@ -1,0 +1,38 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+	<id>com.distriqt.androidsupport.AppCompatV7</id>
+	<versionNumber>26.0.0</versionNumber>
+	<!-- <versionNumber>27.0.2</versionNumber> -->
+	<platforms>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.androidsupport.appcompatv7.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.androidsupport.appcompatv7.AppCompatV7Extension</initializer>
+				<finalizer>com.distriqt.extension.androidsupport.appcompatv7.AppCompatV7Extension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.androidsupport.appcompatv7.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.androidsupport.appcompatv7.AppCompatV7Extension</initializer>
+				<finalizer>com.distriqt.extension.androidsupport.appcompatv7.AppCompatV7Extension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libAndroidSupportAppCompatV7.a</nativeLibrary>
+				<initializer>AndroidSupportAppCompatV7ExtInitializer</initializer>
+				<finalizer>AndroidSupportAppCompatV7ExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-x86">
+			<applicationDeployment>
+				<nativeLibrary>libAndroidSupportAppCompatV7.a</nativeLibrary>
+				<initializer>AndroidSupportAppCompatV7ExtInitializer</initializer>
+				<finalizer>AndroidSupportAppCompatV7ExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="default"> 
+			<applicationDeployment /> 
+		</platform>
+	</platforms>
+</extension>

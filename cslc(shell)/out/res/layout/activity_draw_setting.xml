@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/inc_nor_title" />
+    <TextView android:textSize="@dimen/text_small" android:textColor="@color/tips_head_font" android:background="@color/tips_head_bg" android:padding="@dimen/padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/draw_setting_tips" />
+    <ListView android:id="@id/draw_lv" android:background="@color/transparent" style="@style/listview_style" />
+</LinearLayout>

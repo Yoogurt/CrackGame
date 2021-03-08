@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/header_view" layout="@layout/inc_nor_title" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_view" android:layout_below="@id/header_view" android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+        <LinearLayout android:orientation="vertical" android:background="@color/popup_bg" android:padding="@dimen/padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_large" android:layout_marginBottom="@dimen/margin_large">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:text="@string/client_no" style="@style/monitor_detail_text_style" />
+                    <TextView android:id="@id/terminal_no_tv" android:text="\ 37065464646464" style="@style/monitor_detail_text_style" />
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/terminal_status_iv" android:background="@drawable/monitor_online" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="@dimen/left" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                    <TextView android:text="@string/remark" style="@style/monitor_detail_text_style" />
+                    <LinearLayout android:gravity="fill_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <EditText android:id="@id/terminal_remark_tv" android:background="@color/popup_bg" android:paddingRight="@dimen/padding" android:layout_width="fill_parent" android:maxWidth="@dimen/edit_max_width" android:minWidth="@dimen/custom_title_min_width" android:text="备注备" style="@style/monitor_detail_text_style" />
+                        <TextView android:id="@id/terminal_update_tv" android:layout_marginLeft="@dimen/left" android:text="@string/remark_update" android:layout_weight="1.0" android:layout_alignParentRight="true" style="@style/monitor_detail_blue_text_style" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" style="@style/horizonal_dash_line_style" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_large" android:layout_marginBottom="@dimen/margin_large">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:text="@string/channel_brand" style="@style/monitor_detail_text_style" />
+                    <TextView android:id="@id/channel_brand_tv" android:text="xxxxx" style="@style/monitor_detail_text_style" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                    <TextView android:text="@string/shop_name" style="@style/monitor_detail_text_style" />
+                    <TextView android:id="@id/shop_name_tv" android:text="xxxxx" style="@style/monitor_detail_text_style" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                    <TextView android:text="@string/shop_address" style="@style/monitor_detail_text_style" />
+                    <TextView android:id="@id/shop_address_tv" android:text="xxxxx" style="@style/monitor_detail_text_style" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                    <TextView android:text="@string/shop_manager" style="@style/monitor_detail_text_style" />
+                    <TextView android:id="@id/shop_manager_tv" android:text="张三" style="@style/monitor_detail_text_style" />
+                    <TextView android:id="@id/shop_manager_phone_tv" android:layout_marginLeft="@dimen/left" android:text="(18666666666)" style="@style/monitor_detail_blue_text_style" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                    <TextView android:text="@string/client_manager" style="@style/monitor_detail_text_style" />
+                    <TextView android:id="@id/special_manager_tv" android:text="李四" style="@style/monitor_detail_text_style" />
+                    <TextView android:id="@id/special_manager_phone_tv" android:layout_marginLeft="@dimen/left" android:text="(18666666666)" style="@style/monitor_detail_blue_text_style" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_large">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/rb_moitor_filter_sel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin" android:minHeight="@dimen/filter_edit_height" android:layout_weight="1.0">
+                        <TextView android:text="@string/focus_status" style="@style/monitor_detail_text_style" />
+                        <TextView android:textColor="@color/red_font" android:id="@id/focus_number_tv" android:text="(3)" style="@style/monitor_detail_text_style" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/rb_moitor_filter_sel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin" android:minHeight="@dimen/filter_edit_height" android:layout_weight="1.0">
+                        <TextView android:text="@string/seven_day_ex_times" style="@style/monitor_detail_text_style" />
+                        <TextView android:textColor="@color/red_font" android:id="@id/seven_day_ex_times_tv" android:text="(5)" style="@style/monitor_detail_text_style" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" style="@style/horizonal_dash_line_style" />
+            <include layout="@layout/inc_monitor_info_detail_bottom" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

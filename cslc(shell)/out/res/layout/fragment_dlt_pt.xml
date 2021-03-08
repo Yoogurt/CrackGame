@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ball_view" android:background="@color/white" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="前区：" />
+            <TextView android:textSize="@dimen/text_small" android:textColor="@color/red_ball_font_uncheck" android:id="@id/qq_ball_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:text="" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="后区：" />
+            <TextView android:textSize="@dimen/text_small" android:textColor="@color/blue_ball_font_uncheck" android:id="@id/hq_ball_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageButton android:id="@id/random_btn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/random_select" android:layout_below="@id/ball_view" android:layout_alignParentRight="true" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bottom_view" android:layout_below="@id/random_btn">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_small" android:textColor="@color/prompt_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:layout_marginTop="@dimen/top" android:text="@string/dlt_pt_qq_desc" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+            <com.cslc.playlot.view.StakeView android:id="@id/dlt_qq_view" app:ballType="11" app:ballNum="35" app:maxNum="16" app:maxStrId="@string/dlt_qq_max_select" style="@style/stakeview_style" />
+            <TextView android:textSize="@dimen/text_small" android:textColor="@color/prompt_font" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:layout_marginTop="@dimen/top" android:text="@string/dlt_pt_hq_desc" />
+            <com.cslc.playlot.view.StakeView android:id="@id/dlt_hq_view" app:ballType="12" app:ballNum="12" app:isBlue="true" app:maxNum="12" style="@style/stakeview_style" />
+        </LinearLayout>
+    </ScrollView>
+    <include android:id="@id/bottom_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/inc_lottery_bottom" />
+</RelativeLayout>

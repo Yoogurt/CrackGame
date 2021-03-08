@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/31.0">
+	<id>infurerpgkuesuto</id>
+	<filename>InflationRPG</filename>
+	<name>
+		<text xml:lang="en">InflationRPG</text>
+		<text xml:lang="ja">インフレRPG</text>
+	</name>
+	<versionNumber>1.6.6</versionNumber>
+	<initialWindow>
+		<content>InhureRPG.swf</content>
+		<renderMode>gpu</renderMode>
+		<autoOrients>false</autoOrients>
+		<aspectRatio>portrait</aspectRatio>
+		<fullScreen>true</fullScreen>
+		<visible>true</visible>
+	</initialWindow>
+	<allowBrowserInvocation>true</allowBrowserInvocation>
+	<icon>
+		<image48x48>icons/i48.png</image48x48>
+		<image57x57>icons/Icon.png</image57x57>
+		<image58x58>icons/Icon-Small@2x.png</image58x58>
+		<image72x72>icons/Icon-72.png</image72x72>
+		<image76x76>icons/Icon-76.png</image76x76>
+		<image80x80>icons/Icon-Small-40@2x.png</image80x80>
+		<image96x96>icons/i96.png</image96x96>
+		<image100x100>icons/Icon-Small-50@2x.png</image100x100>
+		<image114x114>icons/Icon@2x.png</image114x114>
+		<image120x120>icons/Icon-60@2x.png</image120x120>
+		<image128x128>icons/i128.png</image128x128>
+		<image144x144>icons/Icon-72@2x.png</image144x144>
+		<image152x152>icons/Icon-76@2x.png</image152x152>
+		<image180x180>icons/Icon-60@3x.png</image180x180>
+		<image192x192>icons/i192.png</image192x192>
+		<image512x512>icons/iTunesArtwork</image512x512>
+		<image1024x1024>icons/iTunesArtwork@2x</image1024x1024>
+	</icon>
+	<android>
+		<manifestAdditions><![CDATA[
+			<manifest android:installLocation="auto">
+			<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="26" />
+				<uses-permission android:name="android.permission.INTERNET"/>
+				<!--<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>-->
+				<!--<uses-permission android:name="android.permission.READ_PHONE_STATE"/>-->
+				<!--<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>-->
+				<!--<uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>-->
+				<!--<uses-permission android:name="android.permission.WAKE_LOCK"/>-->
+				<!--<uses-permission android:name="android.permission.CAMERA"/>-->
+				<!--<uses-permission android:name="android.permission.RECORD_AUDIO"/>-->
+				<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+				<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+				<application>
+					<!-- admob START -->
+					<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+					<activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+					<!-- admob END -->
+					
+					<!-- GameServices START -->
+					<meta-data android:name="com.google.android.gms.games.APP_ID" android:value="\ 946295129891" />
+					<!-- GameServices END -->
+					
+					<!-- GameServices2 START -->
+					<activity
+						android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+						android:excludeFromRecents="true"
+						android:exported="false"
+						android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+					<service
+						android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+						android:exported="true"
+						android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+					<activity
+						android:name="com.google.android.gms.common.api.GoogleApiActivity"
+						android:exported="false"
+						android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+					<!-- GameServices2 END -->
+					
+					<!-- sc START -->
+					<activity>
+						<intent-filter>
+							<action android:name="android.intent.action.MAIN"/>
+							<category android:name="android.intent.category.LAUNCHER"/>
+						</intent-filter>
+						<intent-filter>
+							<action android:name="android.intent.action.VIEW"/>
+							<category android:name="android.intent.category.BROWSABLE"/>
+							<category android:name="android.intent.category.DEFAULT"/>
+							<data android:scheme="infurerpgkuesuto"/>
+						</intent-filter>
+					</activity>
+					<!-- sc END -->
+				</application>
+			</manifest>
+		]]></manifestAdditions>
+	</android>
+	<iPhone>
+		<InfoAdditions><![CDATA[
+			<key>MinimumOSVersion</key>
+			<string>9.0</string>
+			<key>UIDeviceFamily</key>
+			<array>
+				<string>1</string>
+				<string>2</string>
+			</array>
+			<key>CFBundleURLTypes</key> 
+			<array> 
+				<dict> 
+					<key>CFBundleURLSchemes</key> 
+					<array>
+						<string>infurerpgkuesuto</string>
+					</array>
+					<key>CFBundleURLName</key>
+					<string>com.Tatsuki.infurerpgkuesuto</string>
+				</dict>
+			</array>
+			<key>NSAppTransportSecurity</key>
+     		<dict>
+         		<key>NSAllowsArbitraryLoads</key>
+         		<true/>
+     		</dict>
+
+		]]></InfoAdditions>
+		<requestedDisplayResolution>high</requestedDisplayResolution>
+		<Entitlements><![CDATA[
+			<!-- debugの時はtrueにする -->
+		<!--
+			<key>get-task-allow</key>
+			<true/>
+
+			<key>aps-environment</key>
+			<string>development</string>
+
+			<key>aps-environment</key>
+			<string>production</string>
+		-->
+			<key>com.apple.developer.ubiquity-container-identifiers</key>
+			<array>
+				<string>iCloud.com.Tatsuki.infurerpgkuesuto</string>
+			</array>
+		
+		]]></Entitlements>
+	</iPhone>
+
+	<extensions>
+		<extensionID>com.distriqt.Core</extensionID>
+		<extensionID>com.distriqt.GameServices</extensionID>
+		<extensionID>com.distriqt.Adverts</extensionID>
+		<extensionID>com.distriqt.ApplicationRater</extensionID>
+    
+        
+        
+        
+        
+        
+        
+    
+        
+        
+        
+        
+        
+        
+    <extensionID>com.distriqt.androidsupport.AppCompatV7</extensionID>
+        <extensionID>com.distriqt.androidsupport.V4</extensionID>
+        <extensionID>com.distriqt.playservices.Ads</extensionID>
+        <extensionID>com.distriqt.playservices.Auth</extensionID>
+        <extensionID>com.distriqt.playservices.Base</extensionID>
+        <extensionID>com.distriqt.playservices.Drive</extensionID>
+        <extensionID>com.distriqt.playservices.Games</extensionID>
+    </extensions>
+</application>

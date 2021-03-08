@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/dialog_white_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:id="@id/title_tv" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/trend_setting" />
+    <View android:background="#ffbcbcbc" style="@style/horizonal_line_style" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingTop="15.0dip" android:paddingRight="20.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="200.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/trend_setting_number" style="@style/trend_setting_tv_style" />
+            <com.cslc.playlot.view.RadioGroup android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RadioButton android:id="@id/number30_rb" android:text="@string/trend_setting_number_30" style="@style/rb_trend_style" />
+                    <RadioButton android:id="@id/number50_rb" android:text="@string/trend_setting_number_50" style="@style/rb_trend_style" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                    <RadioButton android:id="@id/number100_rb" android:text="@string/trend_setting_number_100" style="@style/rb_trend_style" />
+                </LinearLayout>
+            </com.cslc.playlot.view.RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+            <TextView android:text="@string/trend_setting_line" style="@style/trend_setting_tv_style" />
+            <RadioGroup android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@id/line_show_rb" android:text="@string/trend_setting_line_show" style="@style/rb_trend_style" />
+                <RadioButton android:id="@id/line_unshow_rb" android:text="@string/trend_setting_line_unshow" style="@style/rb_trend_style" />
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+            <TextView android:text="@string/trend_setting_omit" style="@style/trend_setting_tv_style" />
+            <RadioGroup android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@id/omit_show_rb" android:text="@string/trend_setting_omit_show" style="@style/rb_trend_style" />
+                <RadioButton android:id="@id/omit_unshow_rb" android:text="@string/trend_setting_omit_unshow" style="@style/rb_trend_style" />
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+            <TextView android:text="@string/trend_setting_stat" style="@style/trend_setting_tv_style" />
+            <RadioGroup android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@id/stat_show_rb" android:text="@string/trend_setting_stat_show" style="@style/rb_trend_style" />
+                <RadioButton android:id="@id/stat_unshow_rb" android:text="@string/trend_setting_stat_unshow" style="@style/rb_trend_style" />
+            </RadioGroup>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_small" android:textColor="@color/light_font" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top" android:text="@string/trend_setting_stat_desc" />
+    </LinearLayout>
+    <View android:background="#ffbcbcbc" style="@style/horizonal_line_style" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/text_big" android:textColor="@color/dialog_font_cancel_sel" android:id="@id/cancel_btn" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_btn_height" android:text="@string/cancel" android:layout_weight="1.0" />
+        <View android:id="@id/line_view" android:background="#ffbcbcbc" style="@style/vertical_line_style" />
+        <Button android:textSize="@dimen/text_big" android:textColor="@color/dialog_font_sure_sel" android:id="@id/sure_btn" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_btn_height" android:text="@string/sure" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

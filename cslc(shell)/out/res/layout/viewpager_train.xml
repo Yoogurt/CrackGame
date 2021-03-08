@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/white_bg_sha" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="70.0dip">
+        <ImageView android:id="@id/qrcode_iv" android:layout_width="300.0dip" android:layout_height="300.0dip" android:layout_marginTop="30.0dip" android:src="@drawable/no_game" android:layout_above="@id/bottom_view" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/bottom_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+                <TextView android:textSize="20.0dip" android:textColor="@color/dark_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coupon_count1" />
+                <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="@color/red_font" android:id="@id/count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coupon_count" />
+                <TextView android:textSize="20.0dip" android:textColor="@color/dark_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coupon_count2" />
+                <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="@color/red_font" android:id="@id/money_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coupon_money" />
+                <TextView android:textSize="20.0dip" android:textColor="@color/dark_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coupon_count3" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <TextView android:textSize="16.0dip" android:textColor="@color/light_font" android:id="@id/left_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coupon_left" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

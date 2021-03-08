@@ -1,0 +1,44 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: base.apk
+compressionType: false
+doNotCompress:
+- assets/META-INF/AIR/extensions/com.distriqt.playservices.Ads/library.swf
+- assets/META-INF/AIR/extensions/com.distriqt.playservices.Ads/META-INF/ANE/Android-ARM/library.swf
+- assets/META-INF/AIR/extensions/com.distriqt.GameServices/library.swf
+- assets/META-INF/AIR/extensions/com.distriqt.GameServices/META-INF/ANE/Android-ARM/library.swf
+- assets/META-INF/AIR/extensions/com.distriqt.playservices.Base/library.swf
+- assets/META-INF/AIR/extensions/com.distriqt.playservices.Base/META-INF/ANE/Android-ARM/library.swf
+- assets/META-INF/AIR/extensions/com.distriqt.playservices.Auth/library.swf
+- assets/META-INF/AIR/extensions/com.distriqt.playservices.Auth/META-INF/ANE/Android-ARM/library.swf
+- assets/META-INF/AIR/extensions/com.distriqt.playservices.Drive/library.swf
+- assets/META-INF/AIR/extensions/com.distriqt.playservices.Drive/META-INF/ANE/Android-ARM/library.swf
+- assets/META-INF/AIR/extensions/com.distriqt.playservices.Games/library.swf
+- assets/META-INF/AIR/extensions/com.distriqt.playservices.Games/META-INF/ANE/Android-ARM/library.swf
+- assets/META-INF/AIR/extensions/com.distriqt.Core/library.swf
+- assets/META-INF/AIR/extensions/com.distriqt.Core/META-INF/ANE/Android-ARM/library.swf
+- assets/META-INF/AIR/extensions/com.distriqt.androidsupport.AppCompatV7/library.swf
+- assets/META-INF/AIR/extensions/com.distriqt.androidsupport.AppCompatV7/META-INF/ANE/Android-ARM/library.swf
+- assets/META-INF/AIR/extensions/com.distriqt.Adverts/library.swf
+- assets/META-INF/AIR/extensions/com.distriqt.Adverts/META-INF/ANE/Android-ARM/library.swf
+- assets/META-INF/AIR/extensions/com.distriqt.ApplicationRater/library.swf
+- assets/META-INF/AIR/extensions/com.distriqt.ApplicationRater/META-INF/ANE/Android-ARM/library.swf
+- assets/META-INF/AIR/extensions/com.distriqt.androidsupport.V4/library.swf
+- assets/META-INF/AIR/extensions/com.distriqt.androidsupport.V4/META-INF/ANE/Android-ARM/library.swf
+- res/raw/rgba8888
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '16'
+  targetSdkVersion: '26'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.5-dirty
+versionInfo:
+  versionCode: '1006006'
+  versionName: 1.6.6

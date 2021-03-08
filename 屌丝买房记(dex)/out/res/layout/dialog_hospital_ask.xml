@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="320.0dip" android:layout_height="95.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bg" android:layout_width="320.0dip" android:layout_height="95.0dip" />
+    <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/tnote" android:layout_width="210.0dip" android:layout_height="wrap_content" android:layout_marginLeft="88.0dip" android:layout_marginTop="16.0dip" android:text="    我摸遍了全身的口袋也凑不齐医药费。" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <Button android:id="@id/ok" android:background="@drawable/btnbg_yy_kb" android:layout_width="50.0dip" android:layout_height="29.0dip" android:layout_marginLeft="110.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <Button android:id="@id/cancel" android:background="@drawable/btnbg_yy_lk" android:layout_width="50.0dip" android:layout_height="29.0dip" android:layout_marginLeft="30.0dip" android:layout_toRightOf="@id/ok" android:layout_alignTop="@id/ok" />
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <compiler name="ActionScript Compiler" version="2.0.0" build="354206"/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="com/distriqt/extension/playservices/base/ConnectionResult" mod="1502244388000">
+                <def id="com.distriqt.extension.playservices.base:ConnectionResult"/>
+                <dep id="Object" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/playservices/base/GoogleApiAvailability" mod="1502249417000">
+                <def id="com.distriqt.extension.playservices.base:GoogleApiAvailability"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.playservices.base:PlayServicesBase" type="e"/>
+                <dep id="flash.events:ErrorEvent" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="s"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="int" type="e"/>
+            </script>
+            <script name="com/distriqt/extension/playservices/base/PlayServicesBase" mod="1469520599000">
+                <def id="com.distriqt.extension.playservices.base:PlayServicesBase"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:ErrorEvent" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/playservices/base/Version" mod="1527824460000">
+                <def id="com.distriqt.extension.playservices.base:Version"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="4d4b654657bf7a205df3327d2512017572c4b84e40bfd47b8d75a34981d6ac38"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>

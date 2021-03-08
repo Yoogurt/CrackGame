@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/top" android:paddingBottom="@dimen/bottom" android:layout_width="80.0dip" android:layout_height="fill_parent">
+        <TextView android:id="@id/league_tv" android:text="" style="@style/tv_jc_draw_league" />
+        <TextView android:id="@id/matchnum_tv" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="" style="@style/tv_jc_draw_league" />
+        <TextView android:id="@id/matchtime_tv" android:text="" style="@style/tv_jc_draw_league" />
+    </LinearLayout>
+    <View android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" style="@style/draw_ver_line_style" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="49.5dip">
+            <TextView android:id="@id/host_tv" android:text="" style="@style/tv_jc_draw_name" />
+            <TextView android:textColor="@color/red_font" android:id="@id/vs_tv" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="" style="@style/tv_jc_draw_name" />
+            <TextView android:id="@id/guest_tv" android:text="" style="@style/tv_jc_draw_name" />
+        </LinearLayout>
+        <View android:layout_marginRight="10.0dip" style="@style/draw_hor_line_style" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="49.5dip">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:id="@id/key1_tv" android:text="" style="@style/tv_jc_draw_key" />
+                <TextView android:id="@id/value1_tv" android:text="" style="@style/tv_jc_draw_value" />
+            </LinearLayout>
+            <View android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" style="@style/draw_ver_line_style" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:id="@id/key2_tv" android:text="" style="@style/tv_jc_draw_key" />
+                <TextView android:id="@id/value2_tv" android:text="" style="@style/tv_jc_draw_value" />
+            </LinearLayout>
+            <View android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" style="@style/draw_ver_line_style" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:id="@id/key3_tv" android:text="" style="@style/tv_jc_draw_key" />
+                <TextView android:id="@id/value3_tv" android:text="" style="@style/tv_jc_draw_value" />
+            </LinearLayout>
+            <View android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" style="@style/draw_ver_line_style" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:id="@id/key4_tv" android:text="" style="@style/tv_jc_draw_key" />
+                <TextView android:id="@id/value4_tv" android:text="" style="@style/tv_jc_draw_value" />
+            </LinearLayout>
+            <View android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" style="@style/draw_ver_line_style" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/key5_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:id="@id/key5_tv" android:text="" style="@style/tv_jc_draw_key" />
+                <TextView android:id="@id/value5_tv" android:text="" style="@style/tv_jc_draw_value" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

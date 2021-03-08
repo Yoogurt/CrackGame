@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/league_view" android:background="@color/league_bg" android:padding="@dimen/league_padding" android:layout_width="@dimen/match_width" android:layout_height="wrap_content" android:layout_alignTop="@id/match_view" android:layout_alignBottom="@id/match_view" android:layout_alignParentLeft="true">
+        <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:ellipsize="end" android:gravity="center" android:id="@id/index_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip">
+            <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:id="@id/host_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:id="@id/vs_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/vs" />
+            <TextView android:textSize="@dimen/text_small" android:textColor="@color/dark_font" android:id="@id/guest_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/match_view" android:background="@color/match_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/league_view" android:layout_alignParentRight="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/team_view" android:paddingTop="@dimen/team_top" android:paddingRight="20.0dip" android:paddingBottom="@dimen/team_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_middle" android:textColor="@color/dark_font" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/team_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/spf_4jq_host" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.cslc.playlot.view.MulTextCheckBox android:enabled="false" android:id="@id/jq4_cb0" android:layout_height="wrap_content" android:text="" style="@style/cb_mul_style" />
+                <View android:layout_width="1.0dip" style="@style/vertical_line_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:enabled="false" android:id="@id/jq4_cb1" android:layout_height="wrap_content" android:text="" style="@style/cb_mul_style" />
+                <View android:layout_width="1.0dip" style="@style/vertical_line_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:enabled="false" android:id="@id/jq4_cb2" android:layout_height="wrap_content" android:text="" style="@style/cb_mul_style" />
+                <View android:layout_width="1.0dip" style="@style/vertical_line_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:enabled="false" android:id="@id/jq4_cb3" android:layout_height="wrap_content" android:text="" style="@style/cb_mul_style" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/team_view1" android:paddingTop="@dimen/team_top" android:paddingRight="20.0dip" android:paddingBottom="@dimen/team_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_middle" android:textColor="@color/dark_font" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/team_tv1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/spf_4jq_guest" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.cslc.playlot.view.MulTextCheckBox android:enabled="false" android:id="@id/jq4_cb20" android:layout_height="wrap_content" android:text="" style="@style/cb_mul_style" />
+                <View android:layout_width="1.0dip" style="@style/vertical_line_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:enabled="false" android:id="@id/jq4_cb21" android:layout_height="wrap_content" android:text="" style="@style/cb_mul_style" />
+                <View android:layout_width="1.0dip" style="@style/vertical_line_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:enabled="false" android:id="@id/jq4_cb22" android:layout_height="wrap_content" android:text="" style="@style/cb_mul_style" />
+                <View android:layout_width="1.0dip" style="@style/vertical_line_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:enabled="false" android:id="@id/jq4_cb23" android:layout_height="wrap_content" android:text="" style="@style/cb_mul_style" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

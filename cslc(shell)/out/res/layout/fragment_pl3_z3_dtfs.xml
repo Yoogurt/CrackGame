@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:id="@id/random_btn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/random_select" android:layout_alignParentRight="true" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bottom_view" android:layout_below="@id/random_btn">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="" style="@style/tv_lottery_prompt_style" />
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/left" android:paddingRight="@dimen/right" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/pl3_dm" style="@style/tv_lottery_style" />
+                <com.cslc.playlot.view.StakeView android:id="@id/ball_view_dm" app:ballType="45" app:ballNum="9" app:lineNum="6" app:needZero="false" app:fromZero="true" app:maxNum="10" style="@style/stakeview_style" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/left" android:paddingRight="@dimen/right" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/pl3_tm" style="@style/tv_lottery_style" />
+                <com.cslc.playlot.view.StakeView android:id="@id/ball_view_tm" app:ballType="46" app:ballNum="9" app:lineNum="6" app:needZero="false" app:fromZero="true" app:maxNum="10" style="@style/stakeview_style" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include android:id="@id/bottom_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/inc_lottery_bottom" />
+</RelativeLayout>

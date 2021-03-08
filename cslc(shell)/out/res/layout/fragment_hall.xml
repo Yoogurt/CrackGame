@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/inc_hall_title" />
+    <com.cslc.playlot.view.SlideShowView android:id="@id/slide_view" android:layout_width="fill_parent" android:layout_height="140.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/wheel_view" android:background="@color/tips_head_bg" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_news" />
+        <com.cslc.playlot.view.WheelTextView android:id="@id/wheel_wtv" android:background="@color/tips_head_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip">
+        <include android:id="@id/empty_view" android:visibility="invisible" layout="@layout/empty_view" />
+        <com.handmark.pulltorefresh.library.PullToRefreshGridView android:id="@id/hall_gv" android:background="@color/transparent" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/list_item_sel" android:cacheColorHint="@color/transparent" android:numColumns="3" android:fastScrollEnabled="false" />
+    </FrameLayout>
+</LinearLayout>

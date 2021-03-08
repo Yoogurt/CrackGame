@@ -1,0 +1,284 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <compiler name="ActionScript Compiler" version="2.0.0" build="354207"/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="com/distriqt/extension/adverts/AdRequest" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts:AdRequest"/>
+                <dep id="Array" type="s"/>
+                <dep id="Date" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/AdSize" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts:AdSize"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/AdView" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts:AdView"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.adverts:AdRequest" type="s"/>
+                <dep id="com.distriqt.extension.adverts:AdSize" type="s"/>
+                <dep id="com.distriqt.extension.adverts:AdViewParams" type="s"/>
+                <dep id="flash.events:IEventDispatcher" type="i"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/AdViewParams" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts:AdViewParams"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/AdvertPlatform" mod="1508981993000">
+                <def id="com.distriqt.extension.adverts:AdvertPlatform"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/AdvertisingIdInfo" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts:AdvertisingIdInfo"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/Adverts" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts:Adverts"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="e"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.adverts:AdView" type="s"/>
+                <dep id="com.distriqt.extension.adverts:AdvertisingIdInfo" type="e"/>
+                <dep id="com.distriqt.extension.adverts:Interstitials" type="s"/>
+                <dep id="com.distriqt.extension.adverts:Version" type="e"/>
+                <dep id="com.distriqt.extension.adverts:_AdViewImpl" type="e"/>
+                <dep id="com.distriqt.extension.adverts:_ConsentImpl" type="e"/>
+                <dep id="com.distriqt.extension.adverts:_InterstitialsImpl" type="e"/>
+                <dep id="com.distriqt.extension.adverts:_RewardedVideoAdsImpl" type="e"/>
+                <dep id="com.distriqt.extension.adverts.consent:Consent" type="s"/>
+                <dep id="com.distriqt.extension.adverts.events:AdvertisingIdEvent" type="e"/>
+                <dep id="com.distriqt.extension.adverts.rewarded:RewardedVideoAds" type="s"/>
+                <dep id="flash.events:ErrorEvent" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="int" type="s"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/ErrorCode" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts:ErrorCode"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/InterstitialAd" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts:InterstitialAd"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.adverts:AdRequest" type="s"/>
+                <dep id="flash.events:IEventDispatcher" type="i"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/Interstitials" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts:Interstitials"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="com.distriqt.extension.adverts:InterstitialAd" type="s"/>
+                <dep id="flash.events:IEventDispatcher" type="i"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/Version" mod="1536126501000">
+                <def id="com.distriqt.extension.adverts:Version"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/_AdViewImpl" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts:_AdViewImpl"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="e"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.adverts:AdRequest" type="s"/>
+                <dep id="com.distriqt.extension.adverts:AdSize" type="s"/>
+                <dep id="com.distriqt.extension.adverts:AdView" type="i"/>
+                <dep id="com.distriqt.extension.adverts:AdViewParams" type="s"/>
+                <dep id="com.distriqt.extension.adverts.events:AdViewEvent" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/_ConsentImpl" mod="1531549508000">
+                <def id="com.distriqt.extension.adverts:_ConsentImpl"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="e"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.adverts.consent:Consent" type="i"/>
+                <dep id="com.distriqt.extension.adverts.consent:ConsentOptions" type="s"/>
+                <dep id="com.distriqt.extension.adverts.events:ConsentEvent" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="s"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/_InterstitialAdImpl" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts:_InterstitialAdImpl"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="e"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.adverts:AdRequest" type="s"/>
+                <dep id="com.distriqt.extension.adverts:InterstitialAd" type="i"/>
+                <dep id="com.distriqt.extension.adverts.events:InterstitialAdEvent" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="int" type="e"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/_InterstitialsImpl" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts:_InterstitialsImpl"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="com.distriqt.extension.adverts:InterstitialAd" type="s"/>
+                <dep id="com.distriqt.extension.adverts:Interstitials" type="i"/>
+                <dep id="com.distriqt.extension.adverts:_InterstitialAdImpl" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/_RewardedVideoAdImpl" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts:_RewardedVideoAdImpl"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="e"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.adverts:AdRequest" type="s"/>
+                <dep id="com.distriqt.extension.adverts.events:RewardedVideoAdEvent" type="e"/>
+                <dep id="com.distriqt.extension.adverts.rewarded:RewardedVideoAd" type="i"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="int" type="e"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/_RewardedVideoAdsImpl" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts:_RewardedVideoAdsImpl"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.adverts:_RewardedVideoAdImpl" type="e"/>
+                <dep id="com.distriqt.extension.adverts.rewarded:RewardedVideoAd" type="s"/>
+                <dep id="com.distriqt.extension.adverts.rewarded:RewardedVideoAds" type="i"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/builders/AdRequestBuilder" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts.builders:AdRequestBuilder"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Date" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.adverts:AdRequest" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/builders/AdViewParamsBuilder" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts.builders:AdViewParamsBuilder"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.adverts:AdViewParams" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/consent/Consent" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts.consent:Consent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.adverts.consent:ConsentOptions" type="s"/>
+                <dep id="flash.events:IEventDispatcher" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/consent/ConsentOptions" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts.consent:ConsentOptions"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/consent/ConsentStatus" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts.consent:ConsentStatus"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/consent/DebugGeography" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts.consent:DebugGeography"/>
+                <dep id="Object" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/events/AdViewEvent" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts.events:AdViewEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/events/AdvertisingIdEvent" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts.events:AdvertisingIdEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.adverts:AdvertisingIdInfo" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/events/ConsentEvent" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts.events:ConsentEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.adverts.consent:ConsentStatus" type="e"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/events/InterstitialAdEvent" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts.events:InterstitialAdEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/events/RewardedVideoAdEvent" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts.events:RewardedVideoAdEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/rewarded/RewardedVideoAd" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts.rewarded:RewardedVideoAd"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.distriqt.extension.adverts:AdRequest" type="s"/>
+                <dep id="flash.events:IEventDispatcher" type="i"/>
+            </script>
+            <script name="com/distriqt/extension/adverts/rewarded/RewardedVideoAds" mod="1530837616000">
+                <def id="com.distriqt.extension.adverts.rewarded:RewardedVideoAds"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="com.distriqt.extension.adverts.rewarded:RewardedVideoAd" type="s"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="5cd53cea297ba4bf668606957fb0c015c55ae3a4514573726616f9d34ff161ed"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>

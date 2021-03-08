@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/match_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/league_and_time_view" android:background="@color/league_bg" android:padding="@dimen/league_padding" android:layout_width="@dimen/match_width" android:layout_height="wrap_content" android:layout_alignTop="@id/team_view" android:layout_alignBottom="@id/team_view">
+        <TextView android:textSize="@dimen/text_tiny" android:textColor="@color/light_font" android:ellipsize="end" android:gravity="center" android:id="@id/index_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/team_view" android:paddingLeft="20.0dip" android:paddingTop="@dimen/team_top" android:paddingRight="20.0dip" android:paddingBottom="@dimen/team_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/league_and_time_view" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/text_middle" android:textColor="@color/dark_font" android:gravity="center" android:id="@id/team_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <com.cslc.playlot.view.MulTextCheckBox android:enabled="false" android:id="@id/sheng_cb" android:layout_height="wrap_content" android:text="" style="@style/cb_mul_style" />
+            <View android:layout_width="2.0dip" style="@style/vertical_line_style" />
+            <com.cslc.playlot.view.MulTextCheckBox android:enabled="false" android:id="@id/ping_cb" android:layout_height="wrap_content" android:text="" style="@style/cb_mul_style" />
+            <View android:layout_width="2.0dip" style="@style/vertical_line_style" />
+            <com.cslc.playlot.view.MulTextCheckBox android:enabled="false" android:id="@id/fu_cb" android:layout_height="wrap_content" android:text="" style="@style/cb_mul_style" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

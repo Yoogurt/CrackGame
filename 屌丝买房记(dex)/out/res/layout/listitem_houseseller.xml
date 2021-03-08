@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/d1" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="163.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/houseimg" android:layout_width="190.0dip" android:layout_height="159.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="2.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/name" android:layout_width="122.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="10.0dip" android:layout_toRightOf="@id/houseimg" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/housesel" android:layout_width="122.0dip" android:layout_height="40.0dip" android:layout_marginLeft="4.0dip" android:scaleType="fitXY" android:layout_toRightOf="@id/houseimg" android:layout_alignParentTop="true" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_toRightOf="@id/houseimg" android:layout_below="@id/housesel" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/price" android:layout_alignLeft="@id/price" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/gifttitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="50.0dip" android:text="首次购买奖励：" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/gift" android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip" android:layout_marginBottom="30.0dip" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

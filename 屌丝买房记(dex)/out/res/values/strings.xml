@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">屌丝买房记</string>
+    <string name="app_record_name">我的买房记录</string>
+    <string name="app_houseseller_name">售楼部</string>
+    <string name="app_help_name">帮助</string>
+    <string name="app_story_name">游戏背景</string>
+</resources>

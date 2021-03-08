@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/inc_nor_title" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/white_bg_sha" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="@dimen/top" android:layout_marginRight="8.0dip">
+                <TextView android:id="@id/version_code_tv" android:text="@string/app_version_code_tv" style="@style/tv_app_style" />
+                <View style="@style/horizonal_line_style" />
+                <TextView android:id="@id/version_name_tv" android:text="@string/app_version_name_tv" style="@style/tv_app_style" />
+                <View style="@style/horizonal_line_style" />
+                <TextView android:id="@id/environment_tv" android:text="@string/app_environment_tv" style="@style/tv_app_style" />
+                <View style="@style/horizonal_line_style" />
+                <TextView android:id="@id/address_tv" android:text="@string/app_address_tv" style="@style/tv_app_style" />
+                <View style="@style/horizonal_line_style" />
+                <TextView android:id="@id/channel_tv" android:text="@string/app_channel_tv" style="@style/tv_app_style" />
+                <View style="@style/horizonal_line_style" />
+                <TextView android:id="@id/appkey_tv" android:text="@string/app_appkey_tv" style="@style/tv_app_style" />
+                <View style="@style/horizonal_line_style" />
+                <TextView android:id="@id/pushkey_tv" android:text="@string/app_push_tv" style="@style/tv_app_style" />
+                <View style="@style/horizonal_line_style" />
+                <TextView android:id="@id/lockey_tv" android:text="@string/app_loc_tv" style="@style/tv_app_style" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/white_bg_sha" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="@dimen/top" android:layout_marginRight="8.0dip">
+                <TextView android:id="@id/os_tv" android:text="@string/app_os_tv" style="@style/tv_app_style" />
+                <View style="@style/horizonal_line_style" />
+                <TextView android:id="@id/model_tv" android:text="@string/app_model_tv" style="@style/tv_app_style" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

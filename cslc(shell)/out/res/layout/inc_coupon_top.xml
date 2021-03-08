@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/coupon_bg" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/coupon_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/left_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_coupon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/contentDescription" />
+    <TextView android:textSize="@dimen/text_middle" android:textColor="@color/coupon_font" android:id="@id/coupon_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/coupon_tv" android:layout_toLeftOf="@id/coupon_btn" android:layout_toRightOf="@id/left_view" android:layout_centerVertical="true" />
+    <Button android:textSize="@dimen/text_middle" android:textColor="@color/coupon_font" android:id="@id/coupon_btn" android:background="@drawable/btn_coupon_sha" android:paddingLeft="5.0dip" android:paddingTop="3.0dip" android:paddingRight="5.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/get_coupon_btn" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

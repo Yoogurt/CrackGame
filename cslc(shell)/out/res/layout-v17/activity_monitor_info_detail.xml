@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/header_view" layout="@layout/inc_nor_title" />
+    <RelativeLayout android:id="@id/bottom_view" android:background="@color/black_bg" android:padding="@dimen/et_padding" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/text_title" android:textColor="@color/white" android:id="@id/fix_btn" android:background="@drawable/btn_monitor_blue_nor_sha" android:paddingLeft="@dimen/padding_large" android:paddingRight="@dimen/padding_large" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_large" android:text="@string/fix_mark" />
+        <Button android:textSize="@dimen/text_title" android:textColor="@color/white" android:id="@id/ignore_btn" android:background="@drawable/btn_reset_sha" android:paddingLeft="@dimen/padding_large" android:paddingRight="@dimen/padding_large" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/margin_large" android:text="@string/ignore" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_view" android:layout_below="@id/header_view" android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+        <LinearLayout android:orientation="vertical" android:background="@color/popup_bg" android:padding="@dimen/padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/alert_type_iv" android:background="@drawable/default_game_logo" android:layout_width="@dimen/list_icon_wh" android:layout_height="@dimen/list_icon_wh" android:layout_marginLeft="@dimen/left" />
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:id="@id/terminal_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="可好便利店" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/league_top">
+                        <TextView android:textSize="@dimen/text_middle" android:textColor="@color/hint_font" android:id="@id/date_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2017-09-01" />
+                        <TextView android:textSize="@dimen/text_middle" android:textColor="@color/hint_font" android:id="@id/terminal_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/left" android:text="xxxxx" />
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/hint_font" android:id="@id/alert_fix_status_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="已处理" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_large" android:layout_marginBottom="@dimen/margin_large">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:text="@string/client_no" style="@style/monitor_detail_text_style" />
+                    <TextView android:id="@id/terminal_no_tv" android:text="\ 37065464646464" style="@style/monitor_detail_blue_text_style" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                    <TextView android:text="@string/ex_continue_time" style="@style/monitor_detail_text_style" />
+                    <TextView android:textColor="@color/red_font" android:id="@id/ex_continue_time_tv" android:text="共117分钟" style="@style/monitor_detail_text_style" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                    <TextView android:text="@string/shop_manager" style="@style/monitor_detail_text_style" />
+                    <TextView android:id="@id/shop_manager_tv" android:text="张三" style="@style/monitor_detail_text_style" />
+                    <TextView android:id="@id/shop_manager_phone_tv" android:layout_marginLeft="@dimen/left" android:text="(18666666666)" style="@style/monitor_detail_blue_text_style" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                    <TextView android:text="@string/client_manager" style="@style/monitor_detail_text_style" />
+                    <TextView android:id="@id/special_manager_tv" android:text="李四" style="@style/monitor_detail_text_style" />
+                    <TextView android:id="@id/special_manager_phone_tv" android:layout_marginLeft="@dimen/left" android:text="(18666666666)" style="@style/monitor_detail_blue_text_style" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top">
+                    <TextView android:text="@string/address" style="@style/monitor_detail_text_style" />
+                    <TextView android:id="@id/shop_address_tv" android:text="山东省xxx市xxx区xxx路" style="@style/monitor_detail_text_style" />
+                    <TextView android:autoLink="all" android:id="@id/map_tv" android:layout_marginLeft="@dimen/left" android:text="@string/look_map" style="@style/monitor_detail_blue_text_style" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" style="@style/horizonal_dash_line_style" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_large" android:layout_marginBottom="@dimen/margin_large">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:text="@string/exception_rule" style="@style/monitor_detail_text_style" />
+                    <TextView android:id="@id/exception_rule_tv" android:text="xxxxx" style="@style/monitor_detail_text_style" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top_small">
+                    <TextView android:text="@string/monitor_start_time" style="@style/monitor_detail_text_style" />
+                    <TextView android:id="@id/monitor_start_time_tv" android:text="00:00" style="@style/monitor_detail_text_style" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top_small">
+                    <TextView android:text="@string/monitor_end_time" style="@style/monitor_detail_text_style" />
+                    <TextView android:id="@id/monitor_end_time_tv" android:text="23:59" style="@style/monitor_detail_text_style" />
+                </LinearLayout>
+                <TextView android:textColor="@color/red_font" android:id="@id/alert_desc_tv" android:layout_marginTop="@dimen/top_small" android:text="@string/monitor_exception_mark" style="@style/monitor_detail_text_style" />
+            </LinearLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" style="@style/horizonal_dash_line_style" />
+            <include layout="@layout/inc_monitor_info_detail_bottom" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

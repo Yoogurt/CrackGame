@@ -1,0 +1,12 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+	<packagedDependencies>
+<packagedDependency>consent-library-1.0.6.jar</packagedDependency>
+<packagedDependency>gson-2.8.4.jar</packagedDependency>
+	</packagedDependencies>
+	<packagedResources>
+	    <packagedResource>
+		    <packageName>com.distriqt.extension.adverts</packageName> 
+		    <folderName>distriqt-extension-adverts-res</folderName> 
+		</packagedResource>
+	</packagedResources>
+</platform>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/dialog_black_bg" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="75.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/message_pb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="?android:attr/progressBarStyleInverse" />
+    <TextView android:textSize="@dimen/text_big" android:id="@id/message_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/message_pb" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

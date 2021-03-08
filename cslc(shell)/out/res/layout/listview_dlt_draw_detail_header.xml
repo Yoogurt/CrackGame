@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/padding" android:paddingBottom="@dimen/padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_middle" android:textColor="@color/light_font" android:gravity="center" android:id="@id/total_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dlt_draw_sales" />
+            <TextView android:textColor="@color/red_font" android:gravity="center" android:id="@id/total_sale" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top" android:text="- -" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/pool_balance_ll" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_middle" android:textColor="@color/light_font" android:gravity="center" android:id="@id/pool_balance_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dlt_draw_jackpot" />
+            <TextView android:textColor="@color/red_font" android:gravity="center" android:id="@id/pool_balance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top" android:text="- -" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/white" android:padding="@dimen/padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_small" android:textColor="@color/light_font" android:gravity="center" android:id="@id/draw_leval" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/dlt_draw_leval" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/text_small" android:textColor="@color/light_font" android:gravity="center" android:id="@id/draw_stake_cnt" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/dlt_draw_stake_cnt" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/text_small" android:textColor="@color/light_font" android:gravity="center" android:id="@id/draw_money" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/dlt_draw_money" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

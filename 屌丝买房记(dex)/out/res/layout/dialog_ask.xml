@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="285.0dip" android:layout_height="135.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bg" android:layout_width="285.0dip" android:layout_height="135.0dip" />
+    <Button android:id="@id/sound" android:background="@drawable/btnbg_soundon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="14.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <Button android:id="@id/moregame" android:background="@drawable/btnbg_gdyx" android:layout_width="100.0dip" android:layout_height="45.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="6.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/r2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <Button android:id="@id/ok" android:background="@drawable/btnbg_jsyx_js" android:layout_width="50.0dip" android:layout_height="29.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <Button android:id="@id/cancel" android:background="@drawable/btnbg_ksyx_qx" android:layout_width="50.0dip" android:layout_height="29.0dip" android:layout_marginLeft="62.0dip" android:layout_toRightOf="@id/ok" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</RelativeLayout>

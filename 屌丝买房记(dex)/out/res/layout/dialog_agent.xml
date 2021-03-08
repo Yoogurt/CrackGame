@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="320.0dip" android:layout_height="95.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bg" android:layout_width="320.0dip" android:layout_height="95.0dip" />
+    <EditText android:textSize="16.0sp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/enbr" android:background="@drawable/bg_zhongjie_edit" android:layout_width="60.0dip" android:layout_height="30.0dip" android:layout_marginLeft="118.0dip" android:layout_marginTop="7.0dip" android:singleLine="true" android:maxLength="6" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:inputType="number" />
+    <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/note" android:layout_width="179.0dip" android:layout_height="wrap_content" android:layout_marginLeft="88.0dip" android:layout_marginTop="38.0dip" android:text="共需要花费10万元" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <Button android:id="@id/ok" android:background="@drawable/btnbg_zj_cj" android:layout_width="50.0dip" android:layout_height="29.0dip" android:layout_marginLeft="110.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <Button android:id="@id/cancel" android:background="@drawable/btnbg_zj_lk" android:layout_width="50.0dip" android:layout_height="29.0dip" android:layout_marginLeft="30.0dip" android:layout_toRightOf="@id/ok" android:layout_alignTop="@id/ok" />
+</RelativeLayout>

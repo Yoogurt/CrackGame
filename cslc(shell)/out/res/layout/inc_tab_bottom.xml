@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/tab_rg" android:background="@color/tab_bg" android:layout_width="fill_parent" android:layout_height="@dimen/tab_height">
+        <RadioButton android:id="@id/hall_rb" android:text="@string/tab_hall" android:drawableTop="@drawable/tab_hall_sel" style="@style/tab_bottom_style" />
+        <RadioButton android:id="@id/draw_rb" android:text="@string/tab_draw_info" android:drawableTop="@drawable/tab_draw_sel" style="@style/tab_bottom_style" />
+        <RadioButton android:id="@id/news_rb" android:text="@string/tab_news_info" android:drawableTop="@drawable/tab_news_sel" style="@style/tab_bottom_style" />
+        <RadioButton android:id="@id/mine_rb" android:text="@string/tab_mine" android:drawableTop="@drawable/tab_mine_sel" style="@style/tab_bottom_style" />
+    </RadioGroup>
+    <LinearLayout android:layout_gravity="bottom" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/tab_height">
+        <View android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/draw_dot_iv" android:paddingLeft="50.0dip" android:paddingBottom="35.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_red_dot" />
+        </FrameLayout>
+        <View android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/mine_dot_iv" android:paddingLeft="50.0dip" android:paddingBottom="35.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_red_dot" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

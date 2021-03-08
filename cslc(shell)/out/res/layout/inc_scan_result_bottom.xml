@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:background="@color/btn_grey_nor" android:padding="10.0dip" android:layout_width="fill_parent" android:text="@string/bet_detail" style="@style/text_win_info_big_title" />
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/ticket_no" style="@style/text_win_info_content" />
+                <TextView android:id="@id/lottery_no_tv" android:text="" style="@style/text_win_info_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <TextView android:text="@string/issue_no" style="@style/text_win_info_content" />
+                <TextView android:id="@id/issue_no_tv" android:text="" style="@style/text_win_info_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <TextView android:text="@string/bet_type" style="@style/text_win_info_content" />
+                <TextView android:id="@id/bet_type_tv" android:text="" style="@style/text_win_info_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <TextView android:text="@string/bet_multi_cnt" style="@style/text_win_info_content" />
+                <TextView android:id="@id/bet_multi_cnt_tv" android:text="" style="@style/text_win_info_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <TextView android:text="@string/sale_time" style="@style/text_win_info_content" />
+                <TextView android:id="@id/sale_time_tv" android:text="" style="@style/text_win_info_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="@color/btn_grey_nor" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="5.0dip" android:weightSum="4.0">
+            <TextView android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/win_level" android:layout_weight="1.0" style="@style/text_win_info_big_title" />
+            <TextView android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/win_cnt" android:layout_weight="1.0" style="@style/text_win_info_big_title" />
+            <TextView android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/single_win_amount" android:layout_weight="1.0" style="@style/text_win_info_big_title" />
+            <TextView android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/win_amount" android:layout_weight="1.0" style="@style/text_win_info_big_title" />
+        </LinearLayout>
+        <com.cslc.playlot.view.ScrollListView android:id="@id/win_info_lv" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:dividerHeight="0.0dip" android:minHeight="100.0dip" />
+        <TextView android:layout_gravity="right" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip" android:text="@string/win_info_remark" style="@style/text_win_info_remark" />
+    </LinearLayout>
+</LinearLayout>

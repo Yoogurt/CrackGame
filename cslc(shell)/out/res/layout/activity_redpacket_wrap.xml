@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#99000000" android:layout_width="fill_parent" android:layout_height="@dimen/title_height">
+        <Button android:text="@string/back" android:drawableLeft="@drawable/packet_back_btn" android:drawablePadding="5.0dip" style="@style/title_left_style" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:background="#99000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/top_view" android:background="@drawable/packet_location_bg" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="270.0dip" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/text_big" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/addr_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:maxLines="1" android:drawableLeft="@drawable/packet_location_ic" android:drawablePadding="5.0dip" />
+        </LinearLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@id/relativeLayout" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_above="@id/bottom_view" android:layout_below="@id/top_view" android:layout_centerHorizontal="true">
+            <ListView android:id="@id/list_lv" android:background="@drawable/packet_wrap_bg_1" android:layout_height="wrap_content" android:listSelector="@color/transparent" android:divider="@color/transparent" android:layout_above="@id/center_view" android:layout_alignParentTop="true" style="@style/listview_style" />
+            <ImageButton android:id="@id/center_view" android:background="@drawable/packet_wrap_bg_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/bottom_view" android:background="@drawable/packet_wrap_bg_3" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip" android:layout_alignLeft="@id/relativeLayout" android:layout_alignParentBottom="true">
+            <Button android:textSize="20.0sp" android:textColor="#ffc6324c" android:id="@id/commit_btn" android:background="@drawable/btn_packet_sha" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="立即提交" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

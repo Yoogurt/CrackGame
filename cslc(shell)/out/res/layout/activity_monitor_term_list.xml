@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/inc_nor_title" />
+    <com.handmark.pulltorefresh.library.PullToRefreshExpandableListView android:id="@id/monitor_ptrelv" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" ptr:ptrMode="both" ptr:ptrShowIndicator="false" />
+    <RelativeLayout android:id="@id/bottom_view" android:background="@color/black_bg" android:padding="@dimen/et_padding" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/text_title" android:textColor="@color/white" android:id="@id/focus_new_term_btn" android:background="@drawable/btn_monitor_blue_nor_sha" android:paddingLeft="@dimen/padding_large" android:paddingRight="@dimen/padding_large" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/focus_new_client" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/packet_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#33ffffff" android:layout_width="fill_parent" android:layout_height="@dimen/title_height">
+        <Button android:text="@string/back" android:drawableLeft="@drawable/packet_back_btn" android:drawablePadding="5.0dip" style="@style/title_left_style" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/cs_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="70.0dip" android:layout_alignParentTop="true">
+            <ImageView android:layout_gravity="center|right" android:id="@id/cloud_up_iv" android:layout_width="90.0dip" android:layout_height="wrap_content" android:src="@drawable/packet_cloud_up" />
+            <ImageView android:layout_gravity="center|left" android:id="@id/cloud_center_iv" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/packet_cloud_center" />
+            <ImageView android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/packet_cs_bg" />
+            <ImageView android:layout_gravity="bottom|center|right" android:id="@id/cloud_down_iv" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:src="@drawable/packet_cloud_down" />
+        </FrameLayout>
+        <FrameLayout android:background="@drawable/packet_hand_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/cs_view" android:layout_alignParentBottom="true">
+            <TextView android:textSize="20.0dip" android:textColor="#fffadd00" android:layout_gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="40.0dip" android:text="数量有限 抢完为止" />
+            <LinearLayout android:layout_gravity="center|right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+                <Button android:id="@id/packet_btn" android:background="@drawable/packet_chb_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <Button android:textSize="@dimen/text_middle" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/ques_btn" android:background="@null" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="活动攻略" android:drawableLeft="@drawable/packet_ques_btn" android:drawablePadding="5.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

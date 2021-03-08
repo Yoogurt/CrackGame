@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/inc_nor_title" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:text="@string/jc_draw_tips" style="@style/tv_tips_style" />
+        <ListView android:id="@id/draw_lv" android:background="@color/transparent" android:listSelector="@color/transparent" android:dividerHeight="@dimen/draw_line_height" android:layout_above="@id/bottom_view" android:layout_below="@id/top_view" style="@style/listview_style" />
+        <include android:visibility="gone" layout="@layout/inc_draw_bottom" />
+    </RelativeLayout>
+</LinearLayout>

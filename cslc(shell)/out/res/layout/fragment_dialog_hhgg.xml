@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/dialog_white_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/text_big" android:textColor="@color/dark_font" android:gravity="center" android:id="@id/team_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="xxx VS xxx" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/divi_line" android:layout_below="@id/team_tv">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.GridLayout android:id="@id/spf_grid_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:orientation="horizontal" app:columnCount="4">
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/white" android:gravity="center" android:id="@id/rq_no_tv" android:background="#ff999999" android:layout_width="20.0dip" android:layout_height="wrap_content" android:text="0" app:layout_rowSpan="1" app:layout_rowWeight="1.0" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/host_cb" android:tag="主胜" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/vs_cb" android:tag="平" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/guest_cb" android:tag="主负" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+            </android.support.v7.widget.GridLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/spf_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/white" android:gravity="center" android:background="#ff999999" android:layout_width="20.0dip" android:layout_height="wrap_content" android:text="0" />
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/hhgg_font" android:gravity="center" android:background="@color/hhgg_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/match_hhgg_wk" />
+            </LinearLayout>
+            <android.support.v7.widget.GridLayout android:id="@id/rqspf_grid_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:orientation="horizontal" app:columnCount="4">
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/white" android:gravity="center" android:id="@id/rq_tv" android:background="#fffe913d" android:layout_width="20.0dip" android:layout_height="wrap_content" android:text="0" app:layout_rowSpan="1" app:layout_rowWeight="1.0" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/host1_cb" android:tag="让球胜" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/vs1_cb" android:tag="让球平" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/guest1_cb" android:tag="让球负" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+            </android.support.v7.widget.GridLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/rqspf_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/white" android:gravity="center" android:id="@id/rq1_tv" android:background="#fffe913d" android:layout_width="20.0dip" android:layout_height="wrap_content" android:text="0" />
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/hhgg_font" android:gravity="center" android:background="@color/hhgg_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/match_hhgg_wk" />
+            </LinearLayout>
+            <android.support.v7.widget.GridLayout android:id="@id/bf_grid_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:orientation="horizontal" app:columnCount="8">
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/white" android:gravity="center" android:background="@color/bqc_bg" android:layout_width="20.0dip" android:layout_height="wrap_content" android:text="比\n分" app:layout_rowSpan="6" app:layout_rowWeight="1.0" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf11_cb" android:tag="1:0" app:layout_columnWeight="1.0" style="@style/cb_sheng_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf12_cb" android:tag="2:0" app:layout_columnWeight="1.0" style="@style/cb_sheng_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf13_cb" android:tag="2:1" app:layout_columnWeight="1.0" style="@style/cb_sheng_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf14_cb" android:tag="3:0" app:layout_columnWeight="1.0" style="@style/cb_sheng_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf15_cb" android:tag="3:1" app:layout_columnWeight="1.0" style="@style/cb_sheng_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf16_cb" android:tag="3:2" app:layout_columnWeight="1.0" style="@style/cb_sheng_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf17_cb" android:tag="4:0" app:layout_columnWeight="1.0" style="@style/cb_sheng_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf21_cb" android:tag="4:1" app:layout_columnWeight="1.0" style="@style/cb_sheng_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf22_cb" android:tag="4:2" app:layout_columnWeight="1.0" style="@style/cb_sheng_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf23_cb" android:tag="5:0" app:layout_columnWeight="1.0" style="@style/cb_sheng_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf24_cb" android:tag="5:1" app:layout_columnWeight="1.0" style="@style/cb_sheng_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf25_cb" android:tag="5:2" app:layout_columnWeight="1.0" style="@style/cb_sheng_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf2627_cb" android:tag="胜其它" app:layout_columnSpan="2" app:layout_columnWeight="1.0" style="@style/cb_sheng_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf31_cb" android:tag="0:0" app:layout_columnWeight="1.0" style="@style/cb_ping_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf32_cb" android:tag="1:1" app:layout_columnWeight="1.0" style="@style/cb_ping_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf33_cb" android:tag="2:2" app:layout_columnWeight="1.0" style="@style/cb_ping_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf34_cb" android:tag="3:3" app:layout_columnWeight="1.0" style="@style/cb_ping_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf353637_cb" android:tag="平其它" app:layout_columnSpan="3" app:layout_columnWeight="1.0" style="@style/cb_ping_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf41_cb" android:tag="0:1" app:layout_columnWeight="1.0" style="@style/cb_fu_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf42_cb" android:tag="0:2" app:layout_columnWeight="1.0" style="@style/cb_fu_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf43_cb" android:tag="1:2" app:layout_columnWeight="1.0" style="@style/cb_fu_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf44_cb" android:tag="0:3" app:layout_columnWeight="1.0" style="@style/cb_fu_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf45_cb" android:tag="1:3" app:layout_columnWeight="1.0" style="@style/cb_fu_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf46_cb" android:tag="2:3" app:layout_columnWeight="1.0" style="@style/cb_fu_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf47_cb" android:tag="0:4" app:layout_columnWeight="1.0" style="@style/cb_fu_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf51_cb" android:tag="1:4" app:layout_columnWeight="1.0" style="@style/cb_fu_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf52_cb" android:tag="2:4" app:layout_columnWeight="1.0" style="@style/cb_fu_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf53_cb" android:tag="0:5" app:layout_columnWeight="1.0" style="@style/cb_fu_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf54_cb" android:tag="1:5" app:layout_columnWeight="1.0" style="@style/cb_fu_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf55_cb" android:tag="2:5" app:layout_columnWeight="1.0" style="@style/cb_fu_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bf5657_cb" android:tag="负其它" app:layout_columnSpan="2" app:layout_columnWeight="1.0" style="@style/cb_fu_style" />
+            </android.support.v7.widget.GridLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/bf_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/white" android:gravity="center" android:background="@color/bqc_bg" android:layout_width="20.0dip" android:layout_height="wrap_content" android:text="比\n分" />
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/hhgg_font" android:gravity="center" android:background="@color/hhgg_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/match_hhgg_wk" />
+            </LinearLayout>
+            <android.support.v7.widget.GridLayout android:id="@id/zjq_grid_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:orientation="horizontal" app:columnCount="5">
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/white" android:gravity="center" android:background="#ff1e79d1" android:layout_width="20.0dip" android:layout_height="wrap_content" android:text="总\n进\n球" app:layout_rowSpan="2" app:layout_rowWeight="1.0" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/zjq11_cb" android:tag="0球" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/zjq12_cb" android:tag="1球" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/zjq13_cb" android:tag="2球" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/zjq14_cb" android:tag="3球" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/zjq21_cb" android:tag="4球" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/zjq22_cb" android:tag="5球" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/zjq23_cb" android:tag="6球" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/zjq24_cb" android:tag="7+球" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+            </android.support.v7.widget.GridLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/zjq_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/white" android:gravity="center" android:background="#ff1e79d1" android:layout_width="20.0dip" android:layout_height="wrap_content" android:text="总\n进\n球" />
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/hhgg_font" android:gravity="center" android:background="@color/hhgg_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/match_hhgg_wk" />
+            </LinearLayout>
+            <android.support.v7.widget.GridLayout android:id="@id/bqc_grid_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:orientation="horizontal" app:columnCount="4">
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/white" android:gravity="center" android:background="#ff44a944" android:layout_width="20.0dip" android:layout_height="wrap_content" android:text="半\n全\n场" app:layout_rowSpan="3" app:layout_rowWeight="1.0" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bqc11_cb" android:tag="胜胜" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bqc12_cb" android:tag="胜平" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bqc13_cb" android:tag="胜负" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bqc21_cb" android:tag="平胜" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bqc22_cb" android:tag="平平" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bqc23_cb" android:tag="平负" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bqc31_cb" android:tag="负胜" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bqc32_cb" android:tag="负平" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+                <com.cslc.playlot.view.MulTextCheckBox android:id="@id/bqc33_cb" android:tag="负负" app:layout_columnWeight="1.0" style="@style/cb_bqc_style" />
+            </android.support.v7.widget.GridLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/bqc_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/white" android:gravity="center" android:background="#ff44a944" android:layout_width="20.0dip" android:layout_height="wrap_content" android:text="半\n全\n场" />
+                <TextView android:textSize="@dimen/text_middle" android:textColor="@color/hhgg_font" android:gravity="center" android:background="@color/hhgg_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/match_hhgg_wk" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <View android:id="@id/divi_line" android:background="#ffbcbcbc" android:layout_above="@id/cancel_and_sure_view" style="@style/horizonal_line_style" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/cancel_and_sure_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/text_big" android:textColor="@color/dialog_font_cancel_sel" android:id="@id/cancel_btn" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_btn_height" android:text="@string/cancel" android:layout_weight="1.0" />
+        <View android:id="@id/line_view" android:background="#ffbcbcbc" style="@style/vertical_line_style" />
+        <Button android:textSize="@dimen/text_big" android:textColor="@color/dialog_font_sure_sel" android:id="@id/sure_btn" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_btn_height" android:text="@string/sure" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>
